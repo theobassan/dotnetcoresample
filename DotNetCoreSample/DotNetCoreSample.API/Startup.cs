@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using DotNetCoreSample.API.Configurations;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace DotNetCoreSample.API
 {
@@ -25,7 +27,23 @@ namespace DotNetCoreSample.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMemoryCache();            
+            services.AddResponseCaching();     
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2).AddFluentValidation(fvc => fvc.RegisterValidatorsFromAssemblyContaining<Startup>());
+
+            services.ConfigureRepositories()
+                .ConfigureBusiness()
+                .AddMiddleware()
+                .AddCorsConfiguration()
+                .AddConnectionProvider(Configuration)
+                .AddAppSettings(Configuration);
+
+            services.AddSwaggerGen(s => s.SwaggerDoc("v1", new Info
+            {
+                Title = "DotNetCoreSample API",
+                Description = "DotNet Core Sample API"
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,14 +53,12 @@ namespace DotNetCoreSample.API
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
 
-            app.UseHttpsRedirection();
+            app.UseCors("AllowAll");
+            app.UseStaticFiles();
             app.UseMvc();
+            app.UseSwagger();
+            app.UseSwaggerUI(s => s.SwaggerEndpoint("/swagger/v1/swagger.json", "v1 docs"));
         }
     }
 }
