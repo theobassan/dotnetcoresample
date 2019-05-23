@@ -19,7 +19,9 @@ namespace DotNetCoreSample.BusinessFacade.Implementations
 
         override public async Task<List<User>> GetAllAsync(CancellationToken ct = default) 
         {
-            // throw new Exception("Teste");
+            //_logger.LogWarning("WARNING");
+            //throw new Exception("ERROR");
+
             return await base.GetAllAsync(ct);
         }
     }
