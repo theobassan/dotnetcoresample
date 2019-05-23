@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace DotNetCoreSample.API.CustomExceptionMiddleware
+namespace DotNetCoreSample.API.Extensions
 {
     public class ExceptionMiddleware
     {
