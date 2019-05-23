@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using DotNetCoreSample.API.Configurations;
 using Swashbuckle.AspNetCore.Swagger;
+using DotNetCoreSample.API.Extensions;
 
 namespace DotNetCoreSample.API
 {
@@ -31,7 +32,7 @@ namespace DotNetCoreSample.API
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2).AddFluentValidation(fvc => fvc.RegisterValidatorsFromAssemblyContaining<Startup>());
 
-            services
+            services.AddLogging()
                 .ConfigureRepositories()
                 .ConfigureBusiness()
                 .AddMiddleware()
@@ -49,7 +50,6 @@ namespace DotNetCoreSample.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -57,6 +57,7 @@ namespace DotNetCoreSample.API
 
             app.UseCors("AllowAll");
             app.UseStaticFiles();
+            app.ConfigureCustomExceptionMiddleware();
             app.UseMvc();
             app.UseSwagger();
             app.UseSwaggerUI(s => s.SwaggerEndpoint("/swagger/v1/swagger.json", "v1 docs"));

@@ -17,6 +17,7 @@ namespace DotNetCoreSample.API
 {
     class CallerEnricher : ILogEventEnricher
     {
+        // TODO GET LINE
         public void Enrich(LogEvent logEvent, ILogEventPropertyFactory propertyFactory)
         {
             var skip = 3;
@@ -48,10 +49,10 @@ namespace DotNetCoreSample.API
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
                 .UseSerilog((hostingContext, loggerConfiguration) => loggerConfiguration
 	                .ReadFrom.Configuration(hostingContext.Configuration)
                     .Enrich.FromLogContext()
-                    .Enrich.With(new CallerEnricher()));
+                    .Enrich.With(new CallerEnricher()))
+                .UseStartup<Startup>();
     }
 }

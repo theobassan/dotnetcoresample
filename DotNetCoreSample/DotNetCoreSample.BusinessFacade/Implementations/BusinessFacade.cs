@@ -7,7 +7,6 @@ using DotNetCoreSample.BusinessFacade.Interfaces;
 using DotNetCoreSample.DomainModel.Entities;
 using DotNetCoreSample.DomainModel;
 using DotNetCoreSample.Repository.Interfaces;
-//using Microsoft.EntityFrameworkCore; 
 using System.Runtime.CompilerServices;
 using Microsoft.Extensions.Logging;
 

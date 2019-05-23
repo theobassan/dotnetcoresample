@@ -17,7 +17,7 @@ namespace DotNetCoreSample.API.Controllers
     public class Controller<T> : ControllerBase where T : BaseModel
     {
         private readonly IBusinessFacade<T> _businessfacade;
-        private readonly ILogger<Controller<T>> _logger;
+        public readonly ILogger<Controller<T>> _logger;
 
         public Controller(IBusinessFacade<T> businessfacade, ILogger<Controller<T>> logger)
         {
@@ -28,97 +28,69 @@ namespace DotNetCoreSample.API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<T>>> Get(CancellationToken ct = default)
         {
-            _logger.LogWarning("Get");
+            return new ObjectResult(await _businessfacade.GetAllAsync(ct));
+            /* 
             try
             {
                 return new ObjectResult(await _businessfacade.GetAllAsync(ct));
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex.ToString());
                 return StatusCode(500, ex);
             }
+            */
         }
 
 
         [HttpGet("{id}")]
         public async Task<ActionResult<T>> Get(long id, CancellationToken ct = default)
         {
-            try
+            var album = await _businessfacade.GetByIdAsync(id, ct);
+            if (album == null)
             {
-                var album = await _businessfacade.GetByIdAsync(id, ct);
-                if (album == null)
-                {
-                    return NotFound();
-                }
+                return NotFound();
+            }
 
-                return Ok(album);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex);
-            }
+            return Ok(album);
         }
 
         [HttpPost]
-        public async Task<ActionResult<T>> Post([FromBody] T input,
-            CancellationToken ct = default)
+        public async Task<ActionResult<T>> Post([FromBody] T input, CancellationToken ct = default)
         {
-            try
-            {
-                if (input == null)
-                    return BadRequest();
+            if (input == null)
+                return BadRequest();
 
-                return StatusCode(201, await _businessfacade.AddAsync(input, ct));
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex);
-            }
+            return StatusCode(201, await _businessfacade.AddAsync(input, ct));
         }
 
         [HttpPut]
-        public async Task<ActionResult<T>> Put([FromBody] T input,
-            CancellationToken ct = default)
+        public async Task<ActionResult<T>> Put([FromBody] T input, CancellationToken ct = default)
         {
-            try
-            {
-                if (input == null)
-                    return BadRequest();
-                if (await _businessfacade.GetByIdAsync(input.Id, ct) == null)
-                    return NotFound();
-                if (await _businessfacade.UpdateAsync(input, ct))
-                    return Ok(input);
-                
-                return StatusCode(500);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-                return StatusCode(500, ex);
-            }
+            if (input == null)
+                return BadRequest();
+            if (await _businessfacade.GetByIdAsync(input.Id, ct) == null)
+                return NotFound();
+            if (await _businessfacade.UpdateAsync(input, ct))
+                return Ok(input);
+            
+            return StatusCode(500);
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteAsync(long id, CancellationToken ct = default)
         {
-            try
+            if (await _businessfacade.GetByIdAsync(id, ct) == null)
             {
-                if (await _businessfacade.GetByIdAsync(id, ct) == null)
-                {
-                    return NotFound();
-                }
-
-                if (await _businessfacade.DeleteAsync(id, ct))
-                {
-                    return Ok();
-                }
-
-                return StatusCode(500);
+                return NotFound();
             }
-            catch (Exception ex)
+
+            if (await _businessfacade.DeleteAsync(id, ct))
             {
-                return StatusCode(500, ex);
+                return Ok();
             }
+
+            return StatusCode(500);
         }
     }
 }

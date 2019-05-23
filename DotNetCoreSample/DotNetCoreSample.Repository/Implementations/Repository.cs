@@ -28,7 +28,6 @@ namespace DotNetCoreSample.Repository.Implementations
        
         public async Task<List<T>> GetAllAsync(CancellationToken ct = default) 
         {
-            _logger.LogWarning("GetAllAsync");
             return await _entity.ToListAsync();
         }
 
