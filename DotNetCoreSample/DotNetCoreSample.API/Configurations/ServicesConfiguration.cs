@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using DotNetCoreSample.BusinessFacade.Implementations;
 using DotNetCoreSample.BusinessFacade.Interfaces;
 using DotNetCoreSample.Repository.Implementations;
 using DotNetCoreSample.Repository.Interfaces;
+using Microsoft.Extensions.Configuration;
 
 namespace DotNetCoreSample.API.Configurations
 {
@@ -12,15 +12,17 @@ namespace DotNetCoreSample.API.Configurations
     {
         public static IServiceCollection ConfigureRepositories(this IServiceCollection services)
         {
-            
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            //services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
+
             return services;
         }
 
         public static IServiceCollection ConfigureBusiness(this IServiceCollection services)
         {
             
-            services.AddScoped(typeof(IBusinessFacade<>), typeof(BusinessFacade<>));
+            //services.AddScoped(typeof(IBusinessFacade<>), typeof(BusinessFacade<>));
+            services.AddScoped(typeof(IUserBusinessFacade), typeof(UserBusinessFacade));
             
             return services;
         }
@@ -46,15 +48,5 @@ namespace DotNetCoreSample.API.Configurations
                     .Build());
             }
         );
-        
-        public static IServiceCollection AddLogging(this IServiceCollection services)
-        {
-            services.AddLogging(builder => builder
-                .AddConsole()
-                .AddFilter(level => level >= LogLevel.Information)
-            );
-
-            return services;
-        }
     }
 }

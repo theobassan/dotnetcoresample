@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using System.Diagnostics;
 using DotNetCoreSample.BusinessFacade.Interfaces;
 using DotNetCoreSample.DomainModel.Entities;
+using Microsoft.Extensions.Logging;
 
 namespace DotNetCoreSample.API.Controllers
 {
@@ -16,15 +17,18 @@ namespace DotNetCoreSample.API.Controllers
     public class Controller<T> : ControllerBase where T : BaseModel
     {
         private readonly IBusinessFacade<T> _businessfacade;
+        private readonly ILogger<Controller<T>> _logger;
 
-        public Controller(IBusinessFacade<T> businessfacade)
+        public Controller(IBusinessFacade<T> businessfacade, ILogger<Controller<T>> logger)
         {
             _businessfacade = businessfacade;
+            _logger = logger;
         }
 
         [HttpGet]
         public async Task<ActionResult<List<T>>> Get(CancellationToken ct = default)
         {
+            _logger.LogWarning("Get");
             try
             {
                 return new ObjectResult(await _businessfacade.GetAllAsync(ct));
