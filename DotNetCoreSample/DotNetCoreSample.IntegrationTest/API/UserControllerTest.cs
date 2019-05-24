@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Text;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.TestHost;
-using Microsoft.AspNetCore.Hosting;
 using DotNetCoreSample.API;
-using Xunit;
 using DotNetCoreSample.DomainModel.Entities;
-using System.Collections.Generic;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.TestHost;
+using Xunit;
 
 namespace DotNetCoreSample.IntegrationTest.API
 {
@@ -29,7 +29,7 @@ namespace DotNetCoreSample.IntegrationTest.API
         public async Task AddAsync()
         {
             var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
-            var response = await _client.PostAsync("/api/user/", new JsonContent(user) );
+            var response = await _client.PostAsync("/api/user/", new JsonContent(user));
             response.EnsureSuccessStatusCode();
 
             Assert.Equal(HttpStatusCode.Created, response.StatusCode);
@@ -40,7 +40,7 @@ namespace DotNetCoreSample.IntegrationTest.API
         public async Task GetAllAsync(string method)
         {
             var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
-            var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user) );
+            var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user));
             responseAdd.EnsureSuccessStatusCode();
 
             var request = new HttpRequestMessage(new HttpMethod(method), "/api/user/");
@@ -59,7 +59,7 @@ namespace DotNetCoreSample.IntegrationTest.API
         public async Task GetByIdAsync(string method)
         {
             var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
-            var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user) );
+            var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user));
             responseAdd.EnsureSuccessStatusCode();
 
             var request = new HttpRequestMessage(new HttpMethod(method), $"/api/user/{user.Id}");
@@ -83,16 +83,15 @@ namespace DotNetCoreSample.IntegrationTest.API
             Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
         }
 
-
         [Fact]
         public async Task UpdateAsync()
         {
             var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
-            var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user) );
+            var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user));
             responseAdd.EnsureSuccessStatusCode();
-            
+
             user.Name = "Test Updated";
-            var response = await _client.PutAsync("/api/user/", new JsonContent(user) );
+            var response = await _client.PutAsync("/api/user/", new JsonContent(user));
             response.EnsureSuccessStatusCode();
 
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
@@ -110,9 +109,9 @@ namespace DotNetCoreSample.IntegrationTest.API
         public async Task DeleteAsync()
         {
             var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
-            var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user) );
+            var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user));
             responseAdd.EnsureSuccessStatusCode();
-            
+
             var response = await _client.DeleteAsync($"/api/user/{user.Id}");
             response.EnsureSuccessStatusCode();
 

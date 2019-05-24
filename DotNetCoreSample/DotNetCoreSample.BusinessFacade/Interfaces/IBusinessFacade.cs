@@ -6,7 +6,7 @@ using DotNetCoreSample.DomainModel.Entities;
 
 namespace DotNetCoreSample.BusinessFacade.Interfaces
 {
-    public interface IBusinessFacade<T> where T : BaseModel 
+    public interface IBusinessFacade<T> where T : BaseModel
     {
         Task<List<T>> GetAllAsync(CancellationToken ct = default);
         Task<T> GetByIdAsync(long id, CancellationToken ct = default);

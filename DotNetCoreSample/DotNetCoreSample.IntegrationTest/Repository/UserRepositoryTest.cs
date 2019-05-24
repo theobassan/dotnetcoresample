@@ -1,12 +1,12 @@
+using System;
 using System.Threading.Tasks;
 using DotNetCoreSample.DomainModel;
 using DotNetCoreSample.DomainModel.Entities;
 using DotNetCoreSample.Repository.Implementations;
-using Xunit;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
-using System;
+using Xunit;
 
 namespace DotNetCoreSample.IntegrationTest.Repository
 {
@@ -31,7 +31,8 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         [Fact]
         public async Task AddAsync()
         {
-            var user =  new User {
+            var user = new User
+            {
                 Id = 1,
                 Name = "Test",
                 Email = "test@test.com"
@@ -45,7 +46,8 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         [Fact]
         public async Task GetAllAsync()
         {
-            var user =  new User {
+            var user = new User
+            {
                 Id = 1,
                 Name = "Test",
                 Email = "test@test.com"
@@ -56,11 +58,12 @@ namespace DotNetCoreSample.IntegrationTest.Repository
 
             Assert.Single(users);
         }
-        
+
         [Fact]
         public async Task GetByIdAsync()
         {
-            var user =  new User {
+            var user = new User
+            {
                 Id = 1,
                 Name = "Test",
                 Email = "test@test.com"
@@ -77,7 +80,8 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         [Fact]
         public async Task UpdateAsync()
         {
-            var user =  new User {
+            var user = new User
+            {
                 Id = 1,
                 Name = "Test",
                 Email = "test@test.com"
@@ -100,14 +104,14 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         [Fact]
         public async Task DeleteAsync()
         {
-            var user =  new User {
+            var user = new User
+            {
                 Id = 1,
                 Name = "Test",
                 Email = "test@test.com"
             };
 
             await _repository.AddAsync(user);
-
 
             var id = 1;
             var deleted = await _repository.DeleteAsync(id);

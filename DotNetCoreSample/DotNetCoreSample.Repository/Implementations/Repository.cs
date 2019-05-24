@@ -54,8 +54,8 @@ namespace DotNetCoreSample.Repository.Implementations
 
             return true;
         }
-       
-        public async Task<List<T>> GetAllAsync(CancellationToken ct = default) 
+
+        public async Task<List<T>> GetAllAsync(CancellationToken ct = default)
         {
             return await _entity.ToListAsync();
         }

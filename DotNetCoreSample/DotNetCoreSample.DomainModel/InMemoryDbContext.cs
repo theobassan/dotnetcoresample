@@ -1,5 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using DotNetCoreSample.DomainModel.Entities;
+﻿using DotNetCoreSample.DomainModel.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace DotNetCoreSample.DomainModel
 {

@@ -1,4 +1,3 @@
-
 using DotNetCoreSample.DomainModel.Entities;
 
 namespace DotNetCoreSample.BusinessFacade.Interfaces

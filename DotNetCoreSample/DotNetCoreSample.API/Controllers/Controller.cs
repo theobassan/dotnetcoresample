@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using System.Threading;
-using Newtonsoft.Json;
 using System.Diagnostics;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 using DotNetCoreSample.BusinessFacade.Interfaces;
 using DotNetCoreSample.DomainModel.Entities;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace DotNetCoreSample.API.Controllers
 {
@@ -29,19 +29,7 @@ namespace DotNetCoreSample.API.Controllers
         public async Task<ActionResult<List<T>>> Get(CancellationToken ct = default)
         {
             return new ObjectResult(await _businessfacade.GetAllAsync(ct));
-            /* 
-            try
-            {
-                return new ObjectResult(await _businessfacade.GetAllAsync(ct));
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex.ToString());
-                return StatusCode(500, ex);
-            }
-            */
         }
-
 
         [HttpGet("{id}")]
         public async Task<ActionResult<T>> Get(long id, CancellationToken ct = default)
@@ -73,7 +61,7 @@ namespace DotNetCoreSample.API.Controllers
                 return NotFound();
             if (await _businessfacade.UpdateAsync(input, ct))
                 return Ok(input);
-            
+
             return StatusCode(500);
         }
 

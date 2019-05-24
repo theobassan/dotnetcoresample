@@ -1,14 +1,14 @@
+using System;
 using System.Threading.Tasks;
+using DotNetCoreSample.BusinessFacade.Implementations;
 using DotNetCoreSample.DomainModel;
 using DotNetCoreSample.DomainModel.Entities;
 using DotNetCoreSample.MockData.Implementations;
-using DotNetCoreSample.BusinessFacade.Implementations;
 using DotNetCoreSample.Repository.Interfaces;
-using Xunit;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
-using System;
+using Xunit;
 
 namespace DotNetCoreSample.UnitTest.Implementations
 {
@@ -27,7 +27,8 @@ namespace DotNetCoreSample.UnitTest.Implementations
         [Fact]
         public async Task AddAsync()
         {
-            var user =  new User {
+            var user = new User
+            {
                 Id = 1,
                 Name = "Test",
                 Email = "test@test.com"
@@ -41,7 +42,8 @@ namespace DotNetCoreSample.UnitTest.Implementations
         [Fact]
         public async Task GetAllAsync()
         {
-            var user =  new User {
+            var user = new User
+            {
                 Id = 1,
                 Name = "Test",
                 Email = "test@test.com"
@@ -52,11 +54,12 @@ namespace DotNetCoreSample.UnitTest.Implementations
 
             Assert.Single(users);
         }
-        
+
         [Fact]
         public async Task GetByIdAsync()
         {
-            var user =  new User {
+            var user = new User
+            {
                 Id = 1,
                 Name = "Test",
                 Email = "test@test.com"
@@ -73,7 +76,8 @@ namespace DotNetCoreSample.UnitTest.Implementations
         [Fact]
         public async Task UpdateAsync()
         {
-            var user =  new User {
+            var user = new User
+            {
                 Id = 1,
                 Name = "Test",
                 Email = "test@test.com"

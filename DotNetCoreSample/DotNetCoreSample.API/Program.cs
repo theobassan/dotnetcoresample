@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Diagnostics;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Serilog;
-using Serilog.Settings.Configuration;
 using Serilog.Configuration;
 using Serilog.Core;
 using Serilog.Events;
+using Serilog.Settings.Configuration;
 
 namespace DotNetCoreSample.API
 {
@@ -32,7 +32,7 @@ namespace DotNetCoreSample.API
                 var method = stack.GetMethod();
                 if (method.DeclaringType.Assembly != typeof(Log).Assembly && method.DeclaringType.Assembly != typeof(Serilog.Extensions.Logging.SerilogLoggerProvider).Assembly && method.DeclaringType.Assembly != typeof(Microsoft.Extensions.Logging.LoggerExternalScopeProvider).Assembly)
                 {
-                    
+
                     var caller = $"{stack.GetFileLineNumber()}";
                     logEvent.AddPropertyIfAbsent(new LogEventProperty("Line", new ScalarValue(caller)));
                     return;
@@ -49,10 +49,10 @@ namespace DotNetCoreSample.API
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseSerilog((hostingContext, loggerConfiguration) => loggerConfiguration
-	                .ReadFrom.Configuration(hostingContext.Configuration)
-                    .Enrich.FromLogContext()
-                    .Enrich.With(new CallerEnricher()))
-                .UseStartup<Startup>();
+            .UseSerilog((hostingContext, loggerConfiguration) => loggerConfiguration
+                .ReadFrom.Configuration(hostingContext.Configuration)
+                .Enrich.FromLogContext()
+                .Enrich.With(new CallerEnricher()))
+            .UseStartup<Startup>();
     }
 }

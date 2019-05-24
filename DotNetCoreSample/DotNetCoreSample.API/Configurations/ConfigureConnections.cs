@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using DotNetCoreSample.DomainModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using DotNetCoreSample.DomainModel;
 
 namespace DotNetCoreSample.API.Configurations
 {
@@ -13,8 +13,7 @@ namespace DotNetCoreSample.API.Configurations
             IConfiguration configuration)
         {
             string connection = configuration.GetConnectionString("DotNetCoreSample") ?? "DotNetCoreSample";
-            
-           
+
             services.AddDbContext<InMemoryDbContext>(opt =>
                 opt.UseInMemoryDatabase(connection).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
 

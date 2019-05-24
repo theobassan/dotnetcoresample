@@ -1,10 +1,10 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
-using DotNetCoreSample.BusinessFacade.Implementations;
+﻿using DotNetCoreSample.BusinessFacade.Implementations;
 using DotNetCoreSample.BusinessFacade.Interfaces;
 using DotNetCoreSample.Repository.Implementations;
 using DotNetCoreSample.Repository.Interfaces;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 
 namespace DotNetCoreSample.API.Configurations
 {
@@ -20,10 +20,10 @@ namespace DotNetCoreSample.API.Configurations
 
         public static IServiceCollection ConfigureBusiness(this IServiceCollection services)
         {
-            
+
             //services.AddScoped(typeof(IBusinessFacade<>), typeof(BusinessFacade<>));
             services.AddScoped(typeof(IUserBusinessFacade), typeof(UserBusinessFacade));
-            
+
             return services;
         }
 
@@ -37,7 +37,7 @@ namespace DotNetCoreSample.API.Configurations
             return services;
         }
 
-        public static IServiceCollection AddCorsConfiguration(this IServiceCollection services) =>        
+        public static IServiceCollection AddCorsConfiguration(this IServiceCollection services) =>
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll", new Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder()
@@ -46,7 +46,6 @@ namespace DotNetCoreSample.API.Configurations
                     .AllowAnyOrigin()
                     .AllowCredentials()
                     .Build());
-            }
-        );
+            });
     }
 }
