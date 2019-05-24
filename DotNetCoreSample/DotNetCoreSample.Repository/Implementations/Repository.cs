@@ -25,14 +25,6 @@ namespace DotNetCoreSample.Repository.Implementations
         }
 
         public void Dispose() => _context.Dispose();
-       
-        public async Task<List<T>> GetAllAsync(CancellationToken ct = default) 
-        {
-            return await _entity.ToListAsync();
-        }
-
-        public async Task<T> GetByIdAsync(long id, CancellationToken ct = default)
-            => await _entity.FindAsync(id);
 
         public async Task<T> AddAsync(T t, CancellationToken ct = default)
         {
@@ -62,5 +54,13 @@ namespace DotNetCoreSample.Repository.Implementations
 
             return true;
         }
+       
+        public async Task<List<T>> GetAllAsync(CancellationToken ct = default) 
+        {
+            return await _entity.ToListAsync();
+        }
+
+        public async Task<T> GetByIdAsync(long id, CancellationToken ct = default)
+            => await _entity.FindAsync(id);
     }
 }
