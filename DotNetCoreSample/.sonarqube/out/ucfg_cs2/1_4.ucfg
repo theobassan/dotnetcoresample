@@ -1,0 +1,40 @@
+
+iDotNetCoreSample.Repository.Implementations.Repository<T>.AddAsync(T, System.Threading.CancellationToken)z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (%"0*Ó
+0³
+°
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (2
+%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*x*v;
+9DotNetCoreSample.Repository.Implementations.Repository<T>"7
+_entity,Microsoft.EntityFrameworkCore.DbSet<TEntity>ÑÎ
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (G
+%1AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"9Microsoft.EntityFrameworkCore.DbSet<TEntity>.Add(TEntity)*4
+2
+%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+
+tT2Add(TEntity)¸
+µ
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (4
+%2.DotNetCoreSample.DomainModel.InMemoryDbContext"__id*{*y;
+9DotNetCoreSample.Repository.Implementations.Repository<T>":
+_context.DotNetCoreSample.DomainModel.InMemoryDbContextÿü
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (-*
+%3$System.Threading.Tasks.Task<TResult>"\Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(System.Threading.CancellationToken)*6
+4
+%2.DotNetCoreSample.DomainModel.InMemoryDbContext*
+""24SaveChangesAsync(System.Threading.CancellationToken)"†
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (
+
+tT*—
+1"‘
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs   (	
+implicit return:
+tT:(
+ct"System.Threading.CancellationTokenB=;
+9DotNetCoreSample.Repository.Implementations.Repository<T>
