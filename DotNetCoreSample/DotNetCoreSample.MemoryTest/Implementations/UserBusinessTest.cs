@@ -37,13 +37,13 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         [Fact]
         public void AddAsync()
         {
-            var isolator = new Action(async() =>
+            var isolator = new Action(async () =>
             {
                 var user = new User
                 {
-                Id = 1,
-                Name = "Test",
-                Email = "test@test.com"
+                    Id = 1,
+                    Name = "Test",
+                    Email = "test@test.com"
                 };
 
                 await _businessfacade.AddAsync(user);
@@ -61,13 +61,13 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         [Fact]
         public void GetAllAsync()
         {
-            var isolator = new Action(async() =>
+            var isolator = new Action(async () =>
             {
                 var user = new User
                 {
-                Id = 1,
-                Name = "Test",
-                Email = "test@test.com"
+                    Id = 1,
+                    Name = "Test",
+                    Email = "test@test.com"
                 };
 
                 await _businessfacade.GetAllAsync();
@@ -85,7 +85,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         [Fact]
         public void GetByIdAsync()
         {
-            var isolator = new Action(async() =>
+            var isolator = new Action(async () =>
             {
                 var id = 1;
                 await _businessfacade.GetByIdAsync(id);
@@ -101,13 +101,13 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         [Fact]
         public void UpdateAsync()
         {
-            var isolator = new Action(async() =>
+            var isolator = new Action(async () =>
             {
                 var user = new User
                 {
-                Id = 1,
-                Name = "Test",
-                Email = "test@test.com"
+                    Id = 1,
+                    Name = "Test",
+                    Email = "test@test.com"
                 };
 
                 await _businessfacade.UpdateAsync(user);
@@ -123,7 +123,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         [Fact]
         public void DeleteAsync()
         {
-            var isolator = new Action(async() =>
+            var isolator = new Action(async () =>
             {
                 var id = 1;
                 await _businessfacade.DeleteAsync(id);

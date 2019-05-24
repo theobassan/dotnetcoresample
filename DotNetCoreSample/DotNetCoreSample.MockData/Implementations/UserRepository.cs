@@ -16,9 +16,9 @@ namespace DotNetCoreSample.MockData.Implementations
         {
             var user = new User
             {
-            Id = 1,
-            Name = "Test",
-            Email = "test@test.com"
+                Id = 1,
+                Name = "Test",
+                Email = "test@test.com"
             };
 
             return user.AsListTask();
@@ -28,9 +28,9 @@ namespace DotNetCoreSample.MockData.Implementations
         {
             var user = new User
             {
-            Id = 1,
-            Name = "Test",
-            Email = "test@test.com"
+                Id = 1,
+                Name = "Test",
+                Email = "test@test.com"
             };
 
             return user.AsTask();

@@ -44,7 +44,7 @@ namespace DotNetCoreSample.API
             services.AddSwaggerGen(s => s.SwaggerDoc("v1", new Info
             {
                 Title = "DotNetCoreSample API",
-                    Description = "DotNet Core Sample API"
+                Description = "DotNet Core Sample API"
             }));
         }
 
