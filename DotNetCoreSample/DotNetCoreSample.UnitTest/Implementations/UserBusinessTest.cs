@@ -14,15 +14,14 @@ namespace DotNetCoreSample.UnitTest.Implementations
 {
     public class UserBusinessFacadeTest
     {
-        private readonly ILogger<UserBusinessFacade> _logger;
         private readonly UserBusinessFacade _businessfacade;
 
         public UserBusinessFacadeTest()
         {
             var repository = new UserRepository();
-            _logger = new NullLogger<UserBusinessFacade>();
+            var logger = new NullLogger<UserBusinessFacade>();
 
-            _businessfacade = new UserBusinessFacade(repository, _logger);
+            _businessfacade = new UserBusinessFacade(repository, logger);
         }
 
         [Fact]

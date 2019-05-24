@@ -13,7 +13,6 @@ namespace DotNetCoreSample.IntegrationTest.Repository
     public class UserRepositoryTest : IDisposable
     {
         private readonly InMemoryDbContext _context;
-        private readonly ILogger<UserRepository> _logger;
         private readonly UserRepository _repository;
 
         public UserRepositoryTest()
@@ -23,8 +22,8 @@ namespace DotNetCoreSample.IntegrationTest.Repository
                 .Options;
 
             _context = new InMemoryDbContext(options);
-            _logger = new NullLogger<UserRepository>();
-            _repository = new UserRepository(_context, _logger);
+            var logger = new NullLogger<UserRepository>();
+            _repository = new UserRepository(_context, logger);
         }
 
         public void Dispose() => _context.Dispose();
