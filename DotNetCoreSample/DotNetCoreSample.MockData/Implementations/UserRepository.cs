@@ -1,10 +1,8 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using DotNetCoreSample.DomainModel;
 using DotNetCoreSample.DomainModel.Entities;
 using DotNetCoreSample.Repository.Interfaces;
-using Microsoft.Extensions.Logging;
 
 namespace DotNetCoreSample.MockData.Implementations
 {

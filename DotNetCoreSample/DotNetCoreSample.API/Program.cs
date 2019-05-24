@@ -1,17 +1,9 @@
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Serilog;
-using Serilog.Configuration;
 using Serilog.Core;
 using Serilog.Events;
-using Serilog.Settings.Configuration;
 
 namespace DotNetCoreSample.API
 {

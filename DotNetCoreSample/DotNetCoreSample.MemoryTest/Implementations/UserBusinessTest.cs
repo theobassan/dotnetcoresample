@@ -1,12 +1,10 @@
 using System;
-using System.Threading.Tasks;
 using DotNetCoreSample.BusinessFacade.Implementations;
 using DotNetCoreSample.DomainModel;
 using DotNetCoreSample.DomainModel.Entities;
 using DotNetCoreSample.Repository.Implementations;
 using JetBrains.dotMemoryUnit;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 

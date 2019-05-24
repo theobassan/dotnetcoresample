@@ -1,5 +1,3 @@
-using System;
-using System.Runtime.InteropServices;
 using DotNetCoreSample.DomainModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

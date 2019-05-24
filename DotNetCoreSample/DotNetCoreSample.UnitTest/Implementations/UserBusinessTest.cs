@@ -1,12 +1,7 @@
-using System;
 using System.Threading.Tasks;
 using DotNetCoreSample.BusinessFacade.Implementations;
-using DotNetCoreSample.DomainModel;
 using DotNetCoreSample.DomainModel.Entities;
 using DotNetCoreSample.MockData.Implementations;
-using DotNetCoreSample.Repository.Interfaces;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 

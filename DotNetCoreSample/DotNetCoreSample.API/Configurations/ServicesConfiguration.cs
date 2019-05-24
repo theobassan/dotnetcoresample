@@ -2,7 +2,6 @@ using DotNetCoreSample.BusinessFacade.Implementations;
 using DotNetCoreSample.BusinessFacade.Interfaces;
 using DotNetCoreSample.Repository.Implementations;
 using DotNetCoreSample.Repository.Interfaces;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 
