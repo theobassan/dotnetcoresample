@@ -1,4 +1,4 @@
-﻿using DotNetCoreSample.BusinessFacade.Implementations;
+using DotNetCoreSample.BusinessFacade.Implementations;
 using DotNetCoreSample.BusinessFacade.Interfaces;
 using DotNetCoreSample.Repository.Implementations;
 using DotNetCoreSample.Repository.Interfaces;
