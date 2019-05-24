@@ -2,6 +2,31 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.1.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.core" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCoreSample.DomainModel\DotNetCoreSample.DomainModel.csproj" />
+    <ProjectReference Include="..\DotNetCoreSample.API\DotNetCoreSample.API.csproj" />
+    <ProjectReference Include="..\DotNetCoreSample.BusinessFacade\DotNetCoreSample.BusinessFacade.csproj" />
+    <ProjectReference Include="..\DotNetCoreSample.MockData\DotNetCoreSample.MockData.csproj" />
+    <ProjectReference Include="..\DotNetCoreSample.Repository\DotNetCoreSample.Repository.csproj" />
+  </ItemGroup>
 
 </Project>
