@@ -1,11 +1,11 @@
-using System.Threading.Tasks;
-using System.Threading;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using DotNetCoreSample.Repository.Interfaces;
-using DotNetCoreSample.DomainModel.Entities;
+using System.Threading;
+using System.Threading.Tasks;
 using DotNetCoreSample.DomainModel;
+using DotNetCoreSample.DomainModel.Entities;
+using DotNetCoreSample.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
@@ -60,7 +60,6 @@ namespace DotNetCoreSample.Repository.Implementations
             return await _entity.ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(long id, CancellationToken ct = default)
-            => await _entity.FindAsync(id);
+        public async Task<T> GetByIdAsync(long id, CancellationToken ct = default) => await _entity.FindAsync(id);
     }
 }

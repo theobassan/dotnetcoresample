@@ -6,7 +6,7 @@ using DotNetCoreSample.DomainModel.Entities;
 
 namespace DotNetCoreSample.Repository.Interfaces
 {
-    public interface IRepository<T> : IDisposable where T : BaseModel 
+    public interface IRepository<T> : IDisposable where T : BaseModel
     {
         Task<List<T>> GetAllAsync(CancellationToken ct = default);
         Task<T> GetByIdAsync(long id, CancellationToken ct = default);

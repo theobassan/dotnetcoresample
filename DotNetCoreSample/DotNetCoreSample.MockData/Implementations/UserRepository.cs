@@ -13,19 +13,28 @@ namespace DotNetCoreSample.MockData.Implementations
         public void Dispose() { }
 
         public Task<List<User>> GetAllAsync(CancellationToken ct = default)
-            => new User
+        {
+            var user = new User
             {
-                Id = 1,
-                Name = "Test",
-                Email = "test@test.com"
-            }.AsListTask();
+            Id = 1,
+            Name = "Test",
+            Email = "test@test.com"
+            };
 
-        public Task<User> GetByIdAsync(long id, CancellationToken ct = default) => new User
+            return user.AsListTask();
+        }
+
+        public Task<User> GetByIdAsync(long id, CancellationToken ct = default)
+        {
+            var user = new User
             {
-                Id = id,
-                Name = "Test",
-                Email = "test@test.com"
-            }.AsTask();
+            Id = 1,
+            Name = "Test",
+            Email = "test@test.com"
+            };
+
+            return user.AsTask();
+        }
 
         public Task<User> AddAsync(User t, CancellationToken ct = default)
         {
