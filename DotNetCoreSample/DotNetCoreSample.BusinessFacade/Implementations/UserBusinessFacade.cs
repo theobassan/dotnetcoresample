@@ -11,10 +11,5 @@ namespace DotNetCoreSample.BusinessFacade.Implementations
     public class UserBusinessFacade : BusinessFacade<User>, IUserBusinessFacade
     {
         public UserBusinessFacade(IUserRepository repository, ILogger<UserBusinessFacade> logger) : base(repository, logger) { }
-
-        override public async Task<List<User>> GetAllAsync(CancellationToken ct = default)
-        {
-            return await base.GetAllAsync(ct);
-        }
     }
 }

@@ -8,11 +8,11 @@ using Xunit;
 
 namespace DotNetCoreSample.UnitTest.Implementations
 {
-    public class UserBusinessFacadeTest
+    public class UserBusinessFacadeTest1
     {
         private readonly UserBusinessFacade _businessfacade;
 
-        public UserBusinessFacadeTest()
+        public UserBusinessFacadeTest1()
         {
             var repository = new UserRepository();
             var logger = new NullLogger<UserBusinessFacade>();

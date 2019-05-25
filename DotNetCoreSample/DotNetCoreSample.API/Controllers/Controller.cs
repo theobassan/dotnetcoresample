@@ -22,13 +22,13 @@ namespace DotNetCoreSample.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<T>>> Get(CancellationToken ct = default)
+        public virtual async Task<ActionResult<List<T>>> Get(CancellationToken ct = default)
         {
             return new ObjectResult(await _businessfacade.GetAllAsync(ct));
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<T>> Get(long id, CancellationToken ct = default)
+        public virtual async Task<ActionResult<T>> Get(long id, CancellationToken ct = default)
         {
             var t = await _businessfacade.GetByIdAsync(id, ct);
             if (t == null) return NotFound();
@@ -37,7 +37,7 @@ namespace DotNetCoreSample.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] T input, CancellationToken ct = default)
+        public virtual async Task<ActionResult> Post([FromBody] T input, CancellationToken ct = default)
         {
             if (input == null) return BadRequest();
 
@@ -47,7 +47,7 @@ namespace DotNetCoreSample.API.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] T input, CancellationToken ct = default)
+        public virtual async Task<ActionResult> Put([FromBody] T input, CancellationToken ct = default)
         {
             if (input == null) return BadRequest();
             if (await _businessfacade.GetByIdAsync(input.Id, ct) == null) return NotFound();
@@ -58,7 +58,7 @@ namespace DotNetCoreSample.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> DeleteAsync(long id, CancellationToken ct = default)
+        public virtual async Task<ActionResult> DeleteAsync(long id, CancellationToken ct = default)
         {
             var t = await _businessfacade.GetByIdAsync(id, ct);
             if (t == null) return NotFound();

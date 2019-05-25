@@ -24,12 +24,12 @@ namespace DotNetCoreSample.BusinessFacade.Implementations
             return await _repository.GetAllAsync(ct);
         }
 
-        public async Task<T> GetByIdAsync(long id, CancellationToken ct = default) => await _repository.GetByIdAsync(id, ct);
+        public virtual async Task<T> GetByIdAsync(long id, CancellationToken ct = default) => await _repository.GetByIdAsync(id, ct);
 
-        public async Task<T> AddAsync(T t, CancellationToken ct = default) => await _repository.AddAsync(t, ct);
+        public virtual async Task<T> AddAsync(T t, CancellationToken ct = default) => await _repository.AddAsync(t, ct);
 
-        public async Task<T> UpdateAsync(T t, CancellationToken ct = default) => await _repository.UpdateAsync(t, ct);
+        public virtual async Task<T> UpdateAsync(T t, CancellationToken ct = default) => await _repository.UpdateAsync(t, ct);
 
-        public async Task DeleteAsync(T t, CancellationToken ct = default) => await _repository.DeleteAsync(t, ct);
+        public virtual async Task<bool> DeleteAsync(T t, CancellationToken ct = default) => await _repository.DeleteAsync(t, ct);
     }
 }

@@ -10,13 +10,13 @@ using Xunit;
 
 namespace DotNetCoreSample.IntegrationTest.Repository
 {
-    public class UserRepositoryTest : IDisposable
+    public class UserBusinessFacadeTest : IDisposable
     {
         private readonly InMemoryDbContext _context;
 
         private readonly UserBusinessFacade _businessfacade;
 
-        public UserRepositoryTest()
+        public UserBusinessFacadeTest()
         {
             var options = new DbContextOptionsBuilder<InMemoryDbContext>()
                 .UseInMemoryDatabase(databaseName: "DotNetCoreSampleTest")

@@ -32,14 +32,14 @@ namespace DotNetCoreSample.Repository.Implementations
 
         protected virtual void Dispose(bool disposing) => _context.Dispose();
 
-        public async Task<T> AddAsync(T t, CancellationToken ct = default)
+        public virtual async Task<T> AddAsync(T t, CancellationToken ct = default)
         {
             _entity.Add(t);
             await _context.SaveChangesAsync();
             return t;
         }
 
-        public async Task<T> UpdateAsync(T t, CancellationToken ct = default)
+        public virtual async Task<T> UpdateAsync(T t, CancellationToken ct = default)
         {
             _context.Entry(t).State = EntityState.Modified;
             await _context.SaveChangesAsync();
@@ -47,7 +47,7 @@ namespace DotNetCoreSample.Repository.Implementations
             return t;
         }
 
-        public async Task<bool> DeleteAsync(T t, CancellationToken ct = default)
+        public virtual async Task<bool> DeleteAsync(T t, CancellationToken ct = default)
         {
             _entity.Remove(t);
             await _context.SaveChangesAsync();
@@ -55,11 +55,11 @@ namespace DotNetCoreSample.Repository.Implementations
             return true;
         }
 
-        public async Task<List<T>> GetAllAsync(CancellationToken ct = default)
+        public virtual async Task<List<T>> GetAllAsync(CancellationToken ct = default)
         {
             return await _entity.ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(long id, CancellationToken ct = default) => await _entity.FindAsync(id);
+        public virtual async Task<T> GetByIdAsync(long id, CancellationToken ct = default) => await _entity.FindAsync(id);
     }
 }
