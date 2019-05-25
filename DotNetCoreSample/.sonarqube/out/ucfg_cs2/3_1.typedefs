@@ -1,4 +1,0 @@
-ë
-BDotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacadeADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>object±
-´UserBusinessFacade(DotNetCoreSample.Repository.Interfaces.IUserRepository, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacade>)÷DotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacade.UserBusinessFacade(DotNetCoreSample.Repository.Interfaces.IUserRepository, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacade>)¥
-/GetAllAsync(System.Threading.CancellationToken)rDotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacade.GetAllAsync(System.Threading.CancellationToken)

@@ -11,7 +11,6 @@ namespace DotNetCoreSample.API.Configurations
     {
         public static IServiceCollection ConfigureRepositories(this IServiceCollection services)
         {
-            //services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
 
             return services;
@@ -19,8 +18,6 @@ namespace DotNetCoreSample.API.Configurations
 
         public static IServiceCollection ConfigureBusiness(this IServiceCollection services)
         {
-
-            //services.AddScoped(typeof(IBusinessFacade<>), typeof(BusinessFacade<>));
             services.AddScoped(typeof(IUserBusinessFacade), typeof(UserBusinessFacade));
 
             return services;

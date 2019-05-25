@@ -1,29 +1,0 @@
-
-ÑDotNetCoreSample.API.Configurations.ServicesConfiguration.AddMiddleware(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs) (6"0*Ã	
-0‰
-·
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (:
-%04Microsoft.Extensions.DependencyInjection.IMvcBuilder"ãMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions.AddMvc(Microsoft.Extensions.DependencyInjection.IServiceCollection)*K"I
-GMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectioní
-è
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs "(:
-%14Microsoft.Extensions.DependencyInjection.IMvcBuilder"¡Microsoft.Extensions.DependencyInjection.MvcJsonMvcBuilderExtensions.AddJsonOptions(Microsoft.Extensions.DependencyInjection.IMvcBuilder, System.Action<Microsoft.AspNetCore.Mvc.MvcJsonOptions>)*H"F
-DMicrosoft.Extensions.DependencyInjection.MvcJsonMvcBuilderExtensions*<
-:
-%04Microsoft.Extensions.DependencyInjection.IMvcBuilder*
-""" 
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs$ $(I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ö
-1"î
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs% %(	
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
-9DotNetCoreSample.API.Configurations.ServicesConfiguration

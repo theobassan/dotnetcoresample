@@ -25,8 +25,7 @@ namespace DotNetCoreSample.API
             services.AddMemoryCache();
             services.AddResponseCaching();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2).AddApplicationPart(typeof(UserController).Assembly);
-            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2).AddFluentValidation(fvc => fvc.RegisterValidatorsFromAssemblyContaining<Startup>());
-
+            
             services.AddLogging()
                 .ConfigureRepositories()
                 .ConfigureBusiness()

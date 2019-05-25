@@ -1,31 +1,0 @@
-
-+DotNetCoreSample.API.Program.Main(string[])`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs( (("0*Ó
-0Œ
-‰
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs(2 ((L2
-%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder";DotNetCoreSample.API.Program.CreateWebHostBuilder(string[])* "
-DotNetCoreSample.API.Program*
-
-argsstring[]‡„
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs(2 ((T+
-%1%Microsoft.AspNetCore.Hosting.IWebHost"4Microsoft.AspNetCore.Hosting.IWebHostBuilder.Build()*4
-2
-%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder2Build()¯
-¬
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs(2 ((Z
-
-%2void"YMicrosoft.AspNetCore.Hosting.WebHostExtensions.Run(Microsoft.AspNetCore.Hosting.IWebHost)*2"0
-.Microsoft.AspNetCore.Hosting.WebHostExtensions*-
-+
-%1%Microsoft.AspNetCore.Hosting.IWebHost*
-1*|
-1"w
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs(Z (([
-implicit return:
-argsstring[]B "
-DotNetCoreSample.API.Program

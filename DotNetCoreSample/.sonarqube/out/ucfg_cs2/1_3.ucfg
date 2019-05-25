@@ -1,44 +1,0 @@
-
-ÕDotNetCoreSample.Repository.Implementations.Repository<T>.Repository(DotNetCoreSample.DomainModel.InMemoryDbContext, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.Repository.Implementations.Repository<T>>)z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs ("0*¨
-0½
-º
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (y;
-9DotNetCoreSample.Repository.Implementations.Repository<T>":
-_context.DotNetCoreSample.DomainModel.InMemoryDbContext"__id*;
-9
-context.DotNetCoreSample.DomainModel.InMemoryDbContext¸
-µ
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (4
-%0.DotNetCoreSample.DomainModel.InMemoryDbContext"__id*{*y;
-9DotNetCoreSample.Repository.Implementations.Repository<T>":
-_context.DotNetCoreSample.DomainModel.InMemoryDbContext³°
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs ('2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"6Microsoft.EntityFrameworkCore.DbContext.Set<TEntity>()*6
-4
-%0.DotNetCoreSample.DomainModel.InMemoryDbContext2Set<TEntity>()³
-°
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs ('v;
-9DotNetCoreSample.Repository.Implementations.Repository<T>"7
-_entity,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*4
-2
-%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>¶
-³
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (n;
-9DotNetCoreSample.Repository.Implementations.Repository<T>"/
-_logger$Microsoft.Extensions.Logging.ILogger"__id*?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-1*—
-1"‘
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (	
-implicit return:9
-context.DotNetCoreSample.DomainModel.InMemoryDbContext:=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B=;
-9DotNetCoreSample.Repository.Implementations.Repository<T>

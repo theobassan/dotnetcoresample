@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -8,7 +9,17 @@ namespace DotNetCoreSample.MockData.Implementations
 {
     public class UserRepository : IUserRepository
     {
-        public void Dispose() { }
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        // Needed for IRepository
+        protected virtual void Dispose(bool disposing)
+        {
+            // Cleanup
+        }
 
         public Task<List<User>> GetAllAsync(CancellationToken ct = default)
         {
@@ -39,7 +50,7 @@ namespace DotNetCoreSample.MockData.Implementations
             return t.AsTask();
         }
 
-        public Task<bool> UpdateAsync(User album, CancellationToken ct = default) => Task.FromResult(true);
+        public Task<bool> UpdateAsync(User t, CancellationToken ct = default) => Task.FromResult(true);
 
         public Task<bool> DeleteAsync(long id, CancellationToken ct = default) => Task.FromResult(true);
     }

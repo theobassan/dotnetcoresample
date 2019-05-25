@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -22,7 +23,14 @@ namespace DotNetCoreSample.Repository.Implementations
             _logger = logger;
         }
 
-        public void Dispose() => _context.Dispose();
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing) => _context.Dispose();
 
         public async Task<T> AddAsync(T t, CancellationToken ct = default)
         {

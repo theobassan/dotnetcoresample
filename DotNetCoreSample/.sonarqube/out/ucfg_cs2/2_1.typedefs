@@ -1,9 +1,0 @@
-Î	
-8DotNetCoreSample.MockData.Implementations.UserRepositoryobjectO
-	Dispose()BDotNetCoreSample.MockData.Implementations.UserRepository.Dispose()›
-/GetAllAsync(System.Threading.CancellationToken)hDotNetCoreSample.MockData.Implementations.UserRepository.GetAllAsync(System.Threading.CancellationToken)©
-6GetByIdAsync(long, System.Threading.CancellationToken)oDotNetCoreSample.MockData.Implementations.UserRepository.GetByIdAsync(long, System.Threading.CancellationToken)î
-XAddAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)‘DotNetCoreSample.MockData.Implementations.UserRepository.AddAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)ô
-[UpdateAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)”DotNetCoreSample.MockData.Implementations.UserRepository.UpdateAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)§
-5DeleteAsync(long, System.Threading.CancellationToken)nDotNetCoreSample.MockData.Implementations.UserRepository.DeleteAsync(long, System.Threading.CancellationToken)]
-UserRepository()IDotNetCoreSample.MockData.Implementations.UserRepository.UserRepository()

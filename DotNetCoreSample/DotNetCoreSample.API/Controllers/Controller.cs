@@ -30,13 +30,13 @@ namespace DotNetCoreSample.API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<T>> Get(long id, CancellationToken ct = default)
         {
-            var album = await _businessfacade.GetByIdAsync(id, ct);
-            if (album == null)
+            var t = await _businessfacade.GetByIdAsync(id, ct);
+            if (t == null)
             {
                 return NotFound();
             }
 
-            return Ok(album);
+            return Ok(t);
         }
 
         [HttpPost]
