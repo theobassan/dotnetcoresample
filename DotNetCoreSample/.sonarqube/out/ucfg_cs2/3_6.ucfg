@@ -1,27 +1,27 @@
 
-qDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.AddAsync(T, System.Threading.CancellationToken)‚
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (%"0*«
+xDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetByIdAsync(long, System.Threading.CancellationToken)‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs ()"0*·
 0Ü
 Ù
 ‚
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.csT (_;
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs\ (g;
 %05DotNetCoreSample.Repository.Interfaces.IRepository<T>"__id*Ž*‹C
 ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>"D
-_repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>Á¾
+_repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>ÍÊ
 ‚
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.csT (o*
-%1$System.Threading.Tasks.Task<TResult>"eDotNetCoreSample.Repository.Interfaces.IRepository<T>.AddAsync(T, System.Threading.CancellationToken)*=
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs\ (|*
+%1$System.Threading.Tasks.Task<TResult>"lDotNetCoreSample.Repository.Interfaces.IRepository<T>.GetByIdAsync(long, System.Threading.CancellationToken)*=
 ;
-%05DotNetCoreSample.Repository.Interfaces.IRepository<T>*
-
-tT**
+%05DotNetCoreSample.Repository.Interfaces.IRepository<T>*
+""**
 (
-ct"System.Threading.CancellationToken2/AddAsync(T, System.Threading.CancellationToken)*
+ct"System.Threading.CancellationToken26GetByIdAsync(long, System.Threading.CancellationToken)*
 1* 
 1"š
 ‚
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cso (p
-implicit return:
-tT:(
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs| (}
+implicit return:
+
+idlong:(
 ct"System.Threading.CancellationTokenBEC
 ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>

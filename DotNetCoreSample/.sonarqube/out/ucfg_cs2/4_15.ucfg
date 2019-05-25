@@ -1,29 +1,78 @@
 
-ÑDotNetCoreSample.API.Configurations.ServicesConfiguration.AddMiddleware(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs) (6"0*Ã	
-0‰
-·
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (:
-%04Microsoft.Extensions.DependencyInjection.IMvcBuilder"ãMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions.AddMvc(Microsoft.Extensions.DependencyInjection.IServiceCollection)*K"I
-GMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectioní
-è
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (:
-%14Microsoft.Extensions.DependencyInjection.IMvcBuilder"¡Microsoft.Extensions.DependencyInjection.MvcJsonMvcBuilderExtensions.AddJsonOptions(Microsoft.Extensions.DependencyInjection.IMvcBuilder, System.Action<Microsoft.AspNetCore.Mvc.MvcJsonOptions>)*H"F
-DMicrosoft.Extensions.DependencyInjection.MvcJsonMvcBuilderExtensions*<
-:
-%04Microsoft.Extensions.DependencyInjection.IMvcBuilder*
-""" 
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs! !(I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ö
-1"î
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs" "(	
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
-9DotNetCoreSample.API.Configurations.ServicesConfiguration
+äDotNetCoreSample.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IHostingEnvironment)`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs- -("0*Ù
+0Ê
+„
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs/ /(#
+
+%0bool"yMicrosoft.AspNetCore.Hosting.HostingEnvironmentExtensions.IsDevelopment(Microsoft.AspNetCore.Hosting.IHostingEnvironment)*=";
+9Microsoft.AspNetCore.Hosting.HostingEnvironmentExtensions*9
+7
+env0Microsoft.AspNetCore.Hosting.IHostingEnvironment*
+1
+2*≤
+1ß
+§
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs1 1(/6
+%10Microsoft.AspNetCore.Builder.IApplicationBuilder"âMicrosoft.AspNetCore.Builder.DeveloperExceptionPageExtensions.UseDeveloperExceptionPage(Microsoft.AspNetCore.Builder.IApplicationBuilder)*A"?
+=Microsoft.AspNetCore.Builder.DeveloperExceptionPageExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+2*Ï
+2î
+ë
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs4 4(#6
+%20Microsoft.AspNetCore.Builder.IApplicationBuilder"wMicrosoft.AspNetCore.Builder.CorsMiddlewareExtensions.UseCors(Microsoft.AspNetCore.Builder.IApplicationBuilder, string)*9"7
+5Microsoft.AspNetCore.Builder.CorsMiddlewareExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+""É
+Ä
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs5 5( 6
+%30Microsoft.AspNetCore.Builder.IApplicationBuilder"rMicrosoft.AspNetCore.Builder.StaticFileExtensions.UseStaticFiles(Microsoft.AspNetCore.Builder.IApplicationBuilder)*5"3
+1Microsoft.AspNetCore.Builder.StaticFileExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderÑ
+Å
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs6 6(4
+
+%4void"íDotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions.ConfigureCustomExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)*A"?
+=DotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderë
+é
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs7 7(6
+%50Microsoft.AspNetCore.Builder.IApplicationBuilder"uMicrosoft.AspNetCore.Builder.MvcApplicationBuilderExtensions.UseMvc(Microsoft.AspNetCore.Builder.IApplicationBuilder)*@">
+<Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderŒ
+À
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs8 8(6
+%60Microsoft.AspNetCore.Builder.IApplicationBuilder"∞Microsoft.AspNetCore.Builder.SwaggerBuilderExtensions.UseSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Swashbuckle.AspNetCore.Swagger.SwaggerOptions>)*9"7
+5Microsoft.AspNetCore.Builder.SwaggerBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+""ÿ
+’
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs9 9([6
+%70Microsoft.AspNetCore.Builder.IApplicationBuilder"∏Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions.UseSwaggerUI(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions>)*;"9
+7Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+""*
+3*|
+3"w
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs: :(	
+implicit return:7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder:7
+env0Microsoft.AspNetCore.Hosting.IHostingEnvironmentB 
+DotNetCoreSample.API.Startup

@@ -1,34 +1,26 @@
 
-;DotNetCoreSample.API.Program.CreateWebHostBuilder(string[])`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs)& )(:"0*ˆ
-0å
-â
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs* *(.2
-%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder";Microsoft.AspNetCore.WebHost.CreateDefaultBuilder(string[])* "
-Microsoft.AspNetCore.WebHost*
-
-argsstring[]’
-“
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs* .(32
-%1,Microsoft.AspNetCore.Hosting.IWebHostBuilder"∆Serilog.SerilogWebHostBuilderExtensions.UseSerilog(Microsoft.AspNetCore.Hosting.IWebHostBuilder, System.Action<Microsoft.AspNetCore.Hosting.WebHostBuilderContext, Serilog.LoggerConfiguration>, bool)*+")
-'Serilog.SerilogWebHostBuilderExtensions*4
-2
-%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder*
-""*
-""Ñ
-Å
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs* /("2
-%2,Microsoft.AspNetCore.Hosting.IWebHostBuilder"xMicrosoft.AspNetCore.Hosting.WebHostBuilderExtensions.UseStartup<TStartup>(Microsoft.AspNetCore.Hosting.IWebHostBuilder)*9"7
-5Microsoft.AspNetCore.Hosting.WebHostBuilderExtensions*4
-2
-%1,Microsoft.AspNetCore.Hosting.IWebHostBuilder*
-1*|
-1"w
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs/" /(#
-implicit return:
-argsstring[]B "
-DotNetCoreSample.API.Program
+ÕDotNetCoreSample.API.Extensions.ExceptionMiddleware.ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Extensions.ExceptionMiddleware>)w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (""0*Ó
+0º
+π
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (w5
+3DotNetCoreSample.API.Extensions.ExceptionMiddleware">
+_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>§
+°
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (k5
+3DotNetCoreSample.API.Extensions.ExceptionMiddleware"2
+_next)Microsoft.AspNetCore.Http.RequestDelegate"__id*3
+1
+next)Microsoft.AspNetCore.Http.RequestDelegate*
+1*î
+1"é
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (	
+implicit return:1
+next)Microsoft.AspNetCore.Http.RequestDelegate:=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B75
+3DotNetCoreSample.API.Extensions.ExceptionMiddleware

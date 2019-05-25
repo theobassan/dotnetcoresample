@@ -1,36 +1,32 @@
 
-ÎDotNetCoreSample.API.Controllers.Controller<T>.Controller(DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.Controller<T>>)o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs ("2*‘
-0Ô
-Ñ
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (,„0
-.DotNetCoreSample.API.Controllers.Controller<T>"P
-_businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>"__id*Q
-O
-businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>¯
-¬
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (r0
-.DotNetCoreSample.API.Controllers.Controller<T>">
-_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*?
+ÕDotNetCoreSample.API.Controllers.UserController.UserController(DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.UserController>)s
+i/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/UserController.cs	 	("2*ª
+0Ÿ
+œ
+t
+i/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/UserController.cs	b 	(€
+
+%0void"ÎDotNetCoreSample.API.Controllers.Controller<T>.Controller(DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.Controller<T>>)*20
+.DotNetCoreSample.API.Controllers.Controller<T>*R
+P
+businessfacade>DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade*?
 =
 logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-1*Œ
-1"†
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (	
-implicit return*§
-2œ
-™
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (
-%0"__entrypoint*Q
-O
-businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>*?
+1*’
+1"Œ
+u
+i/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/UserController.cs	ƒ 	(„
+implicit return*¬
+2¡
+ž
+s
+i/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/UserController.cs	 	(
+%1"__entrypoint*R
+P
+businessfacade>DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade*?
 =
 logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-0:O
-businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>:=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B20
-.DotNetCoreSample.API.Controllers.Controller<T>
+0:P
+businessfacade>DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade:=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B31
+/DotNetCoreSample.API.Controllers.UserController

@@ -1,9 +1,0 @@
-Õ
-
-ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>object¤
-®BusinessFacade(DotNetCoreSample.Repository.Interfaces.IRepository<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>>)ðDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.BusinessFacade(DotNetCoreSample.Repository.Interfaces.IRepository<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>>)¤
-/GetAllAsync(System.Threading.CancellationToken)qDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetAllAsync(System.Threading.CancellationToken)²
-6GetByIdAsync(long, System.Threading.CancellationToken)xDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetByIdAsync(long, System.Threading.CancellationToken)¤
-/AddAsync(T, System.Threading.CancellationToken)qDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.AddAsync(T, System.Threading.CancellationToken)ª
-2UpdateAsync(T, System.Threading.CancellationToken)tDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.UpdateAsync(T, System.Threading.CancellationToken)°
-5DeleteAsync(long, System.Threading.CancellationToken)wDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.DeleteAsync(long, System.Threading.CancellationToken)

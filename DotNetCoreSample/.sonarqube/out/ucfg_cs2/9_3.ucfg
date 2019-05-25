@@ -1,23 +1,23 @@
 
-GDotNetCoreSample.Repository.Implementations.Repository<T>.Dispose(bool)z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs! !(&"0*«
-0∏
-µ
+CDotNetCoreSample.Repository.Implementations.Repository<T>.Dispose()z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs ("0*µ
+0™ß
 z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs!: !(B4
-%0.DotNetCoreSample.DomainModel.InMemoryDbContext"__id*{*y;
-9DotNetCoreSample.Repository.Implementations.Repository<T>":
-_context.DotNetCoreSample.DomainModel.InMemoryDbContextÅ˛
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs!: !(L
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (
 
-%1void"1Microsoft.EntityFrameworkCore.DbContext.Dispose()*6
-4
-%0.DotNetCoreSample.DomainModel.InMemoryDbContext2	Dispose()*
+%0void"GDotNetCoreSample.Repository.Implementations.Repository<T>.Dispose(bool)*=;
+9DotNetCoreSample.Repository.Implementations.Repository<T>*
+""2Dispose(bool)˝
+˙
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (%
+
+%1void""System.GC.SuppressFinalize(object)*"
+	System.GC*=;
+9DotNetCoreSample.Repository.Implementations.Repository<T>*
 1*ó
 1"ë
 z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs!L !(M
-implicit return:
-	disposingboolB=;
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs (	
+implicit returnB=;
 9DotNetCoreSample.Repository.Implementations.Repository<T>

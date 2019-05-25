@@ -1,70 +1,112 @@
 
-¾DotNetCoreSample.API.Configurations.ConfigureConnections.AddConnectionProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs
-) 
-(>"0*‡
-0©
-¦
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs  (U
-%3string"‰Microsoft.Extensions.Configuration.ConfigurationExtensions.GetConnectionString(Microsoft.Extensions.Configuration.IConfiguration, string)*>"<
-:Microsoft.Extensions.Configuration.ConfigurationExtensions*D
-B
-configuration1Microsoft.Extensions.Configuration.IConfiguration*
-""¥
-¢
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs  (U
-%1string"__id*
-
-%3string¥
-¢
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs  (U
-%0string"__id*
-
-%1string*
-1
-2*Ð
-1
-š
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.csY (k
-%2string"__id*
-""¥
-¢
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.csY (k
-%0string"__id*
-
-%2string*
-2*æ
-2­
-ª
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (k
+ZDotNetCoreSample.API.Controllers.Controller<T>.Post(T, System.Threading.CancellationToken)o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs++ +(/"4*Ô
+0Æ
+Ã
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs- -(
 
-connectionstring"__id*
-
-%0stringä
-á
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (oA
-%4;Microsoft.Extensions.DependencyInjection.IServiceCollection"áMicrosoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext<TContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.EntityFrameworkCore.DbContextOptionsBuilder>, Microsoft.Extensions.DependencyInjection.ServiceLifetime, Microsoft.Extensions.DependencyInjection.ServiceLifetime)*W"U
-SMicrosoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-""*
-""*
-"""É
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*™
-3"“
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (	
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection:B
-configuration1Microsoft.Extensions.Configuration.IConfigurationB<":
-8DotNetCoreSample.API.Configurations.ConfigureConnections
+%0bool""object.operator ==(object, object)*
+"
+object*
+
+
+inputT*
+""*
+1
+2*Ã
+1–“
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs. .(#/
+%1)Microsoft.AspNetCore.Mvc.BadRequestResult"4Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2BadRequest()"¤
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs. .($1
+/
+%1)Microsoft.AspNetCore.Mvc.BadRequestResult*ð	
+2É
+Æ
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs0) 0(8C
+%2=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>"__id*‡*„0
+.DotNetCoreSample.API.Controllers.Controller<T>"P
+_businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>Á¾
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs0) 0(L*
+%3$System.Threading.Tasks.Task<TResult>"mDotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>.AddAsync(T, System.Threading.CancellationToken)*E
+C
+%2=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>*
+
+
+inputT**
+(
+ct"System.Threading.CancellationToken2/AddAsync(T, System.Threading.CancellationToken)·´
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs0 0(M+
+%4%Microsoft.AspNetCore.Mvc.ObjectResult"?Microsoft.AspNetCore.Mvc.ControllerBase.StatusCode(int, object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*2É*
+""2StatusCode(int, object)" 
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs0 0(N-
++
+%4%Microsoft.AspNetCore.Mvc.ObjectResult*Œ
+3"†
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs1 1(	
+implicit return*Ô	
+4Â
+¿
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs++ +(/
+%5"__entrypoint*
+
+
+inputT**
+(
+ct"System.Threading.CancellationTokenØ
+Õ
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs+1 +(9
+%6"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.FromBodyAttribute.FromBodyAttribute()*
+
+
+inputTØ
+Õ
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs*	 *(
+%7"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+
+inputTž
+›
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs+0 +(B
+
+inputT"__annotation*
+
+%6*
+
+%7ö
+ó
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs*	 *(
+%8"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()**
+(
+ct"System.Threading.CancellationToken´
+±
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs+D +(b(
+ct"System.Threading.CancellationToken"__annotation*
+
+%8*
+0:
+
+inputT:(
+ct"System.Threading.CancellationTokenB20
+.DotNetCoreSample.API.Controllers.Controller<T>

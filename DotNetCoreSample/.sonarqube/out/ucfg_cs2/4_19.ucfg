@@ -1,25 +1,21 @@
 
-∑DotNetCoreSample.API.Configurations.ConfigureAppSettings.AddAppSettings(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs) (7"0*Ú
-0†
-ù
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs
- 
-(aA
-%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"µMicrosoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<TOptions>)*O"M
-KMicrosoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-"""…
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs (I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ô
-1"ì
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs (	
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection:B
-configuration1Microsoft.Extensions.Configuration.IConfigurationB<":
-8DotNetCoreSample.API.Configurations.ConfigureAppSettings
+íDotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions.ConfigureCustomExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)Å
+w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs (="0*‹
+0—
+Œ
+Å
+w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs	 	(46
+%00Microsoft.AspNetCore.Builder.IApplicationBuilder"íMicrosoft.AspNetCore.Builder.UseMiddlewareExtensions.UseMiddleware<TMiddleware>(Microsoft.AspNetCore.Builder.IApplicationBuilder, params object[])*8"6
+4Microsoft.AspNetCore.Builder.UseMiddlewareExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+""*
+1*ü
+1"ô
+Å
+w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs
+ 
+(	
+implicit return:7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderBA"?
+=DotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions

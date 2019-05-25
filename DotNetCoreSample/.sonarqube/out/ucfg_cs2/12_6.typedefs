@@ -1,9 +1,7 @@
-ü
-,DotNetCoreSample.API.Extensions.ErrorDetailsobjectE
-
-ToString()7DotNetCoreSample.API.Extensions.ErrorDetails.ToString()M
-ErrorDetails();DotNetCoreSample.API.Extensions.ErrorDetails.ErrorDetails()M
-StatusCode.get;DotNetCoreSample.API.Extensions.ErrorDetails.StatusCode.getM
-StatusCode.set;DotNetCoreSample.API.Extensions.ErrorDetails.StatusCode.setG
-Message.get8DotNetCoreSample.API.Extensions.ErrorDetails.Message.getG
-Message.set8DotNetCoreSample.API.Extensions.ErrorDetails.Message.set
+‡
+DotNetCoreSample.API.Startupobject•
+:Startup(Microsoft.Extensions.Configuration.IConfiguration)WDotNetCoreSample.API.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)½
+NConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)kDotNetCoreSample.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)ü
+mConfigure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IHostingEnvironment)ŠDotNetCoreSample.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IHostingEnvironment)C
+Configuration.get.DotNetCoreSample.API.Startup.Configuration.getC
+Configuration.set.DotNetCoreSample.API.Startup.Configuration.set

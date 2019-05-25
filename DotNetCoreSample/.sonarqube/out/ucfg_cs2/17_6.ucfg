@@ -1,27 +1,52 @@
 
-iDotNetCoreSample.Repository.Implementations.Repository<T>.GetAllAsync(System.Threading.CancellationToken)z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs@# @(."0*è
-0≥
-∞
+lDotNetCoreSample.Repository.Implementations.Repository<T>.UpdateAsync(T, System.Threading.CancellationToken)z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs*  *(+"0*Ø
+0∏
+µ
 z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.csB B( 2
-%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*x*v;
-9DotNetCoreSample.Repository.Implementations.Repository<T>"7
-_entity,Microsoft.EntityFrameworkCore.DbSet<TEntity>Ã
-…
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs, ,(4
+%0.DotNetCoreSample.DomainModel.InMemoryDbContext"__id*{*y;
+9DotNetCoreSample.Repository.Implementations.Repository<T>":
+_context.DotNetCoreSample.DomainModel.InMemoryDbContext‰·
 z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.csB B(.*
-%1$System.Threading.Tasks.Task<TResult>"öMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync<TSource>(System.Linq.IQueryable<TSource>, System.Threading.CancellationToken)*D"B
-@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*4
-2
-%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
-"""Ñ
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs, ,(G
+%1AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"?Microsoft.EntityFrameworkCore.DbContext.Entry<TEntity>(TEntity)*6
+4
+%0.DotNetCoreSample.DomainModel.InMemoryDbContext*
+
+tT2Entry<TEntity>(TEntity)ì
+ê
 z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.csB B(/
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs,& ,(:
+%2"__id*
+""≠™
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs, ,(:
+
+%3void"BMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State.set*I
+G
+%1AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>*
+
+%22	State.set∏
+µ
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs- -(4
+%4.DotNetCoreSample.DomainModel.InMemoryDbContext"__id*{*y;
+9DotNetCoreSample.Repository.Implementations.Repository<T>":
+_context.DotNetCoreSample.DomainModel.InMemoryDbContextˇ¸
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs- -(-*
+%5$System.Threading.Tasks.Task<TResult>"\Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(System.Threading.CancellationToken)*6
+4
+%4.DotNetCoreSample.DomainModel.InMemoryDbContext*
+""24SaveChangesAsync(System.Threading.CancellationToken)"Ñ
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs/ /(
 ""*ó
 1"ë
 z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.csC C(	
-implicit return:(
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs0 0(	
+implicit return:
+tT:(
 ct"System.Threading.CancellationTokenB=;
 9DotNetCoreSample.Repository.Implementations.Repository<T>

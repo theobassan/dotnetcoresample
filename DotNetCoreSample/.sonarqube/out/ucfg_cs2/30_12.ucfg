@@ -1,70 +1,0 @@
-
-¾DotNetCoreSample.API.Configurations.ConfigureConnections.AddConnectionProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs
-) 
-(>"0*‡
-0©
-¦
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs  (U
-%3string"‰Microsoft.Extensions.Configuration.ConfigurationExtensions.GetConnectionString(Microsoft.Extensions.Configuration.IConfiguration, string)*>"<
-:Microsoft.Extensions.Configuration.ConfigurationExtensions*D
-B
-configuration1Microsoft.Extensions.Configuration.IConfiguration*
-""¥
-¢
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs  (U
-%1string"__id*
-
-%3string¥
-¢
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs  (U
-%0string"__id*
-
-%1string*
-1
-2*Ð
-1
-š
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.csY (k
-%2string"__id*
-""¥
-¢
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.csY (k
-%0string"__id*
-
-%2string*
-2*æ
-2­
-ª
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (k
-
-connectionstring"__id*
-
-%0stringä
-á
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (oA
-%4;Microsoft.Extensions.DependencyInjection.IServiceCollection"áMicrosoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext<TContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.EntityFrameworkCore.DbContextOptionsBuilder>, Microsoft.Extensions.DependencyInjection.ServiceLifetime, Microsoft.Extensions.DependencyInjection.ServiceLifetime)*W"U
-SMicrosoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-""*
-""*
-"""É
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*™
-3"“
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (	
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection:B
-configuration1Microsoft.Extensions.Configuration.IConfigurationB<":
-8DotNetCoreSample.API.Configurations.ConfigureConnections

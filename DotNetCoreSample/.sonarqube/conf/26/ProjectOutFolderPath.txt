@@ -1,1 +1,0 @@
-/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/.sonarqube/out/26

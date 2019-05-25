@@ -35,7 +35,7 @@ x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Busines
 Z `u {
 
 / :
-M O* ,ò
+M O* ,ò
 t/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Interfaces/IBusinessFacade.cs
 
  $F

@@ -272,18 +272,18 @@ repositoryi s
 defaultR Y
 )Y Z
 { 	
-return 
-await 
-base 
-. 
-GetAllAsync )
-() *
-ct* ,
-), -
-;- .
-} 	
-} 
-} ˜
+return 
+await 
+base 
+. 
+GetAllAsync )
+() *
+ct* ,
+), -
+;- .
+} 	
+} 
+} ˜
 t/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Interfaces/IBusinessFacade.cs
 	namespace 	
 DotNetCoreSample

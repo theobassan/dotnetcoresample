@@ -1,4 +1,7 @@
-Ë
-3DotNetCoreSample.API.Extensions.ExceptionMiddlewareobjectì
-™ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Extensions.ExceptionMiddleware>)ÍDotNetCoreSample.API.Extensions.ExceptionMiddleware.ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Extensions.ExceptionMiddleware>)œ
-2InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)fDotNetCoreSample.API.Extensions.ExceptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+‡
+DotNetCoreSample.API.Startupobject•
+:Startup(Microsoft.Extensions.Configuration.IConfiguration)WDotNetCoreSample.API.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)½
+NConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)kDotNetCoreSample.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)ü
+mConfigure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IHostingEnvironment)ŠDotNetCoreSample.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IHostingEnvironment)C
+Configuration.get.DotNetCoreSample.API.Startup.Configuration.getC
+Configuration.set.DotNetCoreSample.API.Startup.Configuration.set

@@ -1,28 +1,25 @@
 
-;DotNetCoreSample.MockData.ObjectExtensions.AsListTask<T>(T)n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs$ (."0*Ü
-0Á¾
+7DotNetCoreSample.MockData.ObjectExtensions.AsTask<T>(T)n
+d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
+ 
+($"0*“
+0ˆ
+…
 n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.csC (X(
-%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Ö
-Ó
-n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.csG (N
+d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
+9 
+(O*
+%0$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
+System.Threading.Tasks.Task*
 
-%1void")System.Collections.Generic.List<T>.List()**
-(
-%0"System.Collections.Generic.List<T>´
-±
-n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.csC (a*
-%2$System.Threading.Tasks.Task<TResult>"7DotNetCoreSample.MockData.ObjectExtensions.AsTask<T>(T)*.",
-*DotNetCoreSample.MockData.ObjectExtensions**
-(
-%0"System.Collections.Generic.List<T>*
+
+valueT*
 1*‹
 1"…
 n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.csa (b
+d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
+O 
+(P
 implicit return:
 
 valueTB.",

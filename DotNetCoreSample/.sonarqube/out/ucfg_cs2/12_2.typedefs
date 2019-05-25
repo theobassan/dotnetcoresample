@@ -1,3 +1,4 @@
-[
-DotNetCoreSample.API.Programobject3
-	Program()&DotNetCoreSample.API.Program.Program()
+®
+#DotNetCoreSample.API.CallerEnricherobject´
+FEnrich(Serilog.Events.LogEvent, Serilog.Core.ILogEventPropertyFactory)jDotNetCoreSample.API.CallerEnricher.Enrich(Serilog.Events.LogEvent, Serilog.Core.ILogEventPropertyFactory)H
+CallerEnricher()4DotNetCoreSample.API.CallerEnricher.CallerEnricher()

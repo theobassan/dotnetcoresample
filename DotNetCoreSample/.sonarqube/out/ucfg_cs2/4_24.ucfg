@@ -1,185 +1,70 @@
 
-jDotNetCoreSample.API.CallerEnricher.Enrich(Serilog.Events.LogEvent, Serilog.Core.ILogEventPropertyFactory)`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs ("0*‡
-0}
-{
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (
-skipint"__id*2*
-1*
-1*
-2
-3*ø
-2©¦
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (6#
-%0System.Diagnostics.StackFrame"System.Diagnostics.StackFrameä
-á
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs  (*
+¾DotNetCoreSample.API.Configurations.ConfigureConnections.AddConnectionProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs
+) 
+(>"0*‡
+0©
+¦
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs  (U
+%3string"‰Microsoft.Extensions.Configuration.ConfigurationExtensions.GetConnectionString(Microsoft.Extensions.Configuration.IConfiguration, string)*>"<
+:Microsoft.Extensions.Configuration.ConfigurationExtensions*D
+B
+configuration1Microsoft.Extensions.Configuration.IConfiguration*
+""¥
+¢
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs  (U
+%1string"__id*
+
+%3string¥
+¢
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs  (U
+%0string"__id*
+
+%1string*
+1
+2*Ð
+1
+š
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.csY (k
+%2string"__id*
+""¥
+¢
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.csY (k
+%0string"__id*
+
+%2string*
+2*æ
+2­
+ª
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (k
 
-%1void"3System.Diagnostics.StackFrame.StackFrame(int, bool)*%
-#
-%0System.Diagnostics.StackFrame*
-
-skipint*
-""º
-·
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (6&
-stackSystem.Diagnostics.StackFrame"__id*%
-#
-%0System.Diagnostics.StackFrameš
-—
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (&
-
-%2bool"PSystem.Diagnostics.StackFrameExtensions.HasMethod(System.Diagnostics.StackFrame)*+")
-'System.Diagnostics.StackFrameExtensions*(
-&
-stackSystem.Diagnostics.StackFrame*
-4
-5*o
-4"j
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (
-""*ã
-5ëè
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (."
-%3System.Reflection.MethodBase")System.Diagnostics.StackFrame.GetMethod()*(
-&
-stackSystem.Diagnostics.StackFrame2GetMethod()¹
-¶
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (.&
-methodSystem.Reflection.MethodBase"__id*$
-"
-%3System.Reflection.MethodBaseÒ
-Ï
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs ((
-%4System.Type".System.Reflection.MemberInfo.DeclaringType.get*(
-&
-methodSystem.Reflection.MethodBase¶
-³
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (1 
-%5System.Reflection.Assembly"System.Type.Assembly.get*
-
-%4System.Type
-š
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (I
-
-%6bool"^System.Reflection.Assembly.operator !=(System.Reflection.Assembly, System.Reflection.Assembly)*"
-System.Reflection.Assembly*"
- 
-%5System.Reflection.Assembly*
-""*
-6
-7*º
-6Ò
-Ï
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.csM (a
-%7System.Type".System.Reflection.MemberInfo.DeclaringType.get*(
-&
-methodSystem.Reflection.MethodBase¶
-³
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.csM (j 
-%8System.Reflection.Assembly"System.Type.Assembly.get*
-
-%7System.Typež
-›
-a
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.csM (¯
-
-%9bool"^System.Reflection.Assembly.operator !=(System.Reflection.Assembly, System.Reflection.Assembly)*"
-System.Reflection.Assembly*"
- 
-%8System.Reflection.Assembly*
-""*
-8
-7*Ä
-8Õ
-Ò
-b
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs³ (Ç
-%10System.Type".System.Reflection.MemberInfo.DeclaringType.get*(
-&
-methodSystem.Reflection.MethodBaseº
-·
-b
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs³ (Ð!
-%11System.Reflection.Assembly"System.Type.Assembly.get*
-
-%10System.Type¡
-ž
-b
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs³ (
-%12bool"^System.Reflection.Assembly.operator !=(System.Reflection.Assembly, System.Reflection.Assembly)*"
-System.Reflection.Assembly*#
-!
-%11System.Reflection.Assembly*
-""*
-9
-7*Ù
-9ãà
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs$ (=
-
-%13int"1System.Diagnostics.StackFrame.GetFileLineNumber()*(
-&
-stackSystem.Diagnostics.StackFrame2GetFileLineNumber()‹
-ˆ
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (?
-callerstring"__id*
-
-
-%13int¤¡
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.csN (e!
-%14Serilog.Events.ScalarValue"Serilog.Events.ScalarValueÛ
-Ø
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.csR (]
-%15void".Serilog.Events.ScalarValue.ScalarValue(object)*#
-!
-%14Serilog.Events.ScalarValue*
-
-callerstring®«
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs1 (f&
-%16Serilog.Events.LogEventProperty"Serilog.Events.LogEventProperty©
-¦
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs5 (E
-%17void"^Serilog.Events.LogEventProperty.LogEventProperty(string, Serilog.Events.LogEventPropertyValue)*(
-&
-%16Serilog.Events.LogEventProperty*
-""*#
-!
-%14Serilog.Events.ScalarValue‘
-Ž
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (g
-%18void"LSerilog.Events.LogEvent.AddPropertyIfAbsent(Serilog.Events.LogEventProperty)*%
-#
-logEventSerilog.Events.LogEvent*(
-&
-%16Serilog.Events.LogEventProperty"j
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (
-""*
-7*
-1*|
-3"w
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs# #(	
-implicit return:#
-logEventSerilog.Events.LogEvent:8
-propertyFactory%Serilog.Core.ILogEventPropertyFactoryB'%
-#DotNetCoreSample.API.CallerEnricher
+connectionstring"__id*
+
+%0stringä
+á
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (oA
+%4;Microsoft.Extensions.DependencyInjection.IServiceCollection"áMicrosoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.AddDbContext<TContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.EntityFrameworkCore.DbContextOptionsBuilder>, Microsoft.Extensions.DependencyInjection.ServiceLifetime, Microsoft.Extensions.DependencyInjection.ServiceLifetime)*W"U
+SMicrosoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""*
+""*
+"""É
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*™
+3"“
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (	
+implicit return:G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection:B
+configuration1Microsoft.Extensions.Configuration.IConfigurationB<":
+8DotNetCoreSample.API.Configurations.ConfigureConnections

@@ -1,23 +1,0 @@
-
-BDotNetCoreSample.MockData.Implementations.UserRepository.Dispose()|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs ("0*¶
-0ª§
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (
-
-%0void"FDotNetCoreSample.MockData.Implementations.UserRepository.Dispose(bool)*<:
-8DotNetCoreSample.MockData.Implementations.UserRepository*
-""2Dispose(bool)þ
-û
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (%
-
-%1void""System.GC.SuppressFinalize(object)*"
-	System.GC*<:
-8DotNetCoreSample.MockData.Implementations.UserRepository*
-1*™
-1"“
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (	
-implicit returnB<:
-8DotNetCoreSample.MockData.Implementations.UserRepository

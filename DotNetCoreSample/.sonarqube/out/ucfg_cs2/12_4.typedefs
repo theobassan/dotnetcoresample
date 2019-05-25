@@ -1,3 +1,9 @@
-•
-/DotNetCoreSample.API.Controllers.UserController.DotNetCoreSample.API.Controllers.Controller<T>'Microsoft.AspNetCore.Mvc.ControllerBaseobject€
-¥UserController(DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.UserController>)ÕDotNetCoreSample.API.Controllers.UserController.UserController(DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.UserController>)
+ü
+,DotNetCoreSample.API.Extensions.ErrorDetailsobjectE
+
+ToString()7DotNetCoreSample.API.Extensions.ErrorDetails.ToString()M
+ErrorDetails();DotNetCoreSample.API.Extensions.ErrorDetails.ErrorDetails()M
+StatusCode.get;DotNetCoreSample.API.Extensions.ErrorDetails.StatusCode.getM
+StatusCode.set;DotNetCoreSample.API.Extensions.ErrorDetails.StatusCode.setG
+Message.get8DotNetCoreSample.API.Extensions.ErrorDetails.Message.getG
+Message.set8DotNetCoreSample.API.Extensions.ErrorDetails.Message.set

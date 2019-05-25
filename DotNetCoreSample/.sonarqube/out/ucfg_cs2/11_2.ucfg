@@ -1,26 +1,28 @@
 
-qDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetAllAsync(System.Threading.CancellationToken)Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs+ (6"0*¨
-0‹
-Ÿ
+DotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.BusinessFacade(DotNetCoreSample.Repository.Interfaces.IRepository<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>>)Ç
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs ("0*∏
+0„
+‡
 Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs ($;
-%05DotNetCoreSample.Repository.Interfaces.IRepository<T>"__id*é*ãC
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs ($ãC
 ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>"D
-_repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>∑¥
+_repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>"__id*E
+C
+
+repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>«
+ƒ
 Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (4*
-%1$System.Threading.Tasks.Task<TResult>"eDotNetCoreSample.Repository.Interfaces.IRepository<T>.GetAllAsync(System.Threading.CancellationToken)*=
-;
-%05DotNetCoreSample.Repository.Interfaces.IRepository<T>**
-(
-ct"System.Threading.CancellationToken2/GetAllAsync(System.Threading.CancellationToken)"ç
-Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (5
-""*†
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (vC
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>"/
+_logger$Microsoft.Extensions.Logging.ILogger"__id*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+1*†
 1"ö
 Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (	
-implicit return:(
-ct"System.Threading.CancellationTokenBEC
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (	
+implicit return:C
+
+repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>:=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>BEC
 ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>

@@ -1,26 +1,23 @@
 
-ÕDotNetCoreSample.API.Extensions.ExceptionMiddleware.ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Extensions.ExceptionMiddleware>)w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (""0*Ó
-0º
-π
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (w5
-3DotNetCoreSample.API.Extensions.ExceptionMiddleware">
-_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>§
-°
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (k5
-3DotNetCoreSample.API.Extensions.ExceptionMiddleware"2
-_next)Microsoft.AspNetCore.Http.RequestDelegate"__id*3
-1
-next)Microsoft.AspNetCore.Http.RequestDelegate*
-1*î
-1"é
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (	
-implicit return:1
-next)Microsoft.AspNetCore.Http.RequestDelegate:=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B75
-3DotNetCoreSample.API.Extensions.ExceptionMiddleware
+åDotNetCoreSample.API.Configurations.ServicesConfiguration.ConfigureRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs) (>"0*Û
+0†
+ù
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (OA
+%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"¨Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Type, System.Type)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""*
+""" 
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ö
+1"î
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (	
+implicit return:G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
+9DotNetCoreSample.API.Configurations.ServicesConfiguration

@@ -1,26 +1,21 @@
 
-ÕDotNetCoreSample.API.Extensions.ExceptionMiddleware.ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Extensions.ExceptionMiddleware>)w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (""0*Ó
-0º
-π
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (w5
-3DotNetCoreSample.API.Extensions.ExceptionMiddleware">
-_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>§
-°
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (k5
-3DotNetCoreSample.API.Extensions.ExceptionMiddleware"2
-_next)Microsoft.AspNetCore.Http.RequestDelegate"__id*3
-1
-next)Microsoft.AspNetCore.Http.RequestDelegate*
-1*î
-1"é
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (	
-implicit return:1
-next)Microsoft.AspNetCore.Http.RequestDelegate:=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B75
-3DotNetCoreSample.API.Extensions.ExceptionMiddleware
+íDotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions.ConfigureCustomExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)Å
+w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs (="0*‹
+0—
+Œ
+Å
+w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs	 	(46
+%00Microsoft.AspNetCore.Builder.IApplicationBuilder"íMicrosoft.AspNetCore.Builder.UseMiddlewareExtensions.UseMiddleware<TMiddleware>(Microsoft.AspNetCore.Builder.IApplicationBuilder, params object[])*8"6
+4Microsoft.AspNetCore.Builder.UseMiddlewareExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+""*
+1*ü
+1"ô
+Å
+w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs
+ 
+(	
+implicit return:7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderBA"?
+=DotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions
