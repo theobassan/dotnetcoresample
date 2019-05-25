@@ -1,29 +1,27 @@
 
-;DotNetCoreSample.MockData.ObjectExtensions.AsListTask<T>(T)n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs$ (."0*Ü
-0Á¾
-n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.csC (X(
-%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Ö
-Ó
-n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.csG (N
-
-%1void")System.Collections.Generic.List<T>.List()**
+xDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetByIdAsync(long, System.Threading.CancellationToken)‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs ()"0*·
+0Ü
+Ù
+‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs\ (g;
+%05DotNetCoreSample.Repository.Interfaces.IRepository<T>"__id*Ž*‹C
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>"D
+_repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>ÍÊ
+‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs\ (|*
+%1$System.Threading.Tasks.Task<TResult>"lDotNetCoreSample.Repository.Interfaces.IRepository<T>.GetByIdAsync(long, System.Threading.CancellationToken)*=
+;
+%05DotNetCoreSample.Repository.Interfaces.IRepository<T>*
+""**
 (
-%0"System.Collections.Generic.List<T>´
-±
-n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.csC (a*
-%2$System.Threading.Tasks.Task<TResult>"7DotNetCoreSample.MockData.ObjectExtensions.AsTask<T>(T)*.",
-*DotNetCoreSample.MockData.ObjectExtensions**
-(
-%0"System.Collections.Generic.List<T>*
-1*‹
-1"…
-n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.csa (b
+ct"System.Threading.CancellationToken26GetByIdAsync(long, System.Threading.CancellationToken)*
+1* 
+1"š
+‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs| (}
 implicit return:
 
-valueTB.",
-*DotNetCoreSample.MockData.ObjectExtensions
+idlong:(
+ct"System.Threading.CancellationTokenBEC
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>

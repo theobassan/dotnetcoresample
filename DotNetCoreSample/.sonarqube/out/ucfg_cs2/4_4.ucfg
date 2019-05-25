@@ -1,21 +1,61 @@
 
-íDotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions.ConfigureCustomExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)Å
-w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs (="0*‹
-0—
-Œ
-Å
-w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs	 	(46
-%00Microsoft.AspNetCore.Builder.IApplicationBuilder"íMicrosoft.AspNetCore.Builder.UseMiddlewareExtensions.UseMiddleware<TMiddleware>(Microsoft.AspNetCore.Builder.IApplicationBuilder, params object[])*8"6
-4Microsoft.AspNetCore.Builder.UseMiddlewareExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-""*
-1*ü
-1"ô
-Å
-w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs
- 
-(	
-implicit return:7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilderBA"?
-=DotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions
+VDotNetCoreSample.API.Controllers.Controller<T>.Get(System.Threading.CancellationToken)o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs1 (4"2*È
+
+0…
+∆
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs* (9C
+%0=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>"__id*á*Ñ0
+.DotNetCoreSample.API.Controllers.Controller<T>"P
+_businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>≥∞
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs* (I*
+%1$System.Threading.Tasks.Task<TResult>"mDotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>.GetAllAsync(System.Threading.CancellationToken)*E
+C
+%0=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>**
+(
+ct"System.Threading.CancellationToken2/GetAllAsync(System.Threading.CancellationToken)»≈
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (J+
+%2%Microsoft.AspNetCore.Mvc.ObjectResult"%Microsoft.AspNetCore.Mvc.ObjectResultÛ
+
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (#
+
+%3void":Microsoft.AspNetCore.Mvc.ObjectResult.ObjectResult(object)*-
++
+%2%Microsoft.AspNetCore.Mvc.ObjectResult*
+"""†
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (K-
++
+%2%Microsoft.AspNetCore.Mvc.ObjectResult*å
+1"Ü
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (	
+implicit return*Ì
+2¥
+±
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs1 (4
+%4"__entrypoint**
+(
+ct"System.Threading.CancellationTokenÙ
+Ò
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs	 (
+%5"
+__annotate*@>
+<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()**
+(
+ct"System.Threading.CancellationToken¥
+±
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs5 (S(
+ct"System.Threading.CancellationToken"__annotation*
+
+%5*
+0:(
+ct"System.Threading.CancellationTokenB20
+.DotNetCoreSample.API.Controllers.Controller<T>

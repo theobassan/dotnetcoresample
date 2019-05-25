@@ -1,125 +1,122 @@
 
-kDotNetCoreSample.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs (%"0*®6
-0Ê
-„
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs (%A
-%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"õMicrosoft.Extensions.DependencyInjection.MemoryCacheServiceCollectionExtensions.AddMemoryCache(Microsoft.Extensions.DependencyInjection.IServiceCollection)*S"Q
-OMicrosoft.Extensions.DependencyInjection.MemoryCacheServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection‡
-›
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs ()A
-%1;Microsoft.Extensions.DependencyInjection.IServiceCollection"öMicrosoft.Extensions.DependencyInjection.ResponseCachingServicesExtensions.AddResponseCaching(Microsoft.Extensions.DependencyInjection.IServiceCollection)*N"L
-JMicrosoft.Extensions.DependencyInjection.ResponseCachingServicesExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection«
-ƒ
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs (:
-%24Microsoft.Extensions.DependencyInjection.IMvcBuilder"ãMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions.AddMvc(Microsoft.Extensions.DependencyInjection.IServiceCollection)*K"I
-GMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectionx
-v
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs6 (V
+ÅDotNetCoreSample.API.Extensions.ExceptionMiddleware.HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext, System.Exception)w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs" "(0"0*§!
+0í
+è
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs$ $(,
+%0&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContext¯
+ı
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs$ $(=
+
+%1void"6Microsoft.AspNetCore.Http.HttpResponse.ContentType.set*.
+,
+%0&Microsoft.AspNetCore.Http.HttpResponse*
+""í
+è
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs% %(,
+%2&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextê
+ç
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs%/ %(Q
 %3"__id*
-""ı
-Ú
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs (W:
-%44Microsoft.Extensions.DependencyInjection.IMvcBuilder"¡Microsoft.Extensions.DependencyInjection.MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(Microsoft.Extensions.DependencyInjection.IMvcBuilder, Microsoft.AspNetCore.Mvc.CompatibilityVersion)*H"F
-DMicrosoft.Extensions.DependencyInjection.MvcCoreMvcBuilderExtensions*<
-:
-%24Microsoft.Extensions.DependencyInjection.IMvcBuilder*
+""ê
+ç
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs%* %(Q
+%4"__id*
 
-%3ﬁ
-€
-a
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs (ã:
-%54Microsoft.Extensions.DependencyInjection.IMvcBuilder"©Microsoft.Extensions.DependencyInjection.MvcCoreMvcBuilderExtensions.AddApplicationPart(Microsoft.Extensions.DependencyInjection.IMvcBuilder, System.Reflection.Assembly)*H"F
-DMicrosoft.Extensions.DependencyInjection.MvcCoreMvcBuilderExtensions*<
-:
-%44Microsoft.Extensions.DependencyInjection.IMvcBuilder*
-""⁄
-◊
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs (!A
-%6;Microsoft.Extensions.DependencyInjection.IServiceCollection"ìMicrosoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)*O"M
-KMicrosoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectionª
-∏
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs ((A
-%7;Microsoft.Extensions.DependencyInjection.IServiceCollection"åDotNetCoreSample.API.Configurations.ServicesConfiguration.ConfigureRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)*=";
-9DotNetCoreSample.API.Configurations.ServicesConfiguration*C
-A
-%6;Microsoft.Extensions.DependencyInjection.IServiceCollection∑
-¥
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs ($A
-%8;Microsoft.Extensions.DependencyInjection.IServiceCollection"àDotNetCoreSample.API.Configurations.ServicesConfiguration.ConfigureBusiness(Microsoft.Extensions.DependencyInjection.IServiceCollection)*=";
-9DotNetCoreSample.API.Configurations.ServicesConfiguration*C
-A
-%7;Microsoft.Extensions.DependencyInjection.IServiceCollection≥
-∞
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs  ( A
-%9;Microsoft.Extensions.DependencyInjection.IServiceCollection"ÑDotNetCoreSample.API.Configurations.ServicesConfiguration.AddMiddleware(Microsoft.Extensions.DependencyInjection.IServiceCollection)*=";
-9DotNetCoreSample.API.Configurations.ServicesConfiguration*C
-A
-%8;Microsoft.Extensions.DependencyInjection.IServiceCollectionª
-∏
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs !('B
-%10;Microsoft.Extensions.DependencyInjection.IServiceCollection"ãDotNetCoreSample.API.Configurations.ServicesConfiguration.AddCorsConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)*=";
-9DotNetCoreSample.API.Configurations.ServicesConfiguration*C
-A
-%9;Microsoft.Extensions.DependencyInjection.IServiceCollectionÒ
-Ó
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs"' "(48
-%111Microsoft.Extensions.Configuration.IConfiguration".DotNetCoreSample.API.Startup.Configuration.get* 
-DotNetCoreSample.API.Startup™
-ß
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs "(5B
-%12;Microsoft.Extensions.DependencyInjection.IServiceCollection"æDotNetCoreSample.API.Configurations.ConfigureConnections.AddConnectionProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)*<":
-8DotNetCoreSample.API.Configurations.ConfigureConnections*D
-B
-%10;Microsoft.Extensions.DependencyInjection.IServiceCollection*:
-8
-%111Microsoft.Extensions.Configuration.IConfigurationÒ
-Ó
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs#  #(-8
-%131Microsoft.Extensions.Configuration.IConfiguration".DotNetCoreSample.API.Startup.Configuration.get* 
-DotNetCoreSample.API.Startup£
-†
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs #(.B
-%14;Microsoft.Extensions.DependencyInjection.IServiceCollection"∑DotNetCoreSample.API.Configurations.ConfigureAppSettings.AddAppSettings(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)*<":
-8DotNetCoreSample.API.Configurations.ConfigureAppSettings*D
-B
-%12;Microsoft.Extensions.DependencyInjection.IServiceCollection*:
-8
-%131Microsoft.Extensions.Configuration.IConfiguration∞
-≠
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs% )(B
-%15;Microsoft.Extensions.DependencyInjection.IServiceCollection"›Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions>)*R"P
-NMicrosoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-""*
-1*|
-1"w
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs* *(	
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB 
-DotNetCoreSample.API.Startup
+%3˜
+Ù
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs% %(Q
+
+%5void"5Microsoft.AspNetCore.Http.HttpResponse.StatusCode.set*.
+,
+%2&Microsoft.AspNetCore.Http.HttpResponse*
+
+%4í
+è
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs' '(#,
+%6&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextﬁ€
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs'/ +(2
+%7,DotNetCoreSample.API.Extensions.ErrorDetails",DotNetCoreSample.API.Extensions.ErrorDetails˚
+¯
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs'3 '(?
+
+%8void";DotNetCoreSample.API.Extensions.ErrorDetails.ErrorDetails()*4
+2
+%7,DotNetCoreSample.API.Extensions.ErrorDetailsí
+è
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs) )(-,
+%9&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextÔ
+Ï
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs) )(8
+
+%10int"5Microsoft.AspNetCore.Http.HttpResponse.StatusCode.get*.
+,
+%9&Microsoft.AspNetCore.Http.HttpResponseä
+á
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs) )(8
+%11void";DotNetCoreSample.API.Extensions.ErrorDetails.StatusCode.set*4
+2
+%7,DotNetCoreSample.API.Extensions.ErrorDetails*
+
+
+%10int◊‘
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs* *(+
+%12string"System.Exception.Message.get*
+
+	exceptionSystem.Exception2Message.getä
+á
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs* *(+
+%13void"8DotNetCoreSample.API.Extensions.ErrorDetails.Message.set*4
+2
+%7,DotNetCoreSample.API.Extensions.ErrorDetails*
+
+%12stringÜÉ
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs'/ +(
+%14string"7DotNetCoreSample.API.Extensions.ErrorDetails.ToString()*4
+2
+%7,DotNetCoreSample.API.Extensions.ErrorDetails2
+ToString()ø
+º
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs' +("
+%15System.Threading.Tasks.Task"ñMicrosoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(Microsoft.AspNetCore.Http.HttpResponse, string, System.Threading.CancellationToken)*;"9
+7Microsoft.AspNetCore.Http.HttpResponseWritingExtensions*.
+,
+%6&Microsoft.AspNetCore.Http.HttpResponse*
+
+%14string*
+"""ü
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs' +($
+"
+%15System.Threading.Tasks.Task*î
+1"é
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs, ,(	
+implicit return:0
+context%Microsoft.AspNetCore.Http.HttpContext:
+	exceptionSystem.ExceptionB7"5
+3DotNetCoreSample.API.Extensions.ExceptionMiddleware

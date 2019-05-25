@@ -1,10 +1,10 @@
 
-åDotNetCoreSample.API.Configurations.ServicesConfiguration.ConfigureRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs) (>"0*Û
+àDotNetCoreSample.API.Configurations.ServicesConfiguration.ConfigureBusiness(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs) (:"0*Û
 0†
 ù
 }
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (OA
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (WA
 %0;Microsoft.Extensions.DependencyInjection.IServiceCollection"¨Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Type, System.Type)*O"M
 KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
 G
@@ -12,12 +12,12 @@ G
 ""*
 """ 
 }
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (I
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (I
 G
 services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ö
 1"î
 }
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (	
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (	
 implicit return:G
 services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
 9DotNetCoreSample.API.Configurations.ServicesConfiguration

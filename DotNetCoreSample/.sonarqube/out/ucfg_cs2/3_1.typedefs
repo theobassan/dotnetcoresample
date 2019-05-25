@@ -1,11 +1,9 @@
-§
+Õ
 
-8DotNetCoreSample.MockData.Implementations.UserRepositoryobjectO
-	Dispose()BDotNetCoreSample.MockData.Implementations.UserRepository.Dispose()W
-Dispose(bool)FDotNetCoreSample.MockData.Implementations.UserRepository.Dispose(bool)›
-/GetAllAsync(System.Threading.CancellationToken)hDotNetCoreSample.MockData.Implementations.UserRepository.GetAllAsync(System.Threading.CancellationToken)©
-6GetByIdAsync(long, System.Threading.CancellationToken)oDotNetCoreSample.MockData.Implementations.UserRepository.GetByIdAsync(long, System.Threading.CancellationToken)î
-XAddAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)‘DotNetCoreSample.MockData.Implementations.UserRepository.AddAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)ô
-[UpdateAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)”DotNetCoreSample.MockData.Implementations.UserRepository.UpdateAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)§
-5DeleteAsync(long, System.Threading.CancellationToken)nDotNetCoreSample.MockData.Implementations.UserRepository.DeleteAsync(long, System.Threading.CancellationToken)]
-UserRepository()IDotNetCoreSample.MockData.Implementations.UserRepository.UserRepository()
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>object¤
+®BusinessFacade(DotNetCoreSample.Repository.Interfaces.IRepository<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>>)ðDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.BusinessFacade(DotNetCoreSample.Repository.Interfaces.IRepository<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>>)¤
+/GetAllAsync(System.Threading.CancellationToken)qDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetAllAsync(System.Threading.CancellationToken)²
+6GetByIdAsync(long, System.Threading.CancellationToken)xDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetByIdAsync(long, System.Threading.CancellationToken)¤
+/AddAsync(T, System.Threading.CancellationToken)qDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.AddAsync(T, System.Threading.CancellationToken)ª
+2UpdateAsync(T, System.Threading.CancellationToken)tDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.UpdateAsync(T, System.Threading.CancellationToken)°
+5DeleteAsync(long, System.Threading.CancellationToken)wDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.DeleteAsync(long, System.Threading.CancellationToken)

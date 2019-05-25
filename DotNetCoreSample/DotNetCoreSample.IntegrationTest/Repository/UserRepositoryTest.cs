@@ -47,7 +47,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         {
             var user = new User
             {
-                Id = 2,
+                Id = 3,
                 Name = "Test",
                 Email = "test@test.com"
             };
@@ -55,7 +55,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
             await _repository.AddAsync(user);
             var users = await _repository.GetAllAsync();
 
-            Assert.Single(users);
+            Assert.NotEmpty(users);
         }
 
         [Fact]
@@ -63,14 +63,14 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         {
             var user = new User
             {
-                Id = 2,
+                Id = 4,
                 Name = "Test",
                 Email = "test@test.com"
             };
 
             await _repository.AddAsync(user);
 
-            var id = 2;
+            var id = 4;
             var userGetById = await _repository.GetByIdAsync(id);
 
             Assert.Equal(id, userGetById.Id);
@@ -81,7 +81,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         {
             var user = new User
             {
-                Id = 2,
+                Id = 5,
                 Name = "Test",
                 Email = "test@test.com"
             };
@@ -94,7 +94,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
 
             Assert.True(updated);
 
-            var id = 2;
+            var id = 5;
             var userUpdated = await _repository.GetByIdAsync(id);
 
             Assert.Equal(userUpdated.Name, userAdded.Name);
@@ -105,14 +105,14 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         {
             var user = new User
             {
-                Id = 2,
+                Id = 6,
                 Name = "Test",
                 Email = "test@test.com"
             };
 
             await _repository.AddAsync(user);
 
-            var id = 2;
+            var id = 6;
             var deleted = await _repository.DeleteAsync(id);
 
             Assert.True(deleted);
@@ -120,6 +120,26 @@ namespace DotNetCoreSample.IntegrationTest.Repository
             var userUpdated = await _repository.GetByIdAsync(id);
 
             Assert.Null(userUpdated);
+        }
+
+        [Fact]
+        public async Task DeleteAlreadyDeletedAsync()
+        {
+            var user = new User
+            {
+                Id = 7,
+                Name = "Test",
+                Email = "test@test.com"
+            };
+
+            await _repository.AddAsync(user);
+
+            var id = 7;
+            await _repository.DeleteAsync(id);
+
+            var deleted = await _repository.DeleteAsync(id);
+
+            Assert.False(deleted);
         }
     }
 }

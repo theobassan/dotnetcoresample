@@ -1,31 +1,29 @@
 
-+DotNetCoreSample.API.Program.Main(string[])`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs' '("0*”
-0å
-â
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs'2 '(L2
-%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder";DotNetCoreSample.API.Program.CreateWebHostBuilder(string[])* "
-DotNetCoreSample.API.Program*
-
-argsstring[]áÑ
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs'2 '(T+
-%1%Microsoft.AspNetCore.Hosting.IWebHost"4Microsoft.AspNetCore.Hosting.IWebHostBuilder.Build()*4
-2
-%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder2Build()Ø
-¨
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs'2 '(Z
-
-%2void"YMicrosoft.AspNetCore.Hosting.WebHostExtensions.Run(Microsoft.AspNetCore.Hosting.IWebHost)*2"0
-.Microsoft.AspNetCore.Hosting.WebHostExtensions*-
-+
-%1%Microsoft.AspNetCore.Hosting.IWebHost*
-1*|
-1"w
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs'Z '([
-implicit return:
-argsstring[]B "
-DotNetCoreSample.API.Program
+ÑDotNetCoreSample.API.Configurations.ServicesConfiguration.AddMiddleware(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs) (6"0*Ã	
+0‰
+·
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (:
+%04Microsoft.Extensions.DependencyInjection.IMvcBuilder"ãMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions.AddMvc(Microsoft.Extensions.DependencyInjection.IServiceCollection)*K"I
+GMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectioní
+è
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (:
+%14Microsoft.Extensions.DependencyInjection.IMvcBuilder"¡Microsoft.Extensions.DependencyInjection.MvcJsonMvcBuilderExtensions.AddJsonOptions(Microsoft.Extensions.DependencyInjection.IMvcBuilder, System.Action<Microsoft.AspNetCore.Mvc.MvcJsonOptions>)*H"F
+DMicrosoft.Extensions.DependencyInjection.MvcJsonMvcBuilderExtensions*<
+:
+%04Microsoft.Extensions.DependencyInjection.IMvcBuilder*
+""" 
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs! !(I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ö
+1"î
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs" "(	
+implicit return:G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
+9DotNetCoreSample.API.Configurations.ServicesConfiguration

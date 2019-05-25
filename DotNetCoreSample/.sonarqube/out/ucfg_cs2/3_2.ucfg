@@ -1,23 +1,28 @@
 
-BDotNetCoreSample.MockData.Implementations.UserRepository.Dispose()|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs ("0*¶
-0ª§
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (
+ðDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.BusinessFacade(DotNetCoreSample.Repository.Interfaces.IRepository<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>>)‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs ("0*¸
+0ã
+à
+‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs ($‹C
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>"D
+_repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>"__id*E
+C
 
-%0void"FDotNetCoreSample.MockData.Implementations.UserRepository.Dispose(bool)*<:
-8DotNetCoreSample.MockData.Implementations.UserRepository*
-""2Dispose(bool)þ
-û
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (%
+repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>Ç
+Ä
+‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (vC
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>"/
+_logger$Microsoft.Extensions.Logging.ILogger"__id*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+1* 
+1"š
+‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (	
+implicit return:C
 
-%1void""System.GC.SuppressFinalize(object)*"
-	System.GC*<:
-8DotNetCoreSample.MockData.Implementations.UserRepository*
-1*™
-1"“
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (	
-implicit returnB<:
-8DotNetCoreSample.MockData.Implementations.UserRepository
+repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>:=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>BEC
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>

@@ -1,4 +1,4 @@
-®
-#DotNetCoreSample.API.CallerEnricherobject´
-FEnrich(Serilog.Events.LogEvent, Serilog.Core.ILogEventPropertyFactory)jDotNetCoreSample.API.CallerEnricher.Enrich(Serilog.Events.LogEvent, Serilog.Core.ILogEventPropertyFactory)H
-CallerEnricher()4DotNetCoreSample.API.CallerEnricher.CallerEnricher()
+Ë
+3DotNetCoreSample.API.Extensions.ExceptionMiddlewareobjectì
+™ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Extensions.ExceptionMiddleware>)ÍDotNetCoreSample.API.Extensions.ExceptionMiddleware.ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Extensions.ExceptionMiddleware>)œ
+2InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)fDotNetCoreSample.API.Extensions.ExceptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)

@@ -1,18 +1,27 @@
 
-îDotNetCoreSample.MockData.Implementations.UserRepository.UpdateAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs5 5(%"0*õ
-0ê
-ç
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs5Q 5(f*
-%0$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
-System.Threading.Tasks.Task*
-""*
-1*ô
-1"ì
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs5f 5(g
-implicit return:/
-t*DotNetCoreSample.DomainModel.Entities.User:(
-ct"System.Threading.CancellationTokenB<:
-8DotNetCoreSample.MockData.Implementations.UserRepository
+wDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.DeleteAsync(long, System.Threading.CancellationToken)Ç
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs!  !(+"0*µ
+0‹
+Ÿ
+Ç
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs!^ !(i;
+%05DotNetCoreSample.Repository.Interfaces.IRepository<T>"__id*é*ãC
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>"D
+_repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>À»
+Ç
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs!^ !(}*
+%1$System.Threading.Tasks.Task<TResult>"kDotNetCoreSample.Repository.Interfaces.IRepository<T>.DeleteAsync(long, System.Threading.CancellationToken)*=
+;
+%05DotNetCoreSample.Repository.Interfaces.IRepository<T>*
+""**
+(
+ct"System.Threading.CancellationToken25DeleteAsync(long, System.Threading.CancellationToken)*
+1*†
+1"ö
+Ç
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs!} !(~
+implicit return:
+
+idlong:(
+ct"System.Threading.CancellationTokenBEC
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>
