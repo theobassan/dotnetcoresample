@@ -1,5 +1,7 @@
-‰
-/DotNetCoreSample.DomainModel.Entities.BaseModelobjectJ
-BaseModel();DotNetCoreSample.DomainModel.Entities.BaseModel.BaseModel()@
-Id.get6DotNetCoreSample.DomainModel.Entities.BaseModel.Id.get@
-Id.set6DotNetCoreSample.DomainModel.Entities.BaseModel.Id.set
+ª
+*DotNetCoreSample.DomainModel.Entities.User/DotNetCoreSample.DomainModel.Entities.BaseModelobject;
+User()1DotNetCoreSample.DomainModel.Entities.User.User()?
+Name.get3DotNetCoreSample.DomainModel.Entities.User.Name.get?
+Name.set3DotNetCoreSample.DomainModel.Entities.User.Name.setA
+	Email.get4DotNetCoreSample.DomainModel.Entities.User.Email.getA
+	Email.set4DotNetCoreSample.DomainModel.Entities.User.Email.set

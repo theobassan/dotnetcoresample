@@ -1,26 +1,27 @@
 
-7DotNetCoreSample.MockData.ObjectExtensions.AsTask<T>(T)n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
- 
-($"0*“
-0ˆ
-…
-n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
-9 
-(O*
-%0$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
-System.Threading.Tasks.Task*
-
-
-valueT*
-1*‹
-1"…
-n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
-O 
-(P
+xDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetByIdAsync(long, System.Threading.CancellationToken)‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs ()"0*·
+0Ü
+Ù
+‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs\ (g;
+%05DotNetCoreSample.Repository.Interfaces.IRepository<T>"__id*Ž*‹C
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>"D
+_repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>ÍÊ
+‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs\ (|*
+%1$System.Threading.Tasks.Task<TResult>"lDotNetCoreSample.Repository.Interfaces.IRepository<T>.GetByIdAsync(long, System.Threading.CancellationToken)*=
+;
+%05DotNetCoreSample.Repository.Interfaces.IRepository<T>*
+""**
+(
+ct"System.Threading.CancellationToken26GetByIdAsync(long, System.Threading.CancellationToken)*
+1* 
+1"š
+‚
+x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs| (}
 implicit return:
 
-valueTB.",
-*DotNetCoreSample.MockData.ObjectExtensions
+idlong:(
+ct"System.Threading.CancellationTokenBEC
+ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>

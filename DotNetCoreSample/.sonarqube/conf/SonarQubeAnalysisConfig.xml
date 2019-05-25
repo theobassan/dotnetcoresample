@@ -144,6 +144,8 @@ Select your &lt;a href="https://about.sonarcloud.io"&gt;plan&lt;/a&gt; and start
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">https://sonarcloud.io</Property>
+    <Property Name="sonar.cs.opencover.reportsPaths">DotNetCoreSample.UnitTest\results\coverage.opencover.xml</Property>
+    <Property Name="sonar.coverage.exclusions">**Test*.cs</Property>
     <Property Name="sonar.organization">theobassan-github</Property>
   </LocalSettings>
   <AnalyzersSettings>

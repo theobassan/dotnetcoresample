@@ -1,19 +1,88 @@
 
-ãDotNetCoreSample.API.Configurations.ServicesConfiguration.AddCorsConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs$) $(="0*∆
-0ª
-∏
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs% -(A
-%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"“Microsoft.Extensions.DependencyInjection.CorsServiceCollectionExtensions.AddCors(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions>)*L"J
-HMicrosoft.Extensions.DependencyInjection.CorsServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-""*
-1*ö
-1"î
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs- -(
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
-9DotNetCoreSample.API.Configurations.ServicesConfiguration
+\DotNetCoreSample.API.Controllers.Controller<T>.Get(long, System.Threading.CancellationToken)o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs+ (."4*ı
+0…
+∆
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs! !()C
+%0=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>"__id*á*Ñ0
+.DotNetCoreSample.API.Controllers.Controller<T>"P
+_businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>…∆
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs! !(>*
+%1$System.Threading.Tasks.Task<TResult>"tDotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>.GetByIdAsync(long, System.Threading.CancellationToken)*E
+C
+%0=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>*
+""**
+(
+ct"System.Threading.CancellationToken26GetByIdAsync(long, System.Threading.CancellationToken)ä
+á
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs! !(>
+tT"__id*
+""¬
+ø
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs" "(
+
+%2bool""object.operator ==(object, object)*
+"
+object*
+
+tT*
+""*
+1
+2*ª
+1êç
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs$ $(!-
+%3'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"¢
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs$ $("/
+-
+%3'Microsoft.AspNetCore.Mvc.NotFoundResult*≈
+2öó
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs' '(-
+%4'Microsoft.AspNetCore.Mvc.OkObjectResult"2Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+tT2
+Ok(object)"¢
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs' '(/
+-
+%4'Microsoft.AspNetCore.Mvc.OkObjectResult*å
+3"Ü
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs( ((	
+implicit return*˚
+4º
+π
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs+ (.
+%5"__entrypoint*
+""**
+(
+ct"System.Threading.CancellationToken˙
+˜
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs	 (
+%6"
+__annotate*FD
+BMicrosoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string)**
+(
+ct"System.Threading.CancellationToken¥
+±
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs8 (V(
+ct"System.Threading.CancellationToken"__annotation*
+
+%6*
+0:
+
+idlong:(
+ct"System.Threading.CancellationTokenB20
+.DotNetCoreSample.API.Controllers.Controller<T>

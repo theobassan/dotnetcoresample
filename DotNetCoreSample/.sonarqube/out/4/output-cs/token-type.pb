@@ -81,7 +81,7 @@ m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Ext
 w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs
  
  	 
-   5   > BC V		 1ü
+   5   > BC V		 1î
 V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs
  
  
@@ -100,7 +100,7 @@ V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Pro
  ¥
 Ô Ú
 ø “ ! #> ?1 45 EF LN QR ] %% 
-%% %% %% '' '' '' ''  &''/ l,, ,, ,, %,,; A-- 11  11! /22 õ
+%% %% %% '' '' '' ''  &)) )) )) %)); A** ..  ..! /// õ
 V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs
  
  

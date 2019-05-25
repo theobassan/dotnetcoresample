@@ -32,7 +32,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         {
             var user = new User
             {
-                Id = 1,
+                Id = 2,
                 Name = "Test",
                 Email = "test@test.com"
             };
@@ -47,7 +47,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         {
             var user = new User
             {
-                Id = 1,
+                Id = 2,
                 Name = "Test",
                 Email = "test@test.com"
             };
@@ -63,14 +63,14 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         {
             var user = new User
             {
-                Id = 1,
+                Id = 2,
                 Name = "Test",
                 Email = "test@test.com"
             };
 
             await _repository.AddAsync(user);
 
-            var id = 1;
+            var id = 2;
             var userGetById = await _repository.GetByIdAsync(id);
 
             Assert.Equal(id, userGetById.Id);
@@ -81,7 +81,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         {
             var user = new User
             {
-                Id = 1,
+                Id = 2,
                 Name = "Test",
                 Email = "test@test.com"
             };
@@ -94,7 +94,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
 
             Assert.True(updated);
 
-            var id = 1;
+            var id = 2;
             var userUpdated = await _repository.GetByIdAsync(id);
 
             Assert.Equal(userUpdated.Name, userAdded.Name);
@@ -105,14 +105,14 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         {
             var user = new User
             {
-                Id = 1,
+                Id = 2,
                 Name = "Test",
                 Email = "test@test.com"
             };
 
             await _repository.AddAsync(user);
 
-            var id = 1;
+            var id = 2;
             var deleted = await _repository.DeleteAsync(id);
 
             Assert.True(deleted);

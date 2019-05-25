@@ -1,9 +1,0 @@
-ü
-,DotNetCoreSample.API.Extensions.ErrorDetailsobjectE
-
-ToString()7DotNetCoreSample.API.Extensions.ErrorDetails.ToString()M
-ErrorDetails();DotNetCoreSample.API.Extensions.ErrorDetails.ErrorDetails()M
-StatusCode.get;DotNetCoreSample.API.Extensions.ErrorDetails.StatusCode.getM
-StatusCode.set;DotNetCoreSample.API.Extensions.ErrorDetails.StatusCode.setG
-Message.get8DotNetCoreSample.API.Extensions.ErrorDetails.Message.getG
-Message.set8DotNetCoreSample.API.Extensions.ErrorDetails.Message.set

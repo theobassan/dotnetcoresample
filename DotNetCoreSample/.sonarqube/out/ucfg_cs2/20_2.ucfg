@@ -1,19 +1,0 @@
-
-WDotNetCoreSample.API.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs ("0*”
-0‰
-†
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs ()
-
-%0void".DotNetCoreSample.API.Startup.Configuration.set* 
-DotNetCoreSample.API.Startup*D
-B
-configuration1Microsoft.Extensions.Configuration.IConfiguration*
-1*|
-1"w
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs (	
-implicit return:B
-configuration1Microsoft.Extensions.Configuration.IConfigurationB 
-DotNetCoreSample.API.Startup

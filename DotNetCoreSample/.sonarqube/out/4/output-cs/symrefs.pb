@@ -116,7 +116,7 @@ V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Pro
 
 
 
- 11! /
+ ..! /
 
  
 $ , 
@@ -131,11 +131,11 @@ V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Pro
 %% 
 
 '' 
-'') -))  $
-,,& :)) 
-,,D H--) -
-.. '//( 6
-..) <..A Tš
+'') -''G K
+))& :''2 F
+))D H**) -
+++ ',,( 6
+++) <++A Tš
 V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs
 
  

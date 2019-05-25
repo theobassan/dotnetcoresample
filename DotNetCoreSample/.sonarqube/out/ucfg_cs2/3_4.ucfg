@@ -1,26 +1,22 @@
 
-qDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetAllAsync(System.Threading.CancellationToken)Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs+ (6"0*¨
-0‹
-Ÿ
-Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs ($;
-%05DotNetCoreSample.Repository.Interfaces.IRepository<T>"__id*é*ãC
-ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>"D
-_repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>∑¥
-Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (4*
-%1$System.Threading.Tasks.Task<TResult>"eDotNetCoreSample.Repository.Interfaces.IRepository<T>.GetAllAsync(System.Threading.CancellationToken)*=
-;
-%05DotNetCoreSample.Repository.Interfaces.IRepository<T>**
-(
-ct"System.Threading.CancellationToken2/GetAllAsync(System.Threading.CancellationToken)"ç
-Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (5
-""*†
-1"ö
-Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (	
-implicit return:(
-ct"System.Threading.CancellationTokenBEC
-ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>
+ëDotNetCoreSample.MockData.Implementations.UserRepository.AddAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs0 0(""0*˛
+0…
+∆
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs2 2(*
+%0$System.Threading.Tasks.Task<TResult>"7DotNetCoreSample.MockData.ObjectExtensions.AsTask<T>(T)*.",
+*DotNetCoreSample.MockData.ObjectExtensions*1
+/
+t*DotNetCoreSample.DomainModel.Entities.User"¨
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs2 2(,
+*
+%0$System.Threading.Tasks.Task<TResult>*ô
+1"ì
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs3 3(	
+implicit return:/
+t*DotNetCoreSample.DomainModel.Entities.User:(
+ct"System.Threading.CancellationTokenB<:
+8DotNetCoreSample.MockData.Implementations.UserRepository

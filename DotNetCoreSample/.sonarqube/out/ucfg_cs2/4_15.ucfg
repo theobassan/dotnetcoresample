@@ -1,78 +1,105 @@
 
-äDotNetCoreSample.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IHostingEnvironment)`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs- -("0*Ù
-0Ê
-„
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs/ /(#
+dDotNetCoreSample.API.Controllers.Controller<T>.DeleteAsync(long, System.Threading.CancellationToken)o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csA( A(3"6*Ê
+0…
+∆
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csC C(%C
+%0=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>"__id*á*Ñ0
+.DotNetCoreSample.API.Controllers.Controller<T>"P
+_businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>…∆
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csC C(:*
+%1$System.Threading.Tasks.Task<TResult>"tDotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>.GetByIdAsync(long, System.Threading.CancellationToken)*E
+C
+%0=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>*
+""**
+(
+ct"System.Threading.CancellationToken26GetByIdAsync(long, System.Threading.CancellationToken)¿
+Ω
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csC C(B
 
-%0bool"yMicrosoft.AspNetCore.Hosting.HostingEnvironmentExtensions.IsDevelopment(Microsoft.AspNetCore.Hosting.IHostingEnvironment)*=";
-9Microsoft.AspNetCore.Hosting.HostingEnvironmentExtensions*9
-7
-env0Microsoft.AspNetCore.Hosting.IHostingEnvironment*
+%2bool""object.operator ==(object, object)*
+"
+object*
+""*
+""*
 1
-2*≤
-1ß
-§
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs1 1(/6
-%10Microsoft.AspNetCore.Builder.IApplicationBuilder"âMicrosoft.AspNetCore.Builder.DeveloperExceptionPageExtensions.UseDeveloperExceptionPage(Microsoft.AspNetCore.Builder.IApplicationBuilder)*A"?
-=Microsoft.AspNetCore.Builder.DeveloperExceptionPageExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-2*Ï
-2î
-ë
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs4 4(#6
-%20Microsoft.AspNetCore.Builder.IApplicationBuilder"wMicrosoft.AspNetCore.Builder.CorsMiddlewareExtensions.UseCors(Microsoft.AspNetCore.Builder.IApplicationBuilder, string)*9"7
-5Microsoft.AspNetCore.Builder.CorsMiddlewareExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-""É
-Ä
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs5 5( 6
-%30Microsoft.AspNetCore.Builder.IApplicationBuilder"rMicrosoft.AspNetCore.Builder.StaticFileExtensions.UseStaticFiles(Microsoft.AspNetCore.Builder.IApplicationBuilder)*5"3
-1Microsoft.AspNetCore.Builder.StaticFileExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilderÑ
-Å
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs6 6(4
+2*ª
+1êç
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csE E(!-
+%3'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"¢
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csE E("/
+-
+%3'Microsoft.AspNetCore.Mvc.NotFoundResult*°
+2…
+∆
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csH H(%C
+%4=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>"__id*á*Ñ0
+.DotNetCoreSample.API.Controllers.Controller<T>"P
+_businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>«ƒ
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csH H(9*
+%5$System.Threading.Tasks.Task<TResult>"sDotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>.DeleteAsync(long, System.Threading.CancellationToken)*E
+C
+%4=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>*
+""**
+(
+ct"System.Threading.CancellationToken25DeleteAsync(long, System.Threading.CancellationToken)*
+3
+4*£
+3˛˚
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csJ J('
+%6!Microsoft.AspNetCore.Mvc.OkResult",Microsoft.AspNetCore.Mvc.ControllerBase.Ok()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Ok()"ú
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csJ J()
+'
+%6!Microsoft.AspNetCore.Mvc.OkResult*–
+4£†
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csM M("/
+%7)Microsoft.AspNetCore.Mvc.StatusCodeResult"7Microsoft.AspNetCore.Mvc.ControllerBase.StatusCode(int)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*2Ù2StatusCode(int)"§
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csM M(#1
+/
+%7)Microsoft.AspNetCore.Mvc.StatusCodeResult*å
+5"Ü
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csN N(	
+implicit return*Å
+6º
+π
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csA( A(3
+%8"__entrypoint*
+""**
+(
+ct"System.Threading.CancellationTokenÄ
+˝
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs@	 @(
+%9"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.HttpDeleteAttribute.HttpDeleteAttribute(string)**
+(
+ct"System.Threading.CancellationToken¥
+±
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.csA= A([(
+ct"System.Threading.CancellationToken"__annotation*
+
+%9*
+0:
 
-%4void"íDotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions.ConfigureCustomExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)*A"?
-=DotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilderë
-é
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs7 7(6
-%50Microsoft.AspNetCore.Builder.IApplicationBuilder"uMicrosoft.AspNetCore.Builder.MvcApplicationBuilderExtensions.UseMvc(Microsoft.AspNetCore.Builder.IApplicationBuilder)*@">
-<Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilderŒ
-À
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs8 8(6
-%60Microsoft.AspNetCore.Builder.IApplicationBuilder"∞Microsoft.AspNetCore.Builder.SwaggerBuilderExtensions.UseSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Swashbuckle.AspNetCore.Swagger.SwaggerOptions>)*9"7
-5Microsoft.AspNetCore.Builder.SwaggerBuilderExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-""ÿ
-’
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs9 9([6
-%70Microsoft.AspNetCore.Builder.IApplicationBuilder"∏Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions.UseSwaggerUI(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions>)*;"9
-7Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-""*
-3*|
-3"w
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs: :(	
-implicit return:7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder:7
-env0Microsoft.AspNetCore.Hosting.IHostingEnvironmentB 
-DotNetCoreSample.API.Startup
+idlong:(
+ct"System.Threading.CancellationTokenB20
+.DotNetCoreSample.API.Controllers.Controller<T>

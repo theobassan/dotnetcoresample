@@ -1,25 +1,34 @@
 
-∑DotNetCoreSample.API.Configurations.ConfigureAppSettings.AddAppSettings(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs) (7"0*Ú
-0†
-ù
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs
- 
-(aA
-%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"µMicrosoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<TOptions>)*O"M
-KMicrosoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-"""…
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs (I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ô
-1"ì
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs (	
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection:B
-configuration1Microsoft.Extensions.Configuration.IConfigurationB<":
-8DotNetCoreSample.API.Configurations.ConfigureAppSettings
+;DotNetCoreSample.API.Program.CreateWebHostBuilder(string[])`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs)& )(:"0*ˆ
+0å
+â
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs* *(.2
+%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder";Microsoft.AspNetCore.WebHost.CreateDefaultBuilder(string[])* "
+Microsoft.AspNetCore.WebHost*
+
+argsstring[]’
+“
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs* .(32
+%1,Microsoft.AspNetCore.Hosting.IWebHostBuilder"∆Serilog.SerilogWebHostBuilderExtensions.UseSerilog(Microsoft.AspNetCore.Hosting.IWebHostBuilder, System.Action<Microsoft.AspNetCore.Hosting.WebHostBuilderContext, Serilog.LoggerConfiguration>, bool)*+")
+'Serilog.SerilogWebHostBuilderExtensions*4
+2
+%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder*
+""*
+""Ñ
+Å
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs* /("2
+%2,Microsoft.AspNetCore.Hosting.IWebHostBuilder"xMicrosoft.AspNetCore.Hosting.WebHostBuilderExtensions.UseStartup<TStartup>(Microsoft.AspNetCore.Hosting.IWebHostBuilder)*9"7
+5Microsoft.AspNetCore.Hosting.WebHostBuilderExtensions*4
+2
+%1,Microsoft.AspNetCore.Hosting.IWebHostBuilder*
+1*|
+1"w
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs/" /(#
+implicit return:
+argsstring[]B "
+DotNetCoreSample.API.Program

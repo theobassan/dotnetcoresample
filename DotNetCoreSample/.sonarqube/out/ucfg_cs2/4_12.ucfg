@@ -1,31 +1,112 @@
 
-+DotNetCoreSample.API.Program.Main(string[])`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs' '("0*Ó
-0Œ
-‰
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs) )(%2
-%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder";DotNetCoreSample.API.Program.CreateWebHostBuilder(string[])* "
-DotNetCoreSample.API.Program*
-
-argsstring[]‡„
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs) )(-+
-%1%Microsoft.AspNetCore.Hosting.IWebHost"4Microsoft.AspNetCore.Hosting.IWebHostBuilder.Build()*4
-2
-%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder2Build()¯
-¬
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs) )(3
+ZDotNetCoreSample.API.Controllers.Controller<T>.Post(T, System.Threading.CancellationToken)o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs++ +(/"4*Ô
+0Æ
+Ã
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs- -(
 
-%2void"YMicrosoft.AspNetCore.Hosting.WebHostExtensions.Run(Microsoft.AspNetCore.Hosting.IWebHost)*2"0
-.Microsoft.AspNetCore.Hosting.WebHostExtensions*-
+%0bool""object.operator ==(object, object)*
+"
+object*
+
+
+inputT*
+""*
+1
+2*Ã
+1–“
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs. .(#/
+%1)Microsoft.AspNetCore.Mvc.BadRequestResult"4Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2BadRequest()"¤
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs. .($1
+/
+%1)Microsoft.AspNetCore.Mvc.BadRequestResult*ð	
+2É
+Æ
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs0) 0(8C
+%2=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>"__id*‡*„0
+.DotNetCoreSample.API.Controllers.Controller<T>"P
+_businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>Á¾
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs0) 0(L*
+%3$System.Threading.Tasks.Task<TResult>"mDotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>.AddAsync(T, System.Threading.CancellationToken)*E
+C
+%2=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>*
+
+
+inputT**
+(
+ct"System.Threading.CancellationToken2/AddAsync(T, System.Threading.CancellationToken)·´
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs0 0(M+
+%4%Microsoft.AspNetCore.Mvc.ObjectResult"?Microsoft.AspNetCore.Mvc.ControllerBase.StatusCode(int, object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*2É*
+""2StatusCode(int, object)" 
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs0 0(N-
 +
-%1%Microsoft.AspNetCore.Hosting.IWebHost*
-1*|
-1"w
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs* *(	
-implicit return:
-argsstring[]B "
-DotNetCoreSample.API.Program
+%4%Microsoft.AspNetCore.Mvc.ObjectResult*Œ
+3"†
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs1 1(	
+implicit return*Ô	
+4Â
+¿
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs++ +(/
+%5"__entrypoint*
+
+
+inputT**
+(
+ct"System.Threading.CancellationTokenØ
+Õ
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs+1 +(9
+%6"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.FromBodyAttribute.FromBodyAttribute()*
+
+
+inputTØ
+Õ
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs*	 *(
+%7"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+
+inputTž
+›
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs+0 +(B
+
+inputT"__annotation*
+
+%6*
+
+%7ö
+ó
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs*	 *(
+%8"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()**
+(
+ct"System.Threading.CancellationToken´
+±
+o
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs+D +(b(
+ct"System.Threading.CancellationToken"__annotation*
+
+%8*
+0:
+
+inputT:(
+ct"System.Threading.CancellationTokenB20
+.DotNetCoreSample.API.Controllers.Controller<T>

@@ -1,24 +1,23 @@
 
-÷DotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacade.UserBusinessFacade(DotNetCoreSample.Repository.Interfaces.IUserRepository, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacade>)†
-|/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/UserBusinessFacade.cs (!"0*æ
-0Û
-Ø
-†
-|/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/UserBusinessFacade.csb (|
+BDotNetCoreSample.MockData.Implementations.UserRepository.Dispose()|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs ("0*¶
+0ª§
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (
 
-%0void"ðDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.BusinessFacade(DotNetCoreSample.Repository.Interfaces.IRepository<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>>)*EC
-ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>*F
-D
+%0void"FDotNetCoreSample.MockData.Implementations.UserRepository.Dispose(bool)*<:
+8DotNetCoreSample.MockData.Implementations.UserRepository*
+""2Dispose(bool)þ
+û
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (%
 
-repository6DotNetCoreSample.Repository.Interfaces.IUserRepository*?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-1*¥
-1"Ÿ
-‡
-|/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/UserBusinessFacade.cs (€
-implicit return:D
-
-repository6DotNetCoreSample.Repository.Interfaces.IUserRepository:=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>BFD
-BDotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacade
+%1void""System.GC.SuppressFinalize(object)*"
+	System.GC*<:
+8DotNetCoreSample.MockData.Implementations.UserRepository*
+1*™
+1"“
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (	
+implicit returnB<:
+8DotNetCoreSample.MockData.Implementations.UserRepository
