@@ -1,3 +1,5 @@
+using DotNetCore.Base.DomainModel;
+
 namespace DotNetCoreSample.DomainModel.Entities
 {
     public class User : BaseModel

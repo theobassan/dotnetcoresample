@@ -27,6 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DotNetCore.Base\DotNetCore.Base.csproj" />
     <ProjectReference Include="..\DotNetCoreSample.DomainModel\DotNetCoreSample.DomainModel.csproj" />
     <ProjectReference Include="..\DotNetCoreSample.API\DotNetCoreSample.API.csproj" />
     <ProjectReference Include="..\DotNetCoreSample.BusinessFacade\DotNetCoreSample.BusinessFacade.csproj" />

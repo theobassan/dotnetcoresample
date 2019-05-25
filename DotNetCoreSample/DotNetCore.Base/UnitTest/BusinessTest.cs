@@ -1,13 +1,13 @@
 using System;
 using System.Threading.Tasks;
-using DotNetCoreSample.BusinessFacade.Implementations;
-using DotNetCoreSample.DomainModel.Entities;
-using DotNetCoreSample.MockData.Implementations;
+using DotNetCore.Base.BusinessFacade;
+using DotNetCore.Base.DomainModel;
+using DotNetCore.Base.MockData;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace DotNetCoreSample.UnitTest.Implementations
-{
+namespace DotNetCore.Base.UnitTest
+{ 
     public class BusinessFacadeTest<T> where T : BaseModel
     {
         private readonly BusinessFacade<T> _businessfacade;

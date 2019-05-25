@@ -2,6 +2,7 @@ using DotNetCoreSample.DomainModel;
 using DotNetCoreSample.DomainModel.Entities;
 using DotNetCoreSample.Repository.Interfaces;
 using Microsoft.Extensions.Logging;
+using DotNetCore.Base.Repository;
 
 namespace DotNetCoreSample.Repository.Implementations
 {

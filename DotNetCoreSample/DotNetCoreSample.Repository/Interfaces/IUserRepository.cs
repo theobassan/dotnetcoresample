@@ -1,4 +1,5 @@
 using DotNetCoreSample.DomainModel.Entities;
+using DotNetCore.Base.Repository;
 
 namespace DotNetCoreSample.Repository.Interfaces
 {

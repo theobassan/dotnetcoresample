@@ -1,39 +1,0 @@
-
-lDotNetCoreSample.Repository.Implementations.Repository<T>.DeleteAsync(T, System.Threading.CancellationToken)z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs2  2(+"0*×
-0³
-°
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs4 4(2
-%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*x*v;
-9DotNetCoreSample.Repository.Implementations.Repository<T>"7
-_entity,Microsoft.EntityFrameworkCore.DbSet<TEntity>×Ô
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs4 4(G
-%1AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"<Microsoft.EntityFrameworkCore.DbSet<TEntity>.Remove(TEntity)*4
-2
-%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
-
-tT2Remove(TEntity)¸
-µ
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs5 5(4
-%2.DotNetCoreSample.DomainModel.InMemoryDbContext"__id*{*y;
-9DotNetCoreSample.Repository.Implementations.Repository<T>":
-_context.DotNetCoreSample.DomainModel.InMemoryDbContextÿü
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs5 5(-*
-%3$System.Threading.Tasks.Task<TResult>"\Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(System.Threading.CancellationToken)*6
-4
-%2.DotNetCoreSample.DomainModel.InMemoryDbContext*
-""24SaveChangesAsync(System.Threading.CancellationToken)"„
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs7 7(
-""*—
-1"‘
-z
-p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs8 8(	
-implicit return:
-tT:(
-ct"System.Threading.CancellationTokenB=;
-9DotNetCoreSample.Repository.Implementations.Repository<T>

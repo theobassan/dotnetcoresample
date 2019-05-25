@@ -1,4 +1,4 @@
-namespace DotNetCore.DomainModel
+namespace DotNetCore.Base.DomainModel
 {
     public class BaseModel
     {

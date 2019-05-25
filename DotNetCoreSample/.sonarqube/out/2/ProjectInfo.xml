@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>DotNetCoreSample.MockData</ProjectName>
+  <ProjectName>DotNetCoreSample.Repository</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>e960bb5f-bf9c-4da6-8f36-2c89940d0fad</ProjectGuid>
-  <FullPath>/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/DotNetCoreSample.MockData.csproj</FullPath>
+  <ProjectGuid>80a8174d-ce67-4631-b1ce-d7754ba41e1d</ProjectGuid>
+  <FullPath>/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/DotNetCoreSample.Repository.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/.sonarqube/out/2/FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePath">/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/bin/Debug/netcoreapp2.2/DotNetCoreSample.MockData.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePath">/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/bin/Debug/netcoreapp2.2/DotNetCoreSample.Repository.dll.RoslynCA.json</Property>
     <Property Name="sonar.cs.analyzer.projectOutPath">/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/.sonarqube/out/2</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>

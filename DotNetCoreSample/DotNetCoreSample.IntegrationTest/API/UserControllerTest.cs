@@ -12,7 +12,6 @@ namespace DotNetCoreSample.IntegrationTest.API
 {
     public class UserControllerTest
     {
-
         private readonly HttpClient _client;
 
         public UserControllerTest()

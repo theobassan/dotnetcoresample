@@ -12,7 +12,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
     public class UserRepositoryTest : IDisposable
     {
         private readonly InMemoryDbContext _context;
-        private readonly UserRepository _repository;
+        private readonly UserRepository _repository; 
 
         public UserRepositoryTest()
         {

@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DotNetCore.Base\DotNetCore.Base.csproj" />
     <ProjectReference Include="..\DotNetCoreSample.DomainModel\DotNetCoreSample.DomainModel.csproj" />
     <ProjectReference Include="..\DotNetCoreSample.Repository\DotNetCoreSample.Repository.csproj" />
   </ItemGroup>
