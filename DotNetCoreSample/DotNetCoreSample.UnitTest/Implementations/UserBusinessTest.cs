@@ -78,9 +78,9 @@ namespace DotNetCoreSample.UnitTest.Implementations
                 Email = "test@test.com"
             };
 
-            var updated = await _businessfacade.UpdateAsync(user);
+            var userUpdated = await _businessfacade.UpdateAsync(user);
 
-            Assert.True(updated);
+            Assert.Equal(user.Id, userUpdated.Id);
         }
 
         [Fact]

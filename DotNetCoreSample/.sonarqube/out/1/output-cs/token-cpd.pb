@@ -1,4 +1,4 @@
-‹*
+…*
 p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs
 	namespace 	
 DotNetCoreSample
@@ -155,19 +155,19 @@ Repository= G
 public** 
 async** 
 Task** 
-<** 
-bool** 
->** 
-UpdateAsync**  +
-(**+ ,
-T**, -
-t**. /
-,**/ 0
-CancellationToken**1 B
-ct**C E
-=**F G
-default**H O
-)**O P
+<** 
+T** 
+>** 
+UpdateAsync** (
+(**( )
+T**) *
+t**+ ,
+,**, -
+CancellationToken**. ?
+ct**@ B
+=**C D
+default**E L
+)**L M
 {++ 	
 _context,, 
 .,, 
@@ -189,9 +189,9 @@ Repository= G
 (--+ ,
 )--, -
 ;--- .
-return// 
-true// 
-;// 
+return// 
+t// 
+;// 
 }00 	
 public22 
 async22 
@@ -390,7 +390,7 @@ Repository" ,
 
 s t
 } 
-} °
+} ­
 l/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Interfaces/IRepository.cs
 	namespace 	
 DotNetCoreSample
@@ -464,20 +464,20 @@ Interfaces& 0
 )< =
 ;= >
 Task 
-< 
-bool 
-> 
-UpdateAsync 
-( 
-T  
-t! "
-," #
-CancellationToken$ 5
-ct6 8
-=9 :
-default; B
-)B C
-;C D
+< 
+T 
+> 
+UpdateAsync 
+( 
+T 
+t 
+,  
+CancellationToken! 2
+ct3 5
+=6 7
+default8 ?
+)? @
+;@ A
 Task 
 < 
 bool 

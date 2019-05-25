@@ -3,5 +3,5 @@ projectKey=theobassan_dotnetcoresample
 serverUrl=https://sonarcloud.io
 serverVersion=7.8.0.25269
 dashboardUrl=https://sonarcloud.io/dashboard?id=theobassan_dotnetcoresample
-ceTaskId=AWrwRGC9Mzya1zTq_yqD
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWrwRGC9Mzya1zTq_yqD
+ceTaskId=AWrwaXX0rzkERloApavX
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWrwaXX0rzkERloApavX

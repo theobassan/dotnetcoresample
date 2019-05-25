@@ -1,4 +1,4 @@
-¼
+¹
 x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs
 	namespace		 	
 DotNetCoreSample		
@@ -155,30 +155,30 @@ repository $
 public 
 async 
 Task 
-< 
-bool 
-> 
-UpdateAsync  +
-(+ ,
-T, -
-t. /
-,/ 0
-CancellationToken1 B
-ctC E
-=F G
-defaultH O
-)O P
-=>Q S
-awaitT Y
-_repositoryZ e
-.e f
-UpdateAsyncf q
-(q r
-tr s
-,s t
-ctu w
-)w x
-;x y
+< 
+T 
+> 
+UpdateAsync (
+(( )
+T) *
+t+ ,
+,, -
+CancellationToken. ?
+ct@ B
+=C D
+defaultE L
+)L M
+=>N P
+awaitQ V
+_repositoryW b
+.b c
+UpdateAsyncc n
+(n o
+to p
+,p q
+ctr t
+)t u
+;u v
 public!! 
 async!! 
 Task!! 
@@ -283,7 +283,7 @@ repositoryi s
 ;- .
 } 	
 } 
-} ˜
+} •
 t/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Interfaces/IBusinessFacade.cs
 	namespace 	
 DotNetCoreSample
@@ -382,20 +382,20 @@ Interfaces* 4
 )< =
 ;= >
 Task 
-< 
-bool 
-> 
-UpdateAsync 
-( 
-T  
-t! "
-," #
-CancellationToken$ 5
-ct6 8
-=9 :
-default; B
-)B C
-;C D
+< 
+T 
+> 
+UpdateAsync 
+( 
+T 
+t 
+,  
+CancellationToken! 2
+ct3 5
+=6 7
+default8 ?
+)? @
+;@ A
 Task 
 < 
 bool 

@@ -24,7 +24,15 @@ namespace DotNetCoreSample.IntegrationTest.API
         }
 
         [Fact]
-        public async Task AddAsync()
+        public async Task AddAsync_BadRequest()
+        {
+            var response = await _client.PostAsync("/api/user/", new JsonContent(null));
+
+            Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        }
+        
+        [Fact]
+        public async Task AddAsync_Ok()
         {
             var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
             var response = await _client.PostAsync("/api/user/", new JsonContent(user));
@@ -33,9 +41,10 @@ namespace DotNetCoreSample.IntegrationTest.API
             Assert.Equal(HttpStatusCode.Created, response.StatusCode);
         }
 
+
         [Theory]
         [InlineData("GET")]
-        public async Task GetAllAsync(string method)
+        public async Task GetAllAsync_Ok(string method)
         {
             var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
             var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user));
@@ -53,8 +62,18 @@ namespace DotNetCoreSample.IntegrationTest.API
         }
 
         [Theory]
+        [InlineData("GET", 1)]
+        public async Task GetByIdAsync_NotFound(string method, long? id = null)
+        {
+            var request = new HttpRequestMessage(new HttpMethod(method), $"/api/user/{id}");
+            var response = await _client.SendAsync(request);
+
+            Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
+        }
+
+        [Theory]
         [InlineData("GET")]
-        public async Task GetByIdAsync(string method)
+        public async Task GetByIdAsync_Ok(string method)
         {
             var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
             var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user));
@@ -71,18 +90,25 @@ namespace DotNetCoreSample.IntegrationTest.API
             Assert.Equal(user.Id, userResponse.Id);
         }
 
-        [Theory]
-        [InlineData("GET", 1)]
-        public async Task GetByIdNotFoundAsync(string method, long? id = null)
+        [Fact]
+        public async Task UpdateAsync_BadRequest()
         {
-            var request = new HttpRequestMessage(new HttpMethod(method), $"/api/user/{id}");
-            var response = await _client.SendAsync(request);
+            var response = await _client.PutAsync("/api/user/", new JsonContent(null));
+
+            Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        }
+
+        [Fact]
+        public async Task UpdateAsync_NotFound()
+        {
+            var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
+            var response = await _client.PutAsync("/api/user/", new JsonContent(user));
 
             Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
         }
 
         [Fact]
-        public async Task UpdateAsync()
+        public async Task UpdateAsync_Ok()
         {
             var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
             var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user));
@@ -104,7 +130,16 @@ namespace DotNetCoreSample.IntegrationTest.API
         }
 
         [Fact]
-        public async Task DeleteAsync()
+        public async Task DeleteAsync_NotFound()
+        {
+            var id = 1;
+            var response = await _client.DeleteAsync($"/api/user/{id}");
+
+            Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
+        }
+
+        [Fact]
+        public async Task DeleteAsync_Ok()
         {
             var user = new User { Id = 1, Name = "Test", Email = "test@test.com" };
             var responseAdd = await _client.PostAsync("/api/user/", new JsonContent(user));

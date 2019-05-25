@@ -1,19 +1,19 @@
 
-7DotNetCoreSample.API.Extensions.ErrorDetails.ToString()w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs4 4('"0*§
-0í
-è
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs6 6(4
-%0string"3Newtonsoft.Json.JsonConvert.SerializeObject(object)*"
-Newtonsoft.Json.JsonConvert*0.
-,DotNetCoreSample.API.Extensions.ErrorDetails"â
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs6 6(5
-
-%0string*î
-1"é
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs7 7(	
-implicit returnB0.
-,DotNetCoreSample.API.Extensions.ErrorDetails
+ãDotNetCoreSample.API.Configurations.ServicesConfiguration.AddCorsConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs$) $(="0*∆
+0ª
+∏
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs% -(A
+%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"“Microsoft.Extensions.DependencyInjection.CorsServiceCollectionExtensions.AddCors(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions>)*L"J
+HMicrosoft.Extensions.DependencyInjection.CorsServiceCollectionExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""*
+1*ö
+1"î
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs- -(
+implicit return:G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
+9DotNetCoreSample.API.Configurations.ServicesConfiguration

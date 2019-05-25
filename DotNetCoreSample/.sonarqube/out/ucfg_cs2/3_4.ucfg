@@ -1,26 +1,19 @@
 
-qDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetAllAsync(System.Threading.CancellationToken)Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs+ (6"0*¨
-0‹
-Ÿ
-Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs ($;
-%05DotNetCoreSample.Repository.Interfaces.IRepository<T>"__id*é*ãC
-ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>"D
-_repository5DotNetCoreSample.Repository.Interfaces.IRepository<T>∑¥
-Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (4*
-%1$System.Threading.Tasks.Task<TResult>"eDotNetCoreSample.Repository.Interfaces.IRepository<T>.GetAllAsync(System.Threading.CancellationToken)*=
-;
-%05DotNetCoreSample.Repository.Interfaces.IRepository<T>**
+rDotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacade.GetAllAsync(System.Threading.CancellationToken)Ü
+|/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/UserBusinessFacade.cs/ (:"0*Í
+0–Õ
+Ü
+|/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/UserBusinessFacade.cs (-*
+%0$System.Threading.Tasks.Task<TResult>"qDotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>.GetAllAsync(System.Threading.CancellationToken)*FD
+BDotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacade**
 (
-ct"System.Threading.CancellationToken2/GetAllAsync(System.Threading.CancellationToken)"ç
-Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (5
-""*†
-1"ö
-Ç
-x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs (	
+ct"System.Threading.CancellationToken2/GetAllAsync(System.Threading.CancellationToken)"ë
+Ü
+|/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/UserBusinessFacade.cs (.
+""*§
+1"û
+Ü
+|/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/UserBusinessFacade.cs (	
 implicit return:(
-ct"System.Threading.CancellationTokenBEC
-ADotNetCoreSample.BusinessFacade.Implementations.BusinessFacade<T>
+ct"System.Threading.CancellationTokenBFD
+BDotNetCoreSample.BusinessFacade.Implementations.UserBusinessFacade

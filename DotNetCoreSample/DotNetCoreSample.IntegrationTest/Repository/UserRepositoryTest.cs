@@ -90,9 +90,7 @@ namespace DotNetCoreSample.IntegrationTest.Repository
 
             userAdded.Name = "Test Update";
 
-            var updated = await _repository.UpdateAsync(user);
-
-            Assert.True(updated);
+            await _repository.UpdateAsync(user);
 
             var id = 5;
             var userUpdated = await _repository.GetByIdAsync(id);

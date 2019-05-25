@@ -39,12 +39,12 @@ namespace DotNetCoreSample.Repository.Implementations
             return t;
         }
 
-        public async Task<bool> UpdateAsync(T t, CancellationToken ct = default)
+        public async Task<T> UpdateAsync(T t, CancellationToken ct = default)
         {
             _context.Entry(t).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
-            return true;
+            return t;
         }
 
         public async Task<bool> DeleteAsync(long id, CancellationToken ct = default)

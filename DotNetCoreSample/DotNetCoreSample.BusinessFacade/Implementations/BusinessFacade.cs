@@ -28,7 +28,7 @@ namespace DotNetCoreSample.BusinessFacade.Implementations
 
         public async Task<T> AddAsync(T t, CancellationToken ct = default) => await _repository.AddAsync(t, ct);
 
-        public async Task<bool> UpdateAsync(T t, CancellationToken ct = default) => await _repository.UpdateAsync(t, ct);
+        public async Task<T> UpdateAsync(T t, CancellationToken ct = default) => await _repository.UpdateAsync(t, ct);
 
         public async Task<bool> DeleteAsync(long id, CancellationToken ct = default) => await _repository.DeleteAsync(id, ct);
     }

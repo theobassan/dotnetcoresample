@@ -32,49 +32,45 @@ namespace DotNetCoreSample.API.Controllers
         {
             var t = await _businessfacade.GetByIdAsync(id, ct);
             if (t == null)
-            {
                 return NotFound();
-            }
 
             return Ok(t);
         }
 
         [HttpPost]
-        public async Task<ActionResult<T>> Post([FromBody] T input, CancellationToken ct = default)
+        public async Task<ActionResult> Post([FromBody] T input, CancellationToken ct = default)
         {
             if (input == null)
                 return BadRequest();
 
-            return StatusCode(201, await _businessfacade.AddAsync(input, ct));
+
+            await _businessfacade.AddAsync(input, ct);
+
+            return StatusCode(201);
         }
 
         [HttpPut]
-        public async Task<ActionResult<T>> Put([FromBody] T input, CancellationToken ct = default)
+        public async Task<ActionResult> Put([FromBody] T input, CancellationToken ct = default)
         {
             if (input == null)
                 return BadRequest();
             if (await _businessfacade.GetByIdAsync(input.Id, ct) == null)
                 return NotFound();
-            if (await _businessfacade.UpdateAsync(input, ct))
-                return Ok(input);
+            
+            await _businessfacade.UpdateAsync(input, ct);
 
-            return StatusCode(500);
+            return Ok();
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteAsync(long id, CancellationToken ct = default)
         {
             if (await _businessfacade.GetByIdAsync(id, ct) == null)
-            {
                 return NotFound();
-            }
 
-            if (await _businessfacade.DeleteAsync(id, ct))
-            {
-                return Ok();
-            }
+            await _businessfacade.DeleteAsync(id, ct);
 
-            return StatusCode(500);
+            return Ok();
         }
     }
 }

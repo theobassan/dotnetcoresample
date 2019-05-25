@@ -1,4 +1,4 @@
-«
+’
 r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs
 	namespace 	
 DotNetCoreSample
@@ -168,7 +168,7 @@ AsListTask!! "
 public55 
 Task55 
 <55 
-bool55 
+User55 
 >55 
 UpdateAsync55 %
 (55% &
@@ -180,15 +180,13 @@ AsListTask!! "
 =55C D
 default55E L
 )55L M
-=>55N P
-Task55Q U
-.55U V
-
-FromResult55V `
-(55` a
-true55a e
-)55e f
-;55f g
+=>55N P
+t55Q R
+.55R S
+AsTask55S Y
+(55Y Z
+)55Z [
+;55[ \
 public77 
 Task77 
 <77 

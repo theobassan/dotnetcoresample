@@ -1,36 +1,23 @@
 
-ŒDotNetCoreSample.API.Controllers.Controller<T>.Controller(DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.Controller<T>>)o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs ("2*ë
-0‘
-—
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (,Ñ0
-.DotNetCoreSample.API.Controllers.Controller<T>"P
-_businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>"__id*Q
-O
-businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>Ø
-¨
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (r0
-.DotNetCoreSample.API.Controllers.Controller<T>">
-_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-1*å
-1"Ü
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (	
-implicit return*ß
-2ú
-ô
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (
-%0"__entrypoint*Q
-O
-businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>*?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-0:O
-businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>:=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B20
-.DotNetCoreSample.API.Controllers.Controller<T>
+àDotNetCoreSample.API.Configurations.ServicesConfiguration.ConfigureBusiness(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs) (:"0*Û
+0†
+ù
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (WA
+%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"¨Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Type, System.Type)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""*
+""" 
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ö
+1"î
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (	
+implicit return:G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
+9DotNetCoreSample.API.Configurations.ServicesConfiguration

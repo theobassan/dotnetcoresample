@@ -50,7 +50,7 @@ namespace DotNetCoreSample.MockData.Implementations
             return t.AsTask();
         }
 
-        public Task<bool> UpdateAsync(User t, CancellationToken ct = default) => Task.FromResult(true);
+        public Task<User> UpdateAsync(User t, CancellationToken ct = default) => t.AsTask();
 
         public Task<bool> DeleteAsync(long id, CancellationToken ct = default) => Task.FromResult(true);
     }
