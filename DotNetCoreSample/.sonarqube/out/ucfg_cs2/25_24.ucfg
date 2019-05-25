@@ -1,0 +1,122 @@
+
+ÅDotNetCoreSample.API.Extensions.ExceptionMiddleware.HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext, System.Exception)w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs" "(0"0*§!
+0í
+è
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs$ $(,
+%0&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContext¯
+ı
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs$ $(=
+
+%1void"6Microsoft.AspNetCore.Http.HttpResponse.ContentType.set*.
+,
+%0&Microsoft.AspNetCore.Http.HttpResponse*
+""í
+è
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs% %(,
+%2&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextê
+ç
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs%/ %(Q
+%3"__id*
+""ê
+ç
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs%* %(Q
+%4"__id*
+
+%3˜
+Ù
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs% %(Q
+
+%5void"5Microsoft.AspNetCore.Http.HttpResponse.StatusCode.set*.
+,
+%2&Microsoft.AspNetCore.Http.HttpResponse*
+
+%4í
+è
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs' '(#,
+%6&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextﬁ€
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs'/ +(2
+%7,DotNetCoreSample.API.Extensions.ErrorDetails",DotNetCoreSample.API.Extensions.ErrorDetails˚
+¯
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs'3 '(?
+
+%8void";DotNetCoreSample.API.Extensions.ErrorDetails.ErrorDetails()*4
+2
+%7,DotNetCoreSample.API.Extensions.ErrorDetailsí
+è
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs) )(-,
+%9&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextÔ
+Ï
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs) )(8
+
+%10int"5Microsoft.AspNetCore.Http.HttpResponse.StatusCode.get*.
+,
+%9&Microsoft.AspNetCore.Http.HttpResponseä
+á
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs) )(8
+%11void";DotNetCoreSample.API.Extensions.ErrorDetails.StatusCode.set*4
+2
+%7,DotNetCoreSample.API.Extensions.ErrorDetails*
+
+
+%10int◊‘
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs* *(+
+%12string"System.Exception.Message.get*
+
+	exceptionSystem.Exception2Message.getä
+á
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs* *(+
+%13void"8DotNetCoreSample.API.Extensions.ErrorDetails.Message.set*4
+2
+%7,DotNetCoreSample.API.Extensions.ErrorDetails*
+
+%12stringÜÉ
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs'/ +(
+%14string"7DotNetCoreSample.API.Extensions.ErrorDetails.ToString()*4
+2
+%7,DotNetCoreSample.API.Extensions.ErrorDetails2
+ToString()ø
+º
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs' +("
+%15System.Threading.Tasks.Task"ñMicrosoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(Microsoft.AspNetCore.Http.HttpResponse, string, System.Threading.CancellationToken)*;"9
+7Microsoft.AspNetCore.Http.HttpResponseWritingExtensions*.
+,
+%6&Microsoft.AspNetCore.Http.HttpResponse*
+
+%14string*
+"""ü
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs' +($
+"
+%15System.Threading.Tasks.Task*î
+1"é
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs, ,(	
+implicit return:0
+context%Microsoft.AspNetCore.Http.HttpContext:
+	exceptionSystem.ExceptionB7"5
+3DotNetCoreSample.API.Extensions.ExceptionMiddleware

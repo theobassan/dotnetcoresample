@@ -9,7 +9,6 @@ namespace DotNetCoreSample.API
 {
     class CallerEnricher : ILogEventEnricher
     {
-        // TODO GET LINE
         public void Enrich(LogEvent logEvent, ILogEventPropertyFactory propertyFactory)
         {
             var skip = 3;

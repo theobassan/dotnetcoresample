@@ -1,0 +1,3 @@
+•
+/DotNetCoreSample.API.Controllers.UserController.DotNetCoreSample.API.Controllers.Controller<T>'Microsoft.AspNetCore.Mvc.ControllerBaseobject€
+¥UserController(DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.UserController>)ÕDotNetCoreSample.API.Controllers.UserController.UserController(DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.UserController>)

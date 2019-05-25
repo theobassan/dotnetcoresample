@@ -1,0 +1,19 @@
+
+nDotNetCoreSample.MockData.Implementations.UserRepository.DeleteAsync(long, System.Threading.CancellationToken)|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs7 7(%"0*õ
+0ê
+ç
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs7R 7(g*
+%0$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
+System.Threading.Tasks.Task*
+""*
+1*ô
+1"ì
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs7g 7(h
+implicit return:
+
+idlong:(
+ct"System.Threading.CancellationTokenB<:
+8DotNetCoreSample.MockData.Implementations.UserRepository

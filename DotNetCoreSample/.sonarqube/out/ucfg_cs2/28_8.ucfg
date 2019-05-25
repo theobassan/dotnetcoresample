@@ -1,0 +1,22 @@
+
+‘DotNetCoreSample.MockData.Implementations.UserRepository.AddAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs0 0(""0*þ
+0É
+Æ
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs2 2(*
+%0$System.Threading.Tasks.Task<TResult>"7DotNetCoreSample.MockData.ObjectExtensions.AsTask<T>(T)*.",
+*DotNetCoreSample.MockData.ObjectExtensions*1
+/
+t*DotNetCoreSample.DomainModel.Entities.User"¬
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs2 2(,
+*
+%0$System.Threading.Tasks.Task<TResult>*™
+1"“
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs3 3(	
+implicit return:/
+t*DotNetCoreSample.DomainModel.Entities.User:(
+ct"System.Threading.CancellationTokenB<:
+8DotNetCoreSample.MockData.Implementations.UserRepository

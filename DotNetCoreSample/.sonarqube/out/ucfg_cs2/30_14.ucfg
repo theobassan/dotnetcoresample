@@ -1,0 +1,26 @@
+
+ÍDotNetCoreSample.API.Extensions.ExceptionMiddleware.ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Extensions.ExceptionMiddleware>)w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (""0*î
+0¼
+¹
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (w5
+3DotNetCoreSample.API.Extensions.ExceptionMiddleware">
+_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>¤
+¡
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (k5
+3DotNetCoreSample.API.Extensions.ExceptionMiddleware"2
+_next)Microsoft.AspNetCore.Http.RequestDelegate"__id*3
+1
+next)Microsoft.AspNetCore.Http.RequestDelegate*
+1*”
+1"Ž
+w
+m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs (	
+implicit return:1
+next)Microsoft.AspNetCore.Http.RequestDelegate:=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B75
+3DotNetCoreSample.API.Extensions.ExceptionMiddleware

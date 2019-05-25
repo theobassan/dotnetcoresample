@@ -1,0 +1,26 @@
+
+7DotNetCoreSample.MockData.ObjectExtensions.AsTask<T>(T)n
+d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
+ 
+($"0*“
+0ˆ
+…
+n
+d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
+9 
+(O*
+%0$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
+System.Threading.Tasks.Task*
+
+
+valueT*
+1*‹
+1"…
+n
+d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
+O 
+(P
+implicit return:
+
+valueTB.",
+*DotNetCoreSample.MockData.ObjectExtensions

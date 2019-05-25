@@ -1,0 +1,27 @@
+
+iDotNetCoreSample.Repository.Implementations.Repository<T>.GetAllAsync(System.Threading.CancellationToken)z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs@# @(."0*è
+0≥
+∞
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.csB B( 2
+%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*x*v;
+9DotNetCoreSample.Repository.Implementations.Repository<T>"7
+_entity,Microsoft.EntityFrameworkCore.DbSet<TEntity>Ã
+…
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.csB B(.*
+%1$System.Threading.Tasks.Task<TResult>"öMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync<TSource>(System.Linq.IQueryable<TSource>, System.Threading.CancellationToken)*D"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*4
+2
+%0,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+"""Ñ
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.csB B(/
+""*ó
+1"ë
+z
+p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.csC C(	
+implicit return:(
+ct"System.Threading.CancellationTokenB=;
+9DotNetCoreSample.Repository.Implementations.Repository<T>
