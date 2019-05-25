@@ -1,4 +1,3 @@
-Ë
-3DotNetCoreSample.API.Extensions.ExceptionMiddlewareobjectì
-™ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Extensions.ExceptionMiddleware>)ÍDotNetCoreSample.API.Extensions.ExceptionMiddleware.ExceptionMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Extensions.ExceptionMiddleware>)œ
-2InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)fDotNetCoreSample.API.Extensions.ExceptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+•
+/DotNetCoreSample.API.Controllers.UserController.DotNetCoreSample.API.Controllers.Controller<T>'Microsoft.AspNetCore.Mvc.ControllerBaseobject€
+¥UserController(DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.UserController>)ÕDotNetCoreSample.API.Controllers.UserController.UserController(DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.UserController>)

@@ -1,4 +1,4 @@
-π
+Ñ
 x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs
 	namespace		 	
 DotNetCoreSample		
@@ -181,31 +181,28 @@ repository $
 ;u v
 public!! 
 async!! 
-Task!! 
-<!! 
-bool!! 
->!! 
-DeleteAsync!!  +
-(!!+ ,
-long!!, 0
-id!!1 3
-,!!3 4
-CancellationToken!!5 F
-ct!!G I
-=!!J K
-default!!L S
-)!!S T
-=>!!U W
-await!!X ]
-_repository!!^ i
-.!!i j
-DeleteAsync!!j u
-(!!u v
-id!!v x
-,!!x y
-ct!!z |
-)!!| }
-;!!} ~
+Task!! 
+DeleteAsync!! %
+(!!% &
+T!!& '
+t!!( )
+,!!) *
+CancellationToken!!+ <
+ct!!= ?
+=!!@ A
+default!!B I
+)!!I J
+=>!!K M
+await!!N S
+_repository!!T _
+.!!_ `
+DeleteAsync!!` k
+(!!k l
+t!!l m
+,!!m n
+ct!!o q
+)!!q r
+;!!r s
 }"" 
 }## ù
 |/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/UserBusinessFacade.cs
@@ -283,7 +280,7 @@ repositoryi s
 ;- .
 } 	
 } 
-} ï
+} ·
 t/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Interfaces/IBusinessFacade.cs
 	namespace 	
 DotNetCoreSample
@@ -396,21 +393,18 @@ Interfaces* 4
 default8 ?
 )? @
 ;@ A
-Task 
-< 
-bool 
-> 
-DeleteAsync 
-( 
-long #
-id$ &
-,& '
-CancellationToken( 9
-ct: <
-== >
-default? F
-)F G
-;G H
+Task 
+DeleteAsync 
+( 
+T 
+t 
+, 
+CancellationToken /
+ct0 2
+=3 4
+default5 <
+)< =
+;= >
 } 
 } ﬂ
 x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Interfaces/IUserBusinessFacade.cs

@@ -1,19 +1,18 @@
 
-nDotNetCoreSample.MockData.Implementations.UserRepository.DeleteAsync(long, System.Threading.CancellationToken)|
+îDotNetCoreSample.MockData.Implementations.UserRepository.DeleteAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)|
 r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs7 7(%"0*õ
 0ê
 ç
 |
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs7R 7(g*
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs7Q 7(f*
 %0$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
 System.Threading.Tasks.Task*
 ""*
 1*ô
 1"ì
 |
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs7g 7(h
-implicit return:
-
-idlong:(
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs7f 7(g
+implicit return:/
+t*DotNetCoreSample.DomainModel.Entities.User:(
 ct"System.Threading.CancellationTokenB<:
 8DotNetCoreSample.MockData.Implementations.UserRepository

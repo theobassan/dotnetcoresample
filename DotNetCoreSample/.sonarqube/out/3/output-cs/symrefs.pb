@@ -1,8 +1,8 @@
-¢
+­
 x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/BusinessFacade.cs
- A Ox
-  !5 6> ?% &* +P Q' (  & ' ) *F
-( 3  $\ gT _W b!!^ i
+ A O‚
+  !5 6> ?% &* +P Q' (  & ' ) *!!& 'F
+( 3  $\ gT _W b!!T _
   ' 
 
  
@@ -24,9 +24,9 @@ x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Busines
 + ,o p
 @ Br t
 
-!!  +
-!!1 3!!v x
-!!G I!!z |î
+!! %
+!!( )!!l m
+!!= ?!!o qî
 |/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Implementations/UserBusinessFacade.cs
  #F X
 
@@ -35,13 +35,13 @@ x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Busines
 Z `u {
 
 / :
-M O* ,ü
+M O* ,†
 t/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Interfaces/IBusinessFacade.cs
 
- $P
+ $Z
 % &. /
 
-      
+       
 
 
 
@@ -69,11 +69,11 @@ t/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Busines
 
 3 5
 
- 
+ 
 
-$ &
+ 
 
-: <†
+0 2†
 x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.BusinessFacade/Interfaces/IUserBusinessFacade.cs
 
  (

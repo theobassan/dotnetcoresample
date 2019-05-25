@@ -1,61 +1,19 @@
 
-VDotNetCoreSample.API.Controllers.Controller<T>.Get(System.Threading.CancellationToken)o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs1 (4"2*é
-
-0É
-Æ
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs* (9C
-%0=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>"__id*‡*„0
-.DotNetCoreSample.API.Controllers.Controller<T>"P
-_businessfacade=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>³°
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs* (I*
-%1$System.Threading.Tasks.Task<TResult>"mDotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>.GetAllAsync(System.Threading.CancellationToken)*E
-C
-%0=DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>**
-(
-ct"System.Threading.CancellationToken2/GetAllAsync(System.Threading.CancellationToken)ÈÅ
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (J+
-%2%Microsoft.AspNetCore.Mvc.ObjectResult"%Microsoft.AspNetCore.Mvc.ObjectResultó
-ð
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (#
-
-%3void":Microsoft.AspNetCore.Mvc.ObjectResult.ObjectResult(object)*-
-+
-%2%Microsoft.AspNetCore.Mvc.ObjectResult*
-""" 
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (K-
-+
-%2%Microsoft.AspNetCore.Mvc.ObjectResult*Œ
-1"†
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (	
-implicit return*í
-2´
-±
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs1 (4
-%4"__entrypoint**
-(
-ct"System.Threading.CancellationTokenô
-ñ
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs	 (
-%5"
-__annotate*@>
-<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()**
-(
-ct"System.Threading.CancellationToken´
-±
-o
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs5 (S(
-ct"System.Threading.CancellationToken"__annotation*
-
-%5*
-0:(
-ct"System.Threading.CancellationTokenB20
-.DotNetCoreSample.API.Controllers.Controller<T>
+‹DotNetCoreSample.API.Configurations.ServicesConfiguration.AddCorsConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs$) $(="0*Æ
+0»
+¸
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs% -(A
+%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"ÒMicrosoft.Extensions.DependencyInjection.CorsServiceCollectionExtensions.AddCors(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions>)*L"J
+HMicrosoft.Extensions.DependencyInjection.CorsServiceCollectionExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""*
+1*š
+1"”
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs- -(
+implicit return:G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
+9DotNetCoreSample.API.Configurations.ServicesConfiguration

@@ -1,25 +1,23 @@
 
-∑DotNetCoreSample.API.Configurations.ConfigureAppSettings.AddAppSettings(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs) (7"0*Ú
+åDotNetCoreSample.API.Configurations.ServicesConfiguration.ConfigureRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs) (>"0*Û
 0†
 ù
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs
- 
-(aA
-%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"µMicrosoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<TOptions>)*O"M
-KMicrosoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions*I
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (OA
+%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"¨Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Type, System.Type)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
 G
 services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-"""…
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs (I
+""*
+""" 
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (I
 G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ô
-1"ì
-|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureAppSettings.cs (	
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ö
+1"î
+}
+s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (	
 implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection:B
-configuration1Microsoft.Extensions.Configuration.IConfigurationB<":
-8DotNetCoreSample.API.Configurations.ConfigureAppSettings
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
+9DotNetCoreSample.API.Configurations.ServicesConfiguration

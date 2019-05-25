@@ -1,4 +1,4 @@
-’
+‘
 r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs
 	namespace 	
 DotNetCoreSample
@@ -194,23 +194,23 @@ AsListTask!! "
 >77 
 DeleteAsync77 %
 (77% &
-long77& *
-id77+ -
-,77- .
-CancellationToken77/ @
-ct77A C
-=77D E
-default77F M
-)77M N
-=>77O Q
-Task77R V
-.77V W
+User77& *
+t77+ ,
+,77, -
+CancellationToken77. ?
+ct77@ B
+=77C D
+default77E L
+)77L M
+=>77N P
+Task77Q U
+.77U V
 
-FromResult77W a
-(77a b
-true77b f
-)77f g
-;77g h
+FromResult77V `
+(77` a
+true77a e
+)77e f
+;77f g
 }88 
 }99 á	
 d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs

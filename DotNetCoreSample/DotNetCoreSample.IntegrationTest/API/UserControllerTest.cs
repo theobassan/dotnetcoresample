@@ -30,7 +30,7 @@ namespace DotNetCoreSample.IntegrationTest.API
 
             Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
         }
-        
+
         [Fact]
         public async Task AddAsync_Ok()
         {
@@ -40,7 +40,6 @@ namespace DotNetCoreSample.IntegrationTest.API
 
             Assert.Equal(HttpStatusCode.Created, response.StatusCode);
         }
-
 
         [Theory]
         [InlineData("GET")]

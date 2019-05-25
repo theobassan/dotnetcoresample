@@ -1,26 +1,23 @@
 
-7DotNetCoreSample.MockData.ObjectExtensions.AsTask<T>(T)n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
- 
-($"0*“
-0ˆ
-…
-n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
-9 
-(O*
-%0$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
-System.Threading.Tasks.Task*
+BDotNetCoreSample.MockData.Implementations.UserRepository.Dispose()|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs ("0*¶
+0ª§
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (
 
+%0void"FDotNetCoreSample.MockData.Implementations.UserRepository.Dispose(bool)*<:
+8DotNetCoreSample.MockData.Implementations.UserRepository*
+""2Dispose(bool)þ
+û
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (%
 
-valueT*
-1*‹
-1"…
-n
-d/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/ObjectExtensions.cs
-O 
-(P
-implicit return:
-
-valueTB.",
-*DotNetCoreSample.MockData.ObjectExtensions
+%1void""System.GC.SuppressFinalize(object)*"
+	System.GC*<:
+8DotNetCoreSample.MockData.Implementations.UserRepository*
+1*™
+1"“
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs (	
+implicit returnB<:
+8DotNetCoreSample.MockData.Implementations.UserRepository

@@ -31,8 +31,7 @@ namespace DotNetCoreSample.API.Controllers
         public async Task<ActionResult<T>> Get(long id, CancellationToken ct = default)
         {
             var t = await _businessfacade.GetByIdAsync(id, ct);
-            if (t == null)
-                return NotFound();
+            if (t == null) return NotFound();
 
             return Ok(t);
         }
@@ -40,9 +39,7 @@ namespace DotNetCoreSample.API.Controllers
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] T input, CancellationToken ct = default)
         {
-            if (input == null)
-                return BadRequest();
-
+            if (input == null) return BadRequest();
 
             await _businessfacade.AddAsync(input, ct);
 
@@ -52,10 +49,8 @@ namespace DotNetCoreSample.API.Controllers
         [HttpPut]
         public async Task<ActionResult> Put([FromBody] T input, CancellationToken ct = default)
         {
-            if (input == null)
-                return BadRequest();
-            if (await _businessfacade.GetByIdAsync(input.Id, ct) == null)
-                return NotFound();
+            if (input == null) return BadRequest();
+            if (await _businessfacade.GetByIdAsync(input.Id, ct) == null) return NotFound();
             
             await _businessfacade.UpdateAsync(input, ct);
 
@@ -65,10 +60,10 @@ namespace DotNetCoreSample.API.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteAsync(long id, CancellationToken ct = default)
         {
-            if (await _businessfacade.GetByIdAsync(id, ct) == null)
-                return NotFound();
+            var t = await _businessfacade.GetByIdAsync(id, ct);
+            if (t == null) return NotFound();
 
-            await _businessfacade.DeleteAsync(id, ct);
+            await _businessfacade.DeleteAsync(t, ct);
 
             return Ok();
         }

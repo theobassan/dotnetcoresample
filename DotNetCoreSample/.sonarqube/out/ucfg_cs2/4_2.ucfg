@@ -1,23 +1,32 @@
 
-åDotNetCoreSample.API.Configurations.ServicesConfiguration.ConfigureRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs) (>"0*Û
-0†
-ù
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (OA
-%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"¨Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Type, System.Type)*O"M
-KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-""*
-""" 
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*ö
-1"î
-}
-s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (	
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB=";
-9DotNetCoreSample.API.Configurations.ServicesConfiguration
+’DotNetCoreSample.API.Controllers.UserController.UserController(DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.UserController>)s
+i/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/UserController.cs	 	("2*™
+0ü
+ú
+t
+i/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/UserController.cs	b 	(Ä
+
+%0void"ŒDotNetCoreSample.API.Controllers.Controller<T>.Controller(DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.Controller<T>>)*20
+.DotNetCoreSample.API.Controllers.Controller<T>*R
+P
+businessfacade>DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+1*í
+1"å
+u
+i/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/UserController.cs	É 	(Ñ
+implicit return*¨
+2°
+û
+s
+i/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/UserController.cs	 	(
+%1"__entrypoint*R
+P
+businessfacade>DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+0:P
+businessfacade>DotNetCoreSample.BusinessFacade.Interfaces.IUserBusinessFacade:=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B31
+/DotNetCoreSample.API.Controllers.UserController

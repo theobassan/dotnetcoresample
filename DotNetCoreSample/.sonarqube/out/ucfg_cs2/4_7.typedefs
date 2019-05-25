@@ -1,9 +1,8 @@
-¸
-,DotNetCoreSample.API.Extensions.ErrorDetailsobjectE
-
-ToString()7DotNetCoreSample.API.Extensions.ErrorDetails.ToString()M
-ErrorDetails();DotNetCoreSample.API.Extensions.ErrorDetails.ErrorDetails()M
-StatusCode.get;DotNetCoreSample.API.Extensions.ErrorDetails.StatusCode.getM
-StatusCode.set;DotNetCoreSample.API.Extensions.ErrorDetails.StatusCode.setG
-Message.get8DotNetCoreSample.API.Extensions.ErrorDetails.Message.getG
-Message.set8DotNetCoreSample.API.Extensions.ErrorDetails.Message.set
+°	
+.DotNetCoreSample.API.Controllers.Controller<T>'Microsoft.AspNetCore.Mvc.ControllerBaseobjectÛ
+üController(DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.Controller<T>>)ŒDotNetCoreSample.API.Controllers.Controller<T>.Controller(DotNetCoreSample.BusinessFacade.Interfaces.IBusinessFacade<T>, Microsoft.Extensions.Logging.ILogger<DotNetCoreSample.API.Controllers.Controller<T>>)Å
+'Get(System.Threading.CancellationToken)VDotNetCoreSample.API.Controllers.Controller<T>.Get(System.Threading.CancellationToken)ç
+-Get(long, System.Threading.CancellationToken)\DotNetCoreSample.API.Controllers.Controller<T>.Get(long, System.Threading.CancellationToken)â
++Post(T, System.Threading.CancellationToken)ZDotNetCoreSample.API.Controllers.Controller<T>.Post(T, System.Threading.CancellationToken)á
+*Put(T, System.Threading.CancellationToken)YDotNetCoreSample.API.Controllers.Controller<T>.Put(T, System.Threading.CancellationToken)ù
+5DeleteAsync(long, System.Threading.CancellationToken)dDotNetCoreSample.API.Controllers.Controller<T>.DeleteAsync(long, System.Threading.CancellationToken)

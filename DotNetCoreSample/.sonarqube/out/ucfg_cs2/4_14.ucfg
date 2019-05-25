@@ -1,34 +1,31 @@
 
-;DotNetCoreSample.API.Program.CreateWebHostBuilder(string[])`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs)& )(:"0*ˆ
++DotNetCoreSample.API.Program.Main(string[])`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs' '("0*”
 0å
 â
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs* *(.2
-%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder";Microsoft.AspNetCore.WebHost.CreateDefaultBuilder(string[])* "
-Microsoft.AspNetCore.WebHost*
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs'2 '(L2
+%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder";DotNetCoreSample.API.Program.CreateWebHostBuilder(string[])* "
+DotNetCoreSample.API.Program*
 
-argsstring[]’
-“
+argsstring[]áÑ
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs* .(32
-%1,Microsoft.AspNetCore.Hosting.IWebHostBuilder"∆Serilog.SerilogWebHostBuilderExtensions.UseSerilog(Microsoft.AspNetCore.Hosting.IWebHostBuilder, System.Action<Microsoft.AspNetCore.Hosting.WebHostBuilderContext, Serilog.LoggerConfiguration>, bool)*+")
-'Serilog.SerilogWebHostBuilderExtensions*4
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs'2 '(T+
+%1%Microsoft.AspNetCore.Hosting.IWebHost"4Microsoft.AspNetCore.Hosting.IWebHostBuilder.Build()*4
 2
-%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder*
-""*
-""Ñ
-Å
+%0,Microsoft.AspNetCore.Hosting.IWebHostBuilder2Build()Ø
+¨
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs* /("2
-%2,Microsoft.AspNetCore.Hosting.IWebHostBuilder"xMicrosoft.AspNetCore.Hosting.WebHostBuilderExtensions.UseStartup<TStartup>(Microsoft.AspNetCore.Hosting.IWebHostBuilder)*9"7
-5Microsoft.AspNetCore.Hosting.WebHostBuilderExtensions*4
-2
-%1,Microsoft.AspNetCore.Hosting.IWebHostBuilder*
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs'2 '(Z
+
+%2void"YMicrosoft.AspNetCore.Hosting.WebHostExtensions.Run(Microsoft.AspNetCore.Hosting.IWebHost)*2"0
+.Microsoft.AspNetCore.Hosting.WebHostExtensions*-
++
+%1%Microsoft.AspNetCore.Hosting.IWebHost*
 1*|
 1"w
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs/" /(#
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs'Z '([
 implicit return:
 argsstring[]B "
 DotNetCoreSample.API.Program

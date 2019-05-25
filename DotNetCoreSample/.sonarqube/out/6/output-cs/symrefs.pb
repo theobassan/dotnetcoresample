@@ -2,7 +2,7 @@
 q/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.IntegrationTest/API/UserControllerTest.cs
 
  #º
-$ + ! (%%! (11$ +55! (DD! (NN$ +RR! (__! (hh! (qq$ +uu! ({{( /
+$ + ! (&&! (11$ +55! (DD! (NN$ +RR! (__! (hh! (qq$ +uu! ({{( /
 áá! (
 êê$ +
 ìì! (
@@ -14,9 +14,9 @@ q/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Integra
  -
  4 <
 
-"" %
-$$ %%Q U
-%% && ((1 9
+## %
+%% &&Q U
+&& '' ))1 9
 
 .. (
 ..0 644@ F
@@ -91,15 +91,12 @@ f/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Integra
 		 
 		" %
 
-- 0·
+- 0Õ
 x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.IntegrationTest/Repository/UserRepositoryTest.cs
 
  #(
-+ 3 - 5! )¶
-( 3 ((" -77 88 )GG JJ$ /YY" -]] ``$ /oo rr  +vv$ /
-ÖÖ 
-àà 
-ää  +
++ 3 - 5! )Ç
+( 3 ((" -77 88 )GG JJ$ /YY" -]] ``$ /oo qq  +uu$ /
 
  !
  - 4
@@ -126,19 +123,7 @@ x/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Integra
 __ ``= ?
 `` bb $
 
-ff %
-hh oo' +
-qq rr8 :vv= ?
-rr tt 
-vv xx #
-
-|| 3
-~~ 
-ÖÖ' +$
-
-áá 
-àà* ,
-ää8 :
-
-ää 
-åå  
+ff %(
+hh oo' +qq8 <uu= A
+qq ss 
+uu ww #

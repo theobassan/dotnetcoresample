@@ -123,8 +123,14 @@ namespace DotNetCoreSample.IntegrationTest.Repository
         {
             var isolator = new Action(async () =>
             {
-                var id = 1;
-                await _businessfacade.DeleteAsync(id);
+                var user = new User
+                {
+                    Id = 1,
+                    Name = "Test",
+                    Email = "test@test.com"
+                };
+
+                await _businessfacade.DeleteAsync(user);
             });
 
             isolator();

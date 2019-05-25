@@ -1,9 +1,10 @@
-Ú
+Þ
 v/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MemoryTest/Implementations/UserBusinessTest.cs
 
  #(
-+ 3 0 8!!! )F
-, ; // %GG %YY %oo % %
++ 3 0 8!!! )H
+, ; // %GG %YY %oo %
+…… %
 
  !
  - 4
@@ -40,11 +41,12 @@ v/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MemoryT
 
 zz 
 || 
-‚‚ 
-~~ 2 4
+ˆˆ 
+~~ 
+……2 6
 
-„„ "
-……  &
+ŠŠ "
+‹‹  &
 
-……2 7
-†† 
+‹‹2 7
+ŒŒ 

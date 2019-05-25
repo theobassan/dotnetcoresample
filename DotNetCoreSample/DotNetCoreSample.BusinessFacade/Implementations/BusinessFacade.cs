@@ -30,6 +30,6 @@ namespace DotNetCoreSample.BusinessFacade.Implementations
 
         public async Task<T> UpdateAsync(T t, CancellationToken ct = default) => await _repository.UpdateAsync(t, ct);
 
-        public async Task<bool> DeleteAsync(long id, CancellationToken ct = default) => await _repository.DeleteAsync(id, ct);
+        public async Task DeleteAsync(T t, CancellationToken ct = default) => await _repository.DeleteAsync(t, ct);
     }
 }

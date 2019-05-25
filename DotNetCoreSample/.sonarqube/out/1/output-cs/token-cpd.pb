@@ -1,4 +1,4 @@
-…*
+”'
 p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/Repository.cs
 	namespace 	
 DotNetCoreSample
@@ -200,109 +200,87 @@ Repository= G
 bool22 
 >22 
 DeleteAsync22  +
-(22+ ,
-long22, 0
-id221 3
-,223 4
-CancellationToken225 F
-ct22G I
-=22J K
-default22L S
-)22S T
-{33 	
-var44 
-t44 
-=44 
-await44 
-_entity44 !
-.44! "
-	FindAsync44" +
-(44+ ,
-id44, .
-)44. /
-;44/ 0
-if55 
-(55 
-t55 
-==55 
-null55 
-)55 
-{66 
-return77 
-false77 
-;77 
-}88 
-_entity:: 
-.:: 
-Remove:: 
-(:: 
-t:: 
-):: 
-;:: 
-await;; 
-_context;; 
-.;; 
-SaveChangesAsync;; +
-(;;+ ,
-);;, -
-;;;- .
-return== 
-true== 
-;== 
-}>> 	
-public@@ 
-async@@ 
-Task@@ 
-<@@ 
-List@@ 
-<@@ 
-T@@  
->@@  !
->@@! "
-GetAllAsync@@# .
-(@@. /
-CancellationToken@@/ @
-ct@@A C
-=@@D E
-default@@F M
-)@@M N
-{AA 	
-returnBB 
-awaitBB 
-_entityBB  
-.BB  !
-ToListAsyncBB! ,
-(BB, -
-)BB- .
-;BB. /
-}CC 	
-publicEE 
-asyncEE 
-TaskEE 
-<EE 
-TEE 
->EE 
-GetByIdAsyncEE )
-(EE) *
-longEE* .
-idEE/ 1
-,EE1 2
-CancellationTokenEE3 D
-ctEEE G
-=EEH I
-defaultEEJ Q
-)EEQ R
-=>EES U
-awaitEEV [
-_entityEE\ c
-.EEc d
-	FindAsyncEEd m
-(EEm n
-idEEn p
-)EEp q
-;EEq r
-}FF 
-}GG ƒ
+(22+ ,
+T22, -
+t22. /
+,22/ 0
+CancellationToken221 B
+ct22C E
+=22F G
+default22H O
+)22O P
+{33 	
+_entity44 
+.44 
+Remove44 
+(44 
+t44 
+)44 
+;44 
+await55 
+_context55 
+.55 
+SaveChangesAsync55 +
+(55+ ,
+)55, -
+;55- .
+return77 
+true77 
+;77 
+}88 	
+public:: 
+async:: 
+Task:: 
+<:: 
+List:: 
+<:: 
+T::  
+>::  !
+>::! "
+GetAllAsync::# .
+(::. /
+CancellationToken::/ @
+ct::A C
+=::D E
+default::F M
+)::M N
+{;; 	
+return<< 
+await<< 
+_entity<<  
+.<<  !
+ToListAsync<<! ,
+(<<, -
+)<<- .
+;<<. /
+}== 	
+public?? 
+async?? 
+Task?? 
+<?? 
+T?? 
+>?? 
+GetByIdAsync?? )
+(??) *
+long??* .
+id??/ 1
+,??1 2
+CancellationToken??3 D
+ct??E G
+=??H I
+default??J Q
+)??Q R
+=>??S U
+await??V [
+_entity??\ c
+.??c d
+	FindAsync??d m
+(??m n
+id??n p
+)??p q
+;??q r
+}@@ 
+}AA ƒ
 t/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Implementations/UserRepository.cs
 	namespace 	
 DotNetCoreSample
@@ -390,7 +368,7 @@ Repository" ,
 
 s t
 } 
-} ­
+} ©
 l/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Interfaces/IRepository.cs
 	namespace 	
 DotNetCoreSample
@@ -483,16 +461,16 @@ Interfaces& 0
 bool 
 > 
 DeleteAsync 
-( 
-long #
-id$ &
-,& '
-CancellationToken( 9
-ct: <
-== >
-default? F
-)F G
-;G H
+( 
+T  
+t! "
+," #
+CancellationToken$ 5
+ct6 8
+=9 :
+default; B
+)B C
+;C D
 } 
 } Ë
 p/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.Repository/Interfaces/IUserRepository.cs

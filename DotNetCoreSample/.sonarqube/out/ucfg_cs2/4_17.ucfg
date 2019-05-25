@@ -1,19 +1,21 @@
 
-7DotNetCoreSample.API.Extensions.ErrorDetails.ToString()w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs4 4('"0*§
-0í
-è
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs6 6(4
-%0string"3Newtonsoft.Json.JsonConvert.SerializeObject(object)*"
-Newtonsoft.Json.JsonConvert*0.
-,DotNetCoreSample.API.Extensions.ErrorDetails"â
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs6 6(5
-
-%0string*î
-1"é
-w
-m/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddleware.cs7 7(	
-implicit returnB0.
-,DotNetCoreSample.API.Extensions.ErrorDetails
+íDotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions.ConfigureCustomExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)Å
+w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs (="0*‹
+0—
+Œ
+Å
+w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs	 	(46
+%00Microsoft.AspNetCore.Builder.IApplicationBuilder"íMicrosoft.AspNetCore.Builder.UseMiddlewareExtensions.UseMiddleware<TMiddleware>(Microsoft.AspNetCore.Builder.IApplicationBuilder, params object[])*8"6
+4Microsoft.AspNetCore.Builder.UseMiddlewareExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+""*
+1*ü
+1"ô
+Å
+w/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Extensions/ExceptionMiddlewareExtensions.cs
+ 
+(	
+implicit return:7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderBA"?
+=DotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions

@@ -110,34 +110,13 @@ namespace DotNetCoreSample.IntegrationTest.Repository
 
             await _repository.AddAsync(user);
 
-            var id = 6;
-            var deleted = await _repository.DeleteAsync(id);
+            var deleted = await _repository.DeleteAsync(user);
 
             Assert.True(deleted);
 
-            var userUpdated = await _repository.GetByIdAsync(id);
+            var userUpdated = await _repository.GetByIdAsync(user.Id);
 
             Assert.Null(userUpdated);
-        }
-
-        [Fact]
-        public async Task DeleteAlreadyDeletedAsync()
-        {
-            var user = new User
-            {
-                Id = 7,
-                Name = "Test",
-                Email = "test@test.com"
-            };
-
-            await _repository.AddAsync(user);
-
-            var id = 7;
-            await _repository.DeleteAsync(id);
-
-            var deleted = await _repository.DeleteAsync(id);
-
-            Assert.False(deleted);
         }
     }
 }

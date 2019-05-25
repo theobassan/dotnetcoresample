@@ -1,3 +1,4 @@
+using System;
 using System.Threading.Tasks;
 using DotNetCoreSample.BusinessFacade.Implementations;
 using DotNetCoreSample.DomainModel.Entities;
@@ -86,10 +87,18 @@ namespace DotNetCoreSample.UnitTest.Implementations
         [Fact]
         public async Task DeleteAsync()
         {
-            var id = 1;
-            var deleted = await _businessfacade.DeleteAsync(id);
+            var user = new User
+            {
+                Id = 1,
+                Name = "Test",
+                Email = "test@test.com"
+            };
 
-            Assert.True(deleted);
+            try {
+                await _businessfacade.DeleteAsync(user);
+            } catch(Exception e) {
+                Assert.Null(e);
+            }
         }
     }
 }

@@ -1,19 +1,62 @@
 
-”DotNetCoreSample.MockData.Implementations.UserRepository.UpdateAsync(DotNetCoreSample.DomainModel.Entities.User, System.Threading.CancellationToken)|
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs5 5(%"0*Ô
-0É
-Æ
+oDotNetCoreSample.MockData.Implementations.UserRepository.GetByIdAsync(long, System.Threading.CancellationToken)|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs$ $(&"0*Ñ
+0ßÜ
 |
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs5Q 5([*
-%0$System.Threading.Tasks.Task<TResult>"7DotNetCoreSample.MockData.ObjectExtensions.AsTask<T>(T)*.",
-*DotNetCoreSample.MockData.ObjectExtensions*1
-/
-t*DotNetCoreSample.DomainModel.Entities.User*
-1*™
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs& +(0
+%0*DotNetCoreSample.DomainModel.Entities.User"*DotNetCoreSample.DomainModel.Entities.Userô
+ñ
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs& &(
+
+%1void"1DotNetCoreSample.DomainModel.Entities.User.User()*2
+0
+%0*DotNetCoreSample.DomainModel.Entities.Userÿ
+ü
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs( ((
+
+%2void"6DotNetCoreSample.DomainModel.Entities.BaseModel.Id.set*2
+0
+%0*DotNetCoreSample.DomainModel.Entities.User*2þ
+û
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs) )(
+
+%3void"3DotNetCoreSample.DomainModel.Entities.User.Name.set*2
+0
+%0*DotNetCoreSample.DomainModel.Entities.User*
+""ÿ
+ü
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs* *('
+
+%4void"4DotNetCoreSample.DomainModel.Entities.User.Email.set*2
+0
+%0*DotNetCoreSample.DomainModel.Entities.User*
+""ï
+ì
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs& +(2
+user*DotNetCoreSample.DomainModel.Entities.User"__id*2
+0
+%0*DotNetCoreSample.DomainModel.Entities.UserÌ
+É
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs- -( *
+%5$System.Threading.Tasks.Task<TResult>"7DotNetCoreSample.MockData.ObjectExtensions.AsTask<T>(T)*.",
+*DotNetCoreSample.MockData.ObjectExtensions*4
+2
+user*DotNetCoreSample.DomainModel.Entities.User"¬
+|
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs- -(!,
+*
+%5$System.Threading.Tasks.Task<TResult>*™
 1"“
 |
-r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs5[ 5(\
-implicit return:/
-t*DotNetCoreSample.DomainModel.Entities.User:(
+r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.MockData/Implementations/UserRepository.cs. .(	
+implicit return:
+
+idlong:(
 ct"System.Threading.CancellationTokenB<:
 8DotNetCoreSample.MockData.Implementations.UserRepository

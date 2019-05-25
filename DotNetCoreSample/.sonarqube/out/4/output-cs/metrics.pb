@@ -6,9 +6,9 @@ r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Con
 r/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ConfigureConnections.cs (08@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=0;2=1;4=0;6=0;8=0;10=0;12=0r	
 ‚ü
 s/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Configurations/ServicesConfiguration.cs (08@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=4;2=0;4=0;6=0;8=0;10=0;12=0r(	
-!"$%&'()*+,-./‚	!%'‘
-e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (08@HR 0=0;5=0;10=1;20=0;30=0;60=0;90=0Z1=2;2=4;4=0;6=0;8=0;10=0;12=0r=	
- !"#%&()*+,/12456789:<>?ABCDEGIJKLx‚!"#%+,/1789:<>DEGIÆ
+!"$%&'()*+,-./‚	!%'‰
+e/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/Controller.cs (08@HR 0=0;5=0;10=1;20=0;30=0;60=0;90=0Z1=2;2=4;4=0;6=0;8=0;10=0;12=0r9	
+ !"$%'()*,./1234579:<=>?@BDEFGx‚!"$*,.4579?@BDÆ
 i/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Controllers/UserController.cs (08@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=1;2=0;4=0;6=0;8=0;10=0;12=0r
 	
 „

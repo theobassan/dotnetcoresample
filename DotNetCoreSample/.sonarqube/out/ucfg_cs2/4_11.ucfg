@@ -1,78 +1,185 @@
 
-äDotNetCoreSample.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IHostingEnvironment)`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs- -("0*Ù
-0Ê
-„
+jDotNetCoreSample.API.CallerEnricher.Enrich(Serilog.Events.LogEvent, Serilog.Core.ILogEventPropertyFactory)`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs ("0*á
+0}
+{
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs/ /(#
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (
+skipint"__id*2*
+1*
+1*
+2
+3*¯
+2©¶
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (6#
+%0System.Diagnostics.StackFrame"System.Diagnostics.StackFrame‰
+·
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs  (*
 
-%0bool"yMicrosoft.AspNetCore.Hosting.HostingEnvironmentExtensions.IsDevelopment(Microsoft.AspNetCore.Hosting.IHostingEnvironment)*=";
-9Microsoft.AspNetCore.Hosting.HostingEnvironmentExtensions*9
-7
-env0Microsoft.AspNetCore.Hosting.IHostingEnvironment*
-1
-2*≤
-1ß
-§
+%1void"3System.Diagnostics.StackFrame.StackFrame(int, bool)*%
+#
+%0System.Diagnostics.StackFrame*
+
+skipint*
+""∫
+∑
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs1 1(/6
-%10Microsoft.AspNetCore.Builder.IApplicationBuilder"âMicrosoft.AspNetCore.Builder.DeveloperExceptionPageExtensions.UseDeveloperExceptionPage(Microsoft.AspNetCore.Builder.IApplicationBuilder)*A"?
-=Microsoft.AspNetCore.Builder.DeveloperExceptionPageExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-2*Ï
-2î
-ë
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (6&
+stackSystem.Diagnostics.StackFrame"__id*%
+#
+%0System.Diagnostics.StackFrameö
+ó
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs4 4(#6
-%20Microsoft.AspNetCore.Builder.IApplicationBuilder"wMicrosoft.AspNetCore.Builder.CorsMiddlewareExtensions.UseCors(Microsoft.AspNetCore.Builder.IApplicationBuilder, string)*9"7
-5Microsoft.AspNetCore.Builder.CorsMiddlewareExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-""É
-Ä
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs5 5( 6
-%30Microsoft.AspNetCore.Builder.IApplicationBuilder"rMicrosoft.AspNetCore.Builder.StaticFileExtensions.UseStaticFiles(Microsoft.AspNetCore.Builder.IApplicationBuilder)*5"3
-1Microsoft.AspNetCore.Builder.StaticFileExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilderÑ
-Å
-`
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs6 6(4
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (&
 
-%4void"íDotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions.ConfigureCustomExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)*A"?
-=DotNetCoreSample.API.Extensions.ExceptionMiddlewareExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilderë
-é
+%2bool"PSystem.Diagnostics.StackFrameExtensions.HasMethod(System.Diagnostics.StackFrame)*+")
+'System.Diagnostics.StackFrameExtensions*(
+&
+stackSystem.Diagnostics.StackFrame*
+4
+5*o
+4"j
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs7 7(6
-%50Microsoft.AspNetCore.Builder.IApplicationBuilder"uMicrosoft.AspNetCore.Builder.MvcApplicationBuilderExtensions.UseMvc(Microsoft.AspNetCore.Builder.IApplicationBuilder)*@">
-<Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilderŒ
-À
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (
+""*„
+5ÎË
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs8 8(6
-%60Microsoft.AspNetCore.Builder.IApplicationBuilder"∞Microsoft.AspNetCore.Builder.SwaggerBuilderExtensions.UseSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Swashbuckle.AspNetCore.Swagger.SwaggerOptions>)*9"7
-5Microsoft.AspNetCore.Builder.SwaggerBuilderExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-""ÿ
-’
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (."
+%3System.Reflection.MethodBase")System.Diagnostics.StackFrame.GetMethod()*(
+&
+stackSystem.Diagnostics.StackFrame2GetMethod()π
+∂
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs9 9([6
-%70Microsoft.AspNetCore.Builder.IApplicationBuilder"∏Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions.UseSwaggerUI(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions>)*;"9
-7Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-""*
-3*|
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (.&
+methodSystem.Reflection.MethodBase"__id*$
+"
+%3System.Reflection.MethodBase“
+œ
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs ((
+%4System.Type".System.Reflection.MemberInfo.DeclaringType.get*(
+&
+methodSystem.Reflection.MethodBase∂
+≥
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (1 
+%5System.Reflection.Assembly"System.Type.Assembly.get*
+
+%4System.Typeù
+ö
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (I
+
+%6bool"^System.Reflection.Assembly.operator !=(System.Reflection.Assembly, System.Reflection.Assembly)*"
+System.Reflection.Assembly*"
+ 
+%5System.Reflection.Assembly*
+""*
+6
+7*∫
+6“
+œ
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.csM (a
+%7System.Type".System.Reflection.MemberInfo.DeclaringType.get*(
+&
+methodSystem.Reflection.MethodBase∂
+≥
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.csM (j 
+%8System.Reflection.Assembly"System.Type.Assembly.get*
+
+%7System.Typeû
+õ
+a
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.csM (Ø
+
+%9bool"^System.Reflection.Assembly.operator !=(System.Reflection.Assembly, System.Reflection.Assembly)*"
+System.Reflection.Assembly*"
+ 
+%8System.Reflection.Assembly*
+""*
+8
+7*ƒ
+8’
+“
+b
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs≥ («
+%10System.Type".System.Reflection.MemberInfo.DeclaringType.get*(
+&
+methodSystem.Reflection.MethodBase∫
+∑
+b
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs≥ (–!
+%11System.Reflection.Assembly"System.Type.Assembly.get*
+
+%10System.Type°
+û
+b
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs≥ (ù
+%12bool"^System.Reflection.Assembly.operator !=(System.Reflection.Assembly, System.Reflection.Assembly)*"
+System.Reflection.Assembly*#
+!
+%11System.Reflection.Assembly*
+""*
+9
+7*Ÿ
+9„‡
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs$ (=
+
+%13int"1System.Diagnostics.StackFrame.GetFileLineNumber()*(
+&
+stackSystem.Diagnostics.StackFrame2GetFileLineNumber()ã
+à
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (?
+callerstring"__id*
+
+
+%13int§°
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.csN (e!
+%14Serilog.Events.ScalarValue"Serilog.Events.ScalarValue€
+ÿ
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.csR (]
+%15void".Serilog.Events.ScalarValue.ScalarValue(object)*#
+!
+%14Serilog.Events.ScalarValue*
+
+callerstringÆ´
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs1 (f&
+%16Serilog.Events.LogEventProperty"Serilog.Events.LogEventProperty©
+¶
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs5 (E
+%17void"^Serilog.Events.LogEventProperty.LogEventProperty(string, Serilog.Events.LogEventPropertyValue)*(
+&
+%16Serilog.Events.LogEventProperty*
+""*#
+!
+%14Serilog.Events.ScalarValueë
+é
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (g
+%18void"LSerilog.Events.LogEvent.AddPropertyIfAbsent(Serilog.Events.LogEventProperty)*%
+#
+logEventSerilog.Events.LogEvent*(
+&
+%16Serilog.Events.LogEventProperty"j
+`
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs (
+""*
+7*
+1*|
 3"w
 `
-V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Startup.cs: :(	
-implicit return:7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder:7
-env0Microsoft.AspNetCore.Hosting.IHostingEnvironmentB 
-DotNetCoreSample.API.Startup
+V/Projetos/theobassan/dotnetcoresample/DotNetCoreSample/DotNetCoreSample.API/Program.cs" "(	
+implicit return:#
+logEventSerilog.Events.LogEvent:8
+propertyFactory%Serilog.Core.ILogEventPropertyFactoryB'%
+#DotNetCoreSample.API.CallerEnricher

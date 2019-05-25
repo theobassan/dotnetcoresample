@@ -47,14 +47,8 @@ namespace DotNetCoreSample.Repository.Implementations
             return t;
         }
 
-        public async Task<bool> DeleteAsync(long id, CancellationToken ct = default)
+        public async Task<bool> DeleteAsync(T t, CancellationToken ct = default)
         {
-            var t = await _entity.FindAsync(id);
-            if (t == null)
-            {
-                return false;
-            }
-
             _entity.Remove(t);
             await _context.SaveChangesAsync();
 
